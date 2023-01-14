@@ -1,0 +1,24 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "First [TEMP]",
+    "starSystem": "smallbug.NHJam1",
+    "Base": {
+        "surfaceGravity": 8,
+        "surfaceSize": 75,
+        "hasMapMarker": true
+    },
+    "Orbit": {
+        "semiMajorAxis": 2000,
+        "primaryBody": "Sun",
+        "isTidallyLocked": true,
+        "tint": {
+            "r": 255, "g": 100, "b": 0
+        }
+    },
+    "HeightMap": {
+        "heightMap": "assets/blank.png",
+        "textureMap": "assets/blank.png",
+        "minHeight": 75,
+        "maxHeight": 75
+    }
+}
