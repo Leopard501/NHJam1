@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-    "name": "First [TEMP]",
+    "name": "Sunbaked Stone",
     "starSystem": "smallbug.NHJam1",
     "Base": {
         "surfaceGravity": 8,
@@ -8,17 +8,22 @@
         "hasMapMarker": true
     },
     "Orbit": {
-        "semiMajorAxis": 2000,
-        "primaryBody": "Sun",
+        "semiMajorAxis": 4000,
+        "primaryBody": "Helios",
         "isTidallyLocked": true,
         "tint": {
             "r": 255, "g": 100, "b": 0
         }
     },
     "HeightMap": {
-        "heightMap": "assets/blank.png",
-        "textureMap": "assets/blank.png",
+        "heightMap": "assets/maps/blank.png",
+        "textureMap": "assets/maps/blank.png",
         "minHeight": 75,
         "maxHeight": 75
+    },
+    "Spawn": {
+        "playerSpawnPoint": {"x": -1.479736, "y": -70.1741, "z": 26.42741},
+        "shipSpawnPoint": {"x": -1.479736, "y": -70.1741, "z": 26.42741},
+        "startWithSuit": true
     }
 }
