@@ -1,0 +1,20 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Sun",
+    "starSystem": "smallbug.NHJam1",
+    "Base": {
+        "surfaceGravity": 50,
+        "surfaceSize": 2000,
+        "hasMapMarker": true,
+        "gravityFallOff": "inverseSquared",
+        "centerOfSolarSystem": true
+    },
+    "Orbit": {
+        "isStatic": true
+    },
+    "Star": {
+        "size": 2000.0,
+        "tint": {"r": 255, "g": 150, "b": 50, "a": 255},
+        "stellarDeathType": "none"
+    }
+}
