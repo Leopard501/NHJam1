@@ -1,33 +1,37 @@
 {
     "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-    "name": "Receiver",
+    "name": "tides_tides",
     "starSystem": "smallbug.NHJam1",
     "Base": {
-        "surfaceSize": 10,
-        "groundSize": 10,
+        "surfaceSize": 200,
         "surfaceGravity": 0,
-        "hasMapMarker": true
+        "hasMapMarker": false,
+        "invulnerableToSun": true
     },
     "Orbit": {
-        "semiMajorAxis": 20000,
-        "primaryBody": "Helios",
-        "showOrbitLine": false,
-        "isStatic": true
+        "semiMajorAxis": 100,
+        "primaryBody": "Ravenous Tides",
+        "showOrbitLine": false
     },
-    "Funnel": {
-        "type": "star",
-        "target": "Helios",
+    "ReferenceFrame": {
+        "enabled": false
+    },
+    "Water": {
+        "size": 200
+    },
+    "Lava": {
+        "size": 210,
         "curve": [
             {
                 "time": 0,
                 "value": 0
             },
             {
-                "time": 2.95,
+                "time": 2.99,
                 "value": 0
             },
             {
-                "time": 2.99,
+                "time": 3.01,
                 "value": 1
             }
         ]

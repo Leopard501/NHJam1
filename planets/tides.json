@@ -1,0 +1,49 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Ravenous Tides",
+    "starSystem": "smallbug.NHJam1",
+    "Base": {
+        "surfaceGravity": 13,
+        "surfaceSize": 220,
+        "groundSize": 220,
+        "hasMapMarker": true,
+        "invulnerableToSun": true
+    },
+    "Orbit": {
+        "semiMajorAxis": 10000.0,
+        "primaryBody": "Helios",
+        "trueAnomaly": 215,
+        "tint": {
+            "r": 0, "g": 75, "b": 255
+        }
+    },
+    "Lava": {
+        "size": 250,
+        "curve": [
+            {
+                "time": 0,
+                "value": 0
+            },
+            {
+                "time": 2.99,
+                "value": 0
+            },
+            {
+                "time": 3.01,
+                "value": 1
+            }
+        ]
+    },
+    "Spawn": {
+        "playerSpawnPoint": {"x": 186.283, "y": 115.8058, "z": -16.96046},
+        "shipSpawnPoint": {"x": 186.283, "y": 115.8058, "z": -16.96046},
+        "startWithSuit": true
+    },
+    "Atmosphere": {
+        "useAtmosphereShader": true,
+        "size": 260,
+        "hasOxygen": true,
+        "hasRain": true,
+        "atmosphereTint": {"r": 20, "g": 60, "b": 175}
+    }
+}
