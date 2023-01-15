@@ -1,35 +1,24 @@
 {
     "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-    "name": "Sunbaked Stone",
+    "name": "Village",
     "starSystem": "smallbug.NHJam1",
     "Base": {
-        "surfaceGravity": 8,
-        "surfaceSize": 120,
+        "surfaceGravity": 12,
+        "surfaceSize": 200,
+        "groundSize": 200,
         "hasMapMarker": true,
         "invulnerableToSun": true
     },
     "Orbit": {
-        "semiMajorAxis": 4000,
+        "semiMajorAxis": 7000,
         "primaryBody": "Helios",
-        "isTidallyLocked": true,
-        "trueAnomaly": 169,
+        "trueAnomaly": 277,
         "tint": {
-            "r": 255, "g": 100, "b": 0
+            "r": 100, "g": 255, "b": 50
         }
     },
-    "HeightMap": {
-        "heightMap": "assets/maps/sunbaked_height.png",
-        "textureMap": "assets/maps/sunbaked_texture.png",
-        "minHeight": 80,
-        "maxHeight": 140
-    },
-    "Spawn": {
-        "playerSpawnPoint": {"x": 85.89651, "y": -67.00967, "z": 59.80272},
-        "shipSpawnPoint": {"x": 85.89651, "y": -67.00967, "z": 59.80272},
-        "startWithSuit": true
-    },
     "Lava": {
-        "size": 150,
+        "size": 210,
         "curve": [
             {
                 "time": 0,

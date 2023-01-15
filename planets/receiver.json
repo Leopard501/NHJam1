@@ -1,0 +1,35 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Receiver",
+    "starSystem": "smallbug.NHJam1",
+    "Base": {
+        "surfaceSize": 10,
+        "groundSize": 10,
+        "surfaceGravity": 0,
+        "hasMapMarker": true
+    },
+    "Orbit": {
+        "semiMajorAxis": 10000,
+        "primaryBody": "Helios",
+        "showOrbitLine": false,
+        "isStatic": true
+    },
+    "Funnel": {
+        "type": "star",
+        "target": "Helios",
+        "curve": [
+            {
+                "time": 0,
+                "value": 0
+            },
+            {
+                "time": 0.98,
+                "value": 0
+            },
+            {
+                "time": 1.00,
+                "value": 1
+            }
+        ]
+    }
+}
