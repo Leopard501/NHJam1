@@ -12,7 +12,7 @@
     "Orbit": {
         "semiMajorAxis": 7000,
         "primaryBody": "Helios",
-        "trueAnomaly": 277,
+        "trueAnomaly": 112,
         "tint": {
             "r": 100, "g": 255, "b": 50
         }
@@ -25,11 +25,11 @@
                 "value": 0
             },
             {
-                "time": 0.99,
+                "time": 2.99,
                 "value": 0
             },
             {
-                "time": 1.01,
+                "time": 3.01,
                 "value": 1
             }
         ]

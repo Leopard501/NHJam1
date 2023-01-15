@@ -12,7 +12,7 @@
         "semiMajorAxis": 4000,
         "primaryBody": "Helios",
         "isTidallyLocked": true,
-        "trueAnomaly": 169,
+        "trueAnomaly": 147,
         "tint": {
             "r": 255, "g": 100, "b": 0
         }
@@ -36,12 +36,78 @@
                 "value": 0
             },
             {
-                "time": 0.99,
+                "time": 2.99,
                 "value": 0
             },
             {
-                "time": 1.01,
+                "time": 3.01,
                 "value": 1
+            }
+        ]
+    },
+    "Volumes": {
+        "oxygenVolumes": [
+            {
+                "position": {"x": -2.031462, "y": -89.56004, "z": -2.243336},
+                "playRefillAudio": true,
+                "treeVolume": true,
+                "radius": 50
+            }
+        ]
+    },
+    "Props": {
+        "details": [
+            {
+                "alignToNormal": true,
+                "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_NomaiTree_Var_1",
+                "position": {"x": 21.91403, "y": -92.68791, "z": 4.951691}
+            },
+            {
+                "alignToNormal": true,
+                "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_NomaiTree_Var_2",
+                "position": {"x": 2.105322, "y": -90.1472, "z": -20.14236}
+            },
+            {
+                "alignToNormal": true,
+                "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_NomaiTree_Var_2",
+                "position": {"x": -21.02906, "y": -90.89732, "z": -11.53309}
+            },
+            {
+                "alignToNormal": true,
+                "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_NomaiTree_Var_1",
+                "position": {"x": -15.58741, "y": -92.17636, "z": 15.21897}
+            },
+            {
+                "alignToNormal": true,
+                "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_NomaiTree_Var_1",
+                "position": {"x": 5.496571, "y": -92.49817, "z": 20.02495}
+            },
+            {
+                "alignToNormal": true,
+                "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_NomaiTree_Var_1",
+                "position": {"x": -7.703493, "y": -90.74099, "z": -25.90897}
+            },
+
+            {
+                "alignToNormal": true,
+                "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_SimpleChair_NoSkeleton (1)",
+                "position": {"x": 13.47096, "y": -90.70811, "z": -12.95835}
+            },
+            {
+                "alignToNormal": true,
+                "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_SimpleChair_NoSkeleton (1)",
+                "position": {"x": -15.41625, "y": -90.46936, "z": -17.79236}
+            },
+
+            {
+                "alignToNormal": true,
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/Props_CometInterior/Prefab_NOM_Box",
+                "position": {"x": -16.70358, "y": -90.68607, "z": -15.40315}
+            },
+            {
+                "alignToNormal": true,
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/Props_CometInterior/Prefab_NOM_Box",
+                "position": {"x": 7.285336, "y": -91.201, "z": 12.00707}
             }
         ]
     }
