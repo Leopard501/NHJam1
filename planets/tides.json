@@ -134,5 +134,254 @@
                 "value": 0
             }
         ]
+    },
+    "Props": {
+        "details": [
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+                "position": {"x": 104.7219, "y": -82.02322, "z": -221.929}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+                "position": {"x": 113.2401, "y": -89.33914, "z": -214.2937}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+                "position": {"x": 125.3991, "y": -77.62918, "z": -206.3816}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+                "position": {"x": 121.1358, "y": -68.83789, "z": -210.8939}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+                "position": {"x": 105.38, "y": -64.84248, "z": -223.806}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+                "position": {"x": 109.9225, "y": -59.21538, "z": -221.0139}
+            },
+
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+                "position": {"x": 44.72256, "y": -140.751, "z": -203.7427}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+                "position": {"x": 42.62278, "y": -147.5324, "z": -195.8185}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+                "position": {"x": 32.02407, "y": -152.7635, "z": -192.3577}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+                "position": {"x": 12.02317, "y": -155.0158, "z": -195.2589}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+                "position": {"x": 14.49509, "y": -148.4232, "z": -203.3074}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+                "position": {"x": 22.10513, "y": -146.096, "z": -204.2617}
+            },
+
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+                "position": {"x": 214.3192, "y": 26.25096, "z": -119.7574}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+                "position": {"x": 220.1335, "y": 33.94363, "z": -112.9871}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+                "position": {"x": 222.2413, "y": 32.1422, "z": -103.7069}
+            },
+
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+                "position": {"x": 220.7669, "y": 67.03419, "z": -92.97456}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+                "position": {"x": 218.4106, "y": 75.70898, "z": -88.02276}
+            },
+
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+                "position": {"x": 130.7997, "y": 149.3443, "z": 150.7939}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+                "position": {"x": 126.0787, "y": 141.3851, "z": 161.0538}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+                "position": {"x": 135.3058, "y": 134.5109, "z": 166.1751}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+                "position": {"x": 130.7466, "y": 127.239, "z": 171.6695}
+            },
+
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+                "position": {"x": 130.7466, "y": 127.239, "z": 171.6695}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+                "position": {"x": 151.035, "y": 135.0105, "z": 148.327}
+            },
+
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+                "position": {"x": -4.818914, "y": -66.71027, "z": 243.2356}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+                "position": {"x": -15.16451, "y": -72.25407, "z": 239.7738}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+                "position": {"x": -22.78685, "y": -66.58621, "z": 241.9496}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+                "position": {"x": -15.38123, "y": -65.52257, "z": 245.5892}
+            },
+
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+                "position": {"x": 33.15052, "y": -17.07888, "z": 244.5606}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+                "position": {"x": 41.36051, "y": -15.95203, "z": 246.1201}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+                "position": {"x": 48.05014, "y": -11.43166, "z": 246.4852}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+                "position": {"x": 51.07724, "y": -1.440262, "z": 244.7422}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+                "position": {"x": 41.92599, "y": -2.606205, "z": 242.6581}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+                "position": {"x": 37.92381, "y": -11.26497, "z": 244.3221}
+            },
+
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+                "position": {"x": -230.9442, "y": 83.74361, "z": -23.37769}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+                "position": {"x": -228.1034, "y": 91.7019, "z": -29.50615}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+                "position": {"x": -232.0731, "y": 93.32353, "z": -21.73447}
+            },
+
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+                "position": {"x": -219.4777, "y": 38.51571, "z": 112.0937}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+                "position": {"x": -223.5039, "y": 30.01151, "z": 117.525}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+                "position": {"x": -222.1333, "y": 22.70169, "z": 129.0913}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+                "position": {"x": -213.8253, "y": 21.70387, "z": 143.2754}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+                "position": {"x": -215.1846, "y": 28.82764, "z": 133.1405}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+                "position": {"x": -207.7331, "y": 38.51398, "z": 131.5887}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+                "position": {"x": -204.1113, "y": 29.90977, "z": 149.3193}
+            },
+
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+                "position": {"x": -201.1658, "y": -19.75614, "z": 149.767}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+                "position": {"x": -193.1829, "y": -21.02846, "z": 159.9316}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+                "position": {"x": -188.2653, "y": -19.33522, "z": 169.2139}
+            },
+            {
+                "alignToNormal": true,
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+                "position": {"x": -195.8715, "y": -14.17425, "z": 163.413}
+            }
+        ]
     }
 }

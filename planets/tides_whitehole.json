@@ -5,7 +5,8 @@
     "Base": {
         "surfaceGravity": 25,
         "hasMapMarker": false,
-        "surfaceSize": 25
+        "surfaceSize": 25,
+        "invulnerableToSun": true
     },
     "Orbit": {
         "semiMajorAxis": 750,
