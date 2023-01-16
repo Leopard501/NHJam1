@@ -4,7 +4,7 @@
     "starSystem": "smallbug.NHJam1",
     "Base": {
         "surfaceGravity": 13,
-        "surfaceSize": 220,
+        "surfaceSize": 230,
         "hasMapMarker": true,
         "invulnerableToSun": true
     },
@@ -12,7 +12,7 @@
         "semiMajorAxis": 10000.0,
         "primaryBody": "Helios",
         "trueAnomaly": 70,
-        "siderealPeriod": 10,
+        "siderealPeriod": 12,
         "tint": {
             "r": 0, "g": 75, "b": 255
         }
@@ -27,6 +27,7 @@
         "useAtmosphereShader": true,
         "size": 300,
         "hasOxygen": true,
+        "hasTrees": true,
         "hasRain": true,
         "atmosphereTint": {"r": 20, "g": 60, "b": 175}
     },
@@ -46,11 +47,6 @@
                 "value": 1
             }
         ]
-    },
-    "Spawn": {
-        "playerSpawnPoint": {"x": -46.47708, "y": 5.902395, "z": 229.5307},
-        "shipSpawnPoint": {"x": -46.47708, "y": 5.902395, "z": 229.5307},
-        "startWithSuit": true
     },
     "Water": {
         "size": 245,

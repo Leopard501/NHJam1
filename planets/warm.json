@@ -1,11 +1,10 @@
 {
     "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-    "name": "Village",
+    "name": "Warm Embrace",
     "starSystem": "smallbug.NHJam1",
     "Base": {
         "surfaceGravity": 12,
         "surfaceSize": 200,
-        "groundSize": 200,
         "hasMapMarker": true,
         "invulnerableToSun": true
     },
@@ -13,12 +12,34 @@
         "semiMajorAxis": 7000,
         "primaryBody": "Helios",
         "trueAnomaly": 225,
+        "siderealPeriod": 9,
         "tint": {
             "r": 100, "g": 255, "b": 50
         }
     },
+    "Atmosphere": {
+        "useAtmosphereShader": true,
+        "size": 275,
+        "hasOxygen": true,
+        "hasTrees": true,
+        "hasSnow": true,
+        "atmosphereTint": {
+            "r": 240, "g": 240, "b": 240
+        }
+    },
+    "HeightMap": {
+        "textureMap": "assets/maps/warm.png",
+        "heightMap": "assets/maps/warm.png",
+        "minHeight": 185,
+        "maxHeight": 215
+    },
+    "Spawn": {
+        "playerSpawnPoint": {"x": -191.8322, "y": -0.987394, "z": -56.56329},
+        "shipSpawnPoint": {"x": -191.8322, "y": -0.987394, "z": -56.56329},
+        "startWithSuit": true
+    },
     "Lava": {
-        "size": 210,
+        "size": 250,
         "curve": [
             {
                 "time": 0,
