@@ -18,8 +18,8 @@
         }
     },
     "HeightMap": {
-        "textureMap": "assets/maps/tides.png",
-        "heightMap": "assets/maps/tides.png",
+        "textureMap": "assets/maps/tides_texture.png",
+        "heightMap": "assets/maps/tides_height.png",
         "minHeight": 200,
         "maxHeight": 260
     },
