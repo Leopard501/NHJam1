@@ -21,10 +21,17 @@
         "textureMap": "assets/maps/tides.png",
         "heightMap": "assets/maps/tides.png",
         "minHeight": 200,
-        "maxHeight": 240
+        "maxHeight": 260
+    },
+    "Atmosphere": {
+        "useAtmosphereShader": true,
+        "size": 300,
+        "hasOxygen": true,
+        "hasRain": true,
+        "atmosphereTint": {"r": 20, "g": 60, "b": 175}
     },
     "Lava": {
-        "size": 250,
+        "size": 280,
         "curve": [
             {
                 "time": 0,
@@ -45,23 +52,16 @@
         "shipSpawnPoint": {"x": -46.47708, "y": 5.902395, "z": 229.5307},
         "startWithSuit": true
     },
-    "Atmosphere": {
-        "useAtmosphereShader": true,
-        "size": 260,
-        "hasOxygen": true,
-        "hasRain": true,
-        "atmosphereTint": {"r": 20, "g": 60, "b": 175}
-    },
     "Water": {
-        "size": 240,
+        "size": 245,
         "curve": [
             {
                 "time": 0,
-                "value": 0.95
+                "value": 0.90
             },
             {
                 "time": 1,
-                "value": 0.95
+                "value": 0.90
             },
             {
                 "time": 4,
@@ -73,11 +73,11 @@
             },
             {
                 "time": 8,
-                "value": 0.95
+                "value": 0.90
             },
             {
                 "time": 9,
-                "value": 0.95
+                "value": 0.90
             },
             {
                 "time": 12,
@@ -89,7 +89,7 @@
             },
             {
                 "time": 16,
-                "value": 0.95
+                "value": 0.90
             }
         ]
     },
