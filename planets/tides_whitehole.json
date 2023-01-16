@@ -1,0 +1,69 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "tides_whitehole",
+    "starSystem": "smallbug.NHJam1",
+    "Base": {
+        "surfaceGravity": 25,
+        "hasMapMarker": false,
+        "surfaceSize": 25
+    },
+    "Orbit": {
+        "semiMajorAxis": 750,
+        "primaryBody": "Ravenous Tides",
+        "trueAnomaly": 180,
+        "isMoon": true
+    },
+    "Props": {
+        "singularities": [
+            {
+                "type": "whiteHole",
+                "size": 50,
+                "position": {
+                    "x": 0, "y": 0, "z": 0
+                }
+            }
+        ]
+    },
+    "Funnel": {
+        "target": "Ravenous Tides",
+        "type": "water",
+        "curve": [
+            {
+                "time": 0,
+                "value": 0
+            },
+            {
+                "time": 1,
+                "value": 0
+            },
+            {
+                "time": 1.1,
+                "value": 1
+            },
+            {
+                "time": 4,
+                "value": 1
+            },
+            {
+                "time": 4.1,
+                "value": 0
+            },
+            {
+                "time": 9,
+                "value": 0
+            },
+            {
+                "time": 9.1,
+                "value": 1
+            },
+            {
+                "time": 12,
+                "value": 1
+            },
+            {
+                "time": 12.1,
+                "value": 0
+            }
+        ]
+    }
+}

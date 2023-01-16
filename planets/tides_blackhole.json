@@ -1,0 +1,26 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "tides_blackhole",
+    "starSystem": "smallbug.NHJam1",
+    "Base": {
+        "surfaceGravity": 25,
+        "hasMapMarker": false,
+        "surfaceSize": 25
+    },
+    "Orbit": {
+        "semiMajorAxis": 750,
+        "primaryBody": "Ravenous Tides",
+        "isMoon": true
+    },
+    "Props": {
+        "singularities": [
+            {
+                "type": "blackHole",
+                "size": 50,
+                "position": {
+                    "x": 0, "y": 0, "z": 0
+                }
+            }
+        ]
+    }
+}

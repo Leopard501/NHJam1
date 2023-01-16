@@ -5,17 +5,23 @@
     "Base": {
         "surfaceGravity": 13,
         "surfaceSize": 220,
-        "groundSize": 220,
         "hasMapMarker": true,
         "invulnerableToSun": true
     },
     "Orbit": {
         "semiMajorAxis": 10000.0,
         "primaryBody": "Helios",
-        "trueAnomaly": 215,
+        "trueAnomaly": 70,
+        "siderealPeriod": 10,
         "tint": {
             "r": 0, "g": 75, "b": 255
         }
+    },
+    "HeightMap": {
+        "textureMap": "assets/maps/tides.png",
+        "heightMap": "assets/maps/tides.png",
+        "minHeight": 200,
+        "maxHeight": 240
     },
     "Lava": {
         "size": 250,
@@ -25,18 +31,18 @@
                 "value": 0
             },
             {
-                "time": 2.99,
+                "time": 5.99,
                 "value": 0
             },
             {
-                "time": 3.01,
+                "time": 6.01,
                 "value": 1
             }
         ]
     },
     "Spawn": {
-        "playerSpawnPoint": {"x": 186.283, "y": 115.8058, "z": -16.96046},
-        "shipSpawnPoint": {"x": 186.283, "y": 115.8058, "z": -16.96046},
+        "playerSpawnPoint": {"x": -46.47708, "y": 5.902395, "z": 229.5307},
+        "shipSpawnPoint": {"x": -46.47708, "y": 5.902395, "z": 229.5307},
         "startWithSuit": true
     },
     "Atmosphere": {
@@ -45,5 +51,88 @@
         "hasOxygen": true,
         "hasRain": true,
         "atmosphereTint": {"r": 20, "g": 60, "b": 175}
+    },
+    "Water": {
+        "size": 240,
+        "curve": [
+            {
+                "time": 0,
+                "value": 0.95
+            },
+            {
+                "time": 1,
+                "value": 0.95
+            },
+            {
+                "time": 4,
+                "value": 1
+            },
+            {
+                "time": 5,
+                "value": 1
+            },
+            {
+                "time": 8,
+                "value": 0.95
+            },
+            {
+                "time": 9,
+                "value": 0.95
+            },
+            {
+                "time": 12,
+                "value": 1
+            },
+            {
+                "time": 13,
+                "value": 1
+            },
+            {
+                "time": 16,
+                "value": 0.95
+            }
+        ]
+    },
+    "Funnel": {
+        "target": "tides_blackhole",
+        "type": "water",
+        "curve": [
+            {
+                "time": 0,
+                "value": 0
+            },
+            {
+                "time": 5,
+                "value": 0
+            },
+            {
+                "time": 5.1,
+                "value": 1
+            },
+            {
+                "time": 8,
+                "value": 1
+            },
+            {
+                "time": 8.1,
+                "value": 0
+            },
+            {
+                "time": 13,
+                "value": 0
+            },
+            {
+                "time": 13.1,
+                "value": 1
+            },
+            {
+                "time": 14,
+                "value": 1
+            },
+            {
+                "time": 14.1,
+                "value": 0
+            }
+        ]
     }
 }

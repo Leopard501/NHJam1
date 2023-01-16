@@ -12,7 +12,7 @@
         "semiMajorAxis": 4000,
         "primaryBody": "Helios",
         "isTidallyLocked": true,
-        "trueAnomaly": 147,
+        "trueAnomaly": 293,
         "tint": {
             "r": 255, "g": 100, "b": 0
         }
@@ -31,11 +31,11 @@
                 "value": 0
             },
             {
-                "time": 2.99,
+                "time": 5.99,
                 "value": 0
             },
             {
-                "time": 3.01,
+                "time": 6.01,
                 "value": 1
             }
         ]
