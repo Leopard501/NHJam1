@@ -28,8 +28,8 @@
         }
     },
     "HeightMap": {
-        "textureMap": "assets/maps/warm.png",
-        "heightMap": "assets/maps/warm.png",
+        "textureMap": "assets/maps/warm_texture.png",
+        "heightMap": "assets/maps/warm_height.png",
         "minHeight": 185,
         "maxHeight": 215
     },
