@@ -1,0 +1,132 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Icy Ridges",
+    "starSystem": "smallbug.NHJam1",
+    "Base": {
+        "surfaceGravity": 15,
+        "surfaceSize": 200,
+        "groundSize": 200,
+        "hasMapMarker": true,
+        "invulnerableToSun": true,
+        "ambientLight": 2
+    },
+    "Orbit": {
+        "semiMajorAxis": 14000,
+        "primaryBody": "Helios",
+        "trueAnomaly": 185,
+        "siderealPeriod": 15,
+        "tint": {
+            "r": 200, "g": 20, "b": 0
+        }
+    },
+    "Atmosphere": {
+        "atmosphereSunIntensity": 1.2,
+        "useAtmosphereShader": true,
+        "size": 310,
+        "hasOxygen": true,
+        "hasTrees": false,
+        "atmosphereTint": {
+            "r": 50, "g": 60, "b": 145
+        },
+        "fogSize": 330,
+        "fogDensity": 1,
+        "fogTint": {
+            "r": 255, "g": 100, "b": 30
+        },
+        "clouds": {
+            "cloudsPrefab": "giantsDeep",
+            "innerCloudRadius": 300,
+            "outerCloudRadius": 330,
+            "texturePath": "assets/maps/icy_clouds.png",
+            "tint": {
+                "r": 255, "g": 100, "b": 30
+            },
+            "hasLightning": true,
+            "lightningGradient": [
+                {
+                    "time": 0,
+                    "tint": {
+                        "r": 200, "g": 255, "b": 30
+                    }
+                },
+                {
+                    "time": 0.3,
+                    "tint": {
+                        "r": 255, "g": 100, "b": 30
+                    }
+                }
+            ]
+        }
+    },
+    "Spawn": {
+        "playerSpawnPoint": {"x": -24.08855, "y": 155.3225, "z": -123.6716},
+        "shipSpawnPoint": {"x": -24.08855, "y": 155.3225, "z": -123.6716},
+        "startWithSuit": true
+    },
+    "Lava": {
+        "size": 350,
+        "curve": [
+            {
+                "time": 0,
+                "value": 0
+            },
+            {
+                "time": 5.99,
+                "value": 0
+            },
+            {
+                "time": 6.01,
+                "value": 1
+            }
+        ]
+    },
+    "Props": {
+        "tornados": [
+            {
+                "wanderRate": 0,
+                "elevation": 200,
+                "fluidType": "plasma",
+                "height": 100,
+                "tint": {
+                    "r": 255, "g": 100, "b": 30
+                }
+            },
+            {
+                "wanderRate": 0,
+                "elevation": 200,
+                "fluidType": "plasma",
+                "height": 100,
+                "tint": {
+                    "r": 255, "g": 100, "b": 30
+                }
+            },
+            {
+                "wanderRate": 0,
+                "elevation": 200,
+                "fluidType": "plasma",
+                "height": 100,
+                "tint": {
+                    "r": 255, "g": 100, "b": 30
+                }
+            },
+            {
+                "wanderRate": 0,
+                "elevation": 200,
+                "fluidType": "plasma",
+                "height": 100,
+                "tint": {
+                    "r": 255, "g": 100, "b": 30
+                }
+            },
+            {
+                "wanderRate": 0,
+                "elevation": 200,
+                "fluidType": "plasma",
+                "height": 100,
+                "tint": {
+                    "r": 255, "g": 100, "b": 30
+                }
+            }
+        ]
+    }
+}

@@ -33,11 +33,6 @@
         "minHeight": 185,
         "maxHeight": 215
     },
-    "Spawn": {
-        "playerSpawnPoint": {"x": -191.8322, "y": -0.987394, "z": -56.56329},
-        "shipSpawnPoint": {"x": -191.8322, "y": -0.987394, "z": -56.56329},
-        "startWithSuit": true
-    },
     "Lava": {
         "size": 250,
         "curve": [

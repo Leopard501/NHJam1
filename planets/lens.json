@@ -1,12 +1,12 @@
 {
     "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-    "name": "Receiver",
+    "name": "lens",
     "starSystem": "smallbug.NHJam1",
     "Base": {
         "surfaceSize": 10,
         "groundSize": 10,
         "surfaceGravity": 0,
-        "hasMapMarker": true
+        "hasMapMarker": false
     },
     "Orbit": {
         "semiMajorAxis": 20000,
