@@ -11,7 +11,7 @@
     "Orbit": {
         "semiMajorAxis": 10000.0,
         "primaryBody": "Helios",
-        "trueAnomaly": 70,
+        "trueAnomaly": 355,
         "siderealPeriod": 12,
         "tint": {
             "r": 0, "g": 75, "b": 255
@@ -32,18 +32,18 @@
         "atmosphereTint": {"r": 20, "g": 60, "b": 175}
     },
     "Lava": {
-        "size": 280,
+        "size": 300,
         "curve": [
             {
                 "time": 0,
                 "value": 0
             },
             {
-                "time": 5.99,
+                "time": 14.98,
                 "value": 0
             },
             {
-                "time": 6.01,
+                "time": 15.00,
                 "value": 1
             }
         ]

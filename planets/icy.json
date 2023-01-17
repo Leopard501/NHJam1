@@ -13,7 +13,7 @@
     "Orbit": {
         "semiMajorAxis": 14000,
         "primaryBody": "Helios",
-        "trueAnomaly": 185,
+        "trueAnomaly": 282,
         "siderealPeriod": 15,
         "tint": {
             "r": 200, "g": 20, "b": 0
@@ -58,11 +58,6 @@
             ]
         }
     },
-    "Spawn": {
-        "playerSpawnPoint": {"x": -24.08855, "y": 155.3225, "z": -123.6716},
-        "shipSpawnPoint": {"x": -24.08855, "y": 155.3225, "z": -123.6716},
-        "startWithSuit": true
-    },
     "Lava": {
         "size": 350,
         "curve": [
@@ -71,11 +66,11 @@
                 "value": 0
             },
             {
-                "time": 5.99,
+                "time": 14.98,
                 "value": 0
             },
             {
-                "time": 6.01,
+                "time": 15.00,
                 "value": 1
             }
         ]

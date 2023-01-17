@@ -11,8 +11,8 @@
     "Orbit": {
         "semiMajorAxis": 7000,
         "primaryBody": "Helios",
-        "trueAnomaly": 225,
-        "siderealPeriod": 9,
+        "trueAnomaly": 202,
+        "siderealPeriod": 12,
         "tint": {
             "r": 114, "g": 179, "b": 219
         }
@@ -33,6 +33,11 @@
         "minHeight": 185,
         "maxHeight": 215
     },
+    "Spawn": {
+        "playerSpawnPoint": {"x": -34.39838, "y": 46.25693, "z": 188.6293},
+        "shipSpawnPoint": {"x": -3.137028, "y": -53.484, "z": 187.8762},
+        "startWithSuit": false
+    },
     "Lava": {
         "size": 250,
         "curve": [
@@ -41,17 +46,74 @@
                 "value": 0
             },
             {
-                "time": 5.99,
+                "time": 14.98,
                 "value": 0
             },
             {
-                "time": 6.01,
+                "time": 15.00,
                 "value": 1
             }
         ]
     },
     "Props": {
         "details": [
+            {
+                "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone4/Sector_BlightedShore/Sector_ProjectionHouse_Zone4",
+                "position": {
+                    "x": 1.212121,
+                    "y": 1.84453583,
+                    "z": 195.868134
+                },
+                "rotation": {
+                    "x": 313.884277,
+                    "y": 89.85311,
+                    "z": 95.31958
+                },
+                "keepLoaded": true
+            },
+            {
+                "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_MapHouse_Zone2/Geo_MapHouse_Zone2/MapHouse",
+                "position": {
+                    "x": -14.81752,
+                    "y": 41.9565048,
+                    "z": 191.742157
+                },
+                "rotation": {
+                    "x": 309.1455,
+                    "y": 249.2469,
+                    "z": 290.47348
+                },
+                "keepLoaded": true
+            },
+            {
+                "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_MapHouse_Zone2/Geo_MapHouse_Zone2/MapHouse",
+                "position": {
+                    "x": -37.2362976,
+                    "y": 4.02812958,
+                    "z": 193.545258
+                },
+                "rotation": {
+                    "x": 34.3493843,
+                    "y": 258.9167,
+                    "z": 269.0377
+                },
+                "keepLoaded": true
+            },
+            {
+                "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Sector_DreamFireHouse_Zone1",
+                "position": {
+                    "x": -54.807785,
+                    "y": 38.0588036,
+                    "z": 185.147491
+                },
+                "rotation": {
+                    "x": 28.4327221,
+                    "y": 63.887413,
+                    "z": 77.1010742
+                },
+                "keepLoaded": true
+            },
+
             {
                 "alignToNormal": true,
                 "path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
