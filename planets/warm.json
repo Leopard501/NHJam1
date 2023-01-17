@@ -14,7 +14,7 @@
         "trueAnomaly": 225,
         "siderealPeriod": 9,
         "tint": {
-            "r": 100, "g": 255, "b": 50
+            "r": 114, "g": 179, "b": 219
         }
     },
     "Atmosphere": {
@@ -52,6 +52,50 @@
             {
                 "time": 6.01,
                 "value": 1
+            }
+        ]
+    },
+    "Props": {
+        "details": [
+            {
+                "alignToNormal": true,
+                "path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+                "position": {"x": -165.2585, "y": 8.668579, "z": 88.40682}
+            },
+            {
+                "alignToNormal": true,
+                "path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+                "position": {"x": -10.58368, "y": -104.2042, "z": 160.5006}
+            },
+            {
+                "alignToNormal": true,
+                "path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+                "position": {"x": 98.28619, "y": 100.8486, "z": 125.2633}
+            },
+            {
+                "alignToNormal": true,
+                "path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+                "position": {"x": 46.3553, "y": 184.2804, "z": 54.91098}
+            },
+            {
+                "alignToNormal": true,
+                "path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+                "position": {"x": 164.7083, "y": 89.84006, "z": -54.27788}
+            },
+            {
+                "alignToNormal": true,
+                "path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+                "position": {"x": -148.3985, "y": -103.6718, "z": -92.71007}
+            },
+            {
+                "alignToNormal": true,
+                "path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+                "position": {"x": 101.124, "y": -169.235, "z": -46.36032}
+            },
+            {
+                "alignToNormal": true,
+                "path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+                "position": {"x": -134.9292, "y": 120.3767, "z": -72.15281}
             }
         ]
     }
