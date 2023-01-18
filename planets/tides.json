@@ -23,6 +23,11 @@
         "minHeight": 200,
         "maxHeight": 260
     },
+    "Spawn": {
+        "shipSpawnPoint": {"x": 133.8886, "y": -92.12689, "z": -197.3403},
+        "playerSpawnPoint": {"x": 133.8886, "y": -92.12689, "z": -197.3403},
+        "startWithSuit": true
+    },
     "Atmosphere": {
         "useAtmosphereShader": true,
         "size": 300,
@@ -133,6 +138,22 @@
     },
     "Props": {
         "details": [
+            {
+                "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Sector_DreamFireHouse_Zone1",
+                "position": {
+                    "x": 156.751038,
+                    "y": -83.51694,
+                    "z": -180.830048
+                },
+                "rotation": {
+                    "x": 27.1916161,
+                    "y": 240.390182,
+                    "z": 110.61629
+                },
+                "scale": 0.75,
+                "keepLoaded": true
+            },
+
             {
                 "alignToNormal": true,
                 "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
