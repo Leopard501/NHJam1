@@ -139,6 +139,7 @@
         <Dialogue>
             <Page>Talk with Sunfish in the base if you'd like anything.</Page>
             <Page>—They're supposed to be out here briefing you with me, but you know how they get sucked into things.</Page>
+            <Page>Go in through the back entrance, the stairs to the main entrance have collapsed again.</Page>
             <Page>Good luck recruit!</Page>
         </Dialogue>
     </DialogueNode>
