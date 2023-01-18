@@ -1,0 +1,33 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+    <NameField>Observations Log</NameField>
+
+    <DialogueNode>
+        <Name>Main</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>[Fall 12/204]</Page>
+            <Page>The seismographs recorded some very unusual readings last night.</Page>
+            <Page>There seemed to be a disturbance everywhere at once!</Page>
+            <Page>It was as if the source emanated from the core of the planet itself...</Page>
+            <Page>More research is required.</Page>
+            <Page>[Winter 8/204]</Page>
+            <Page>Unusually cold winter, readings are otherwise normal.</Page>
+            <Page>[Spring 4/205]</Page>
+            <Page>The westerlies, they haven't changed at all!</Page>
+            <Page>It was as if nothing happened, like the previous winter just didn't exist!</Page>
+            <Page>This must be a fluke, perhaps some of Westerly Seasonal Transition theory is flawed?</Page>
+            <Page>[Fall 27/205]</Page>
+            <Page>I don't understand how these readings are possible.</Page>
+            <Page>Not only do they contradict our climatological theories, they seem to contradict thermodynamics!</Page>
+            <Page>The same amount of sunlight hits the surface, but there is no corresponding change in temperature, as if the energy is simply destroyed.</Page>
+            <Page>I would believe widespread equipment failure, if I couldn't see the effects with my own eyes.</Page>
+            <Page>[Fall 30/205]</Page>
+            <Page>Astronomers have reported the opposite effect occurring on Icy Ridges.</Page>
+            <Page>It's, well... not icy anymore.</Page>
+            <Page>[Spring 4/206]</Page>
+            <Page>For the first time since I was a child, I did no research at all this past month. I've only been trying to survive.</Page>
+            <Page>We have to come up with a solution soon.</Page>
+        </Dialogue>
+    </DialogueNode>
+</DialogueTree>

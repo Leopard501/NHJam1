@@ -63,7 +63,15 @@
                 "frequency": "Traveler",
                 "audio": "TapeRecorder_LP",
                 "onlyAudibleToScope": false,
-                "name": "Northern Village Radio House"
+                "name": "North Village Radio House"
+            },
+            {
+                "position": {"x": 66.4608, "y": -143.2323, "z": -134.9437},
+                "detectionRadius": 10,
+                "frequency": "Traveler",
+                "audio": "TapeRecorder_LP",
+                "onlyAudibleToScope": false,
+                "name": "South Village Radio House"
             }
         ],
         "dialogue": [
@@ -98,6 +106,22 @@
                     "z": 184.213165
                 },
                 "xmlFile": "assets/dialog/north_village_log2.xml"
+            },
+            {
+                "position": {
+                    "x": 63.3504868,
+                    "y": -145.326691,
+                    "z": -133.768433
+                },
+                "xmlFile": "assets/dialog/north_village_log2.xml"
+            },
+            {
+                "position": {
+                    "x": 75.55122,
+                    "y": -120.655823,
+                    "z": -154.637665
+                },
+                "xmlFile": "assets/dialog/south_village_log1.xml"
             }
         ],
         "details": [
@@ -165,6 +189,110 @@
                 },
                 "scale": 0.75,
                 "keepLoaded": true
+            },
+            {
+                "path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder/Props_HEA_Recorder_Geo",
+                "position": {
+                    "x": 63.3504868,
+                    "y": -145.326691,
+                    "z": -133.768433
+                },
+                "rotation": {
+                    "x": 330.230042,
+                    "y": 87.5096054,
+                    "z": 220.719986
+                }
+            },
+            {
+                "path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder/Props_HEA_Recorder_Geo",
+                "position": {
+                    "x": 76.50343,
+                    "y": -112.382477,
+                    "z": -150.65
+                },
+                "rotation": {
+                    "x": 50.91168,
+                    "y": 19.2831211,
+                    "z": 223.9135
+                }
+            },
+            {
+                "path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder/Props_HEA_Recorder_Geo",
+                "position": {
+                    "x": 75.0186157,
+                    "y": -114.414688,
+                    "z": -150.26413
+                },
+                "rotation": {
+                    "x": 0.09467842,
+                    "y": 59.35412,
+                    "z": 241.404572
+                }
+            },
+            {
+                "path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder/Props_HEA_Recorder_Geo",
+                "position": {
+                    "x": 76.9459,
+                    "y": -113.578613,
+                    "z": -149.653824
+                },
+                "rotation": {
+                    "x": 48.24362,
+                    "y": 21.8042374,
+                    "z": 224.081863
+                }
+            },
+            {
+                "path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder/Props_HEA_Recorder_Geo",
+                "position": {
+                    "x": 76.03038,
+                    "y": -115.681763,
+                    "z": -148.863449
+                },
+                "rotation": {
+                    "x": 13.1702423,
+                    "y": 52.0772972,
+                    "z": 240.557465
+                }
+            },
+            {
+                "path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder/Props_HEA_Recorder_Geo",
+                "position": {
+                    "x": 76.41365,
+                    "y": -121.285385,
+                    "z": -153.7006
+                },
+                "rotation": {
+                    "x": 312.698547,
+                    "y": 95.8631,
+                    "z": 224.053391
+                }
+            },
+            {
+                "path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder/Props_HEA_Recorder_Geo",
+                "position": {
+                    "x": 76.1412048,
+                    "y": -119.305336,
+                    "z": -155.160858
+                },
+                "rotation": {
+                    "x": 60.5871544,
+                    "y": 336.735016,
+                    "z": 187.0613
+                }
+            },
+            {
+                "path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder/Props_HEA_Recorder_Geo",
+                "position": {
+                    "x": 75.55122,
+                    "y": -120.655823,
+                    "z": -154.637665
+                },
+                "rotation": {
+                    "x": 330.659424,
+                    "y": 220.357025,
+                    "z": 123.993164
+                }
             },
 
             {

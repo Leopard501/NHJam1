@@ -47,7 +47,7 @@
         <Name>Explore</Name>
         <Dialogue>
             <Page>If you're looking for information about the ice age, there are logs around that detail its start.</Page>
-            <Page>The other village might have more information, I know they were monitoring the climate more closely.</Page>
+            <Page>The South Village might have more information, I know they were monitoring the climate more closely.</Page>
             <Page>Theres also a Precursor ruin you can check out, maybe they experienced something similar?</Page>
         </Dialogue>
     </DialogueNode>
