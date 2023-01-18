@@ -74,6 +74,19 @@
                 "name": "South Village Radio House"
             }
         ],
+        "slideShows": [
+            {
+                "position": {"x": 106.5679, "y": -131.211, "z": -120.8031},
+                "rotation": {"x": 0.5880017, "y": -0.5827767, "z": -0.5609148},
+                "slides": [
+                    {"imagePath": "assets/slides/south_village/1.png"},
+                    {"imagePath": "assets/slides/south_village/2.png"},
+                    {"imagePath": "assets/slides/south_village/3.png"},
+                    {"imagePath": "assets/slides/south_village/4.png"},
+                    {"imagePath": "assets/slides/south_village/5.png"}
+                ]
+            }
+        ],
         "dialogue": [
             {
                 "position": {
