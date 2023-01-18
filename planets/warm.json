@@ -56,6 +56,15 @@
         ]
     },
     "Props": {
+        "signals": [
+            {
+                "position": {"x": -54.69296, "y": 38.24079, "z": 188.1753},
+                "frequency": "Traveler",
+                "audio": "TapeRecorder_LP",
+                "onlyAudibleToScope": false,
+                "name": "Northern Village Radio House"
+            }
+        ],
         "dialogue": [
             {
                 "position": {
@@ -80,6 +89,14 @@
                     "z": 198.985153
                 },
                 "xmlFile": "assets/dialog/north_village_log1.xml"
+            },
+            {
+                "position": {
+                    "x": -58.4210129,
+                    "y": 39.7036819,
+                    "z": 184.213165
+                },
+                "xmlFile": "assets/dialog/north_village_log2.xml"
             }
         ],
         "details": [
@@ -120,6 +137,19 @@
                     "x": 352.131165,
                     "y": 79.34986,
                     "z": 90.80205
+                }
+            },
+            {
+                "path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder/Props_HEA_Recorder_Geo",
+                "position": {
+                    "x": -58.4210129,
+                    "y": 39.7036819,
+                    "z": 184.213165
+                },
+                "rotation": {
+                    "x": 23.0523357,
+                    "y": 65.21556,
+                    "z": 77.6877747
                 }
             },
             {

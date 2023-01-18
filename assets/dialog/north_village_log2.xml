@@ -1,0 +1,21 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+    <NameField>Radio Transmission Recording</NameField>
+
+    <DialogueNode>
+        <Name>Main</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>SV: This is South Village, do you read me North Village?</Page>
+            <Page>NV: Hearing you loud and clear South Village!</Page>
+            <Page>SV: Our climatologists have collected some very concerning data, this winter was colder than average, but the westerlies haven't responded normally.</Page>
+            <Page>NV: What does that mean?</Page>
+            <Page>SV: Normally the westerlies counteract radical temperature shifts, but they haven't this time.</Page>
+            <Page>SV: This coming winter could be even colder than the last one.</Page>
+            <Page>NV: That is very bad, we barely survived this winter.</Page>
+            <Page>SV: There's more, you should send someone here to take a look at this data.</Page>
+            <Page>NV: Will do, thanks for the information South Village, stay safe out there. North Village out.</Page>
+            <Page>SV: You too. South Village out.</Page>
+        </Dialogue>
+    </DialogueNode>
+</DialogueTree>
