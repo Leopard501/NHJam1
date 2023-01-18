@@ -56,7 +56,7 @@
         <Name>Survive</Name>
         <Dialogue>
             <Page>Not much longer, I'm afraid.</Page>
-            <Page>Somehow, the temperature is continuing to drop. Soon it won't be possible to survive outside for more than a few minutes without a full spacesuit.</Page>
+            <Page>Somehow, the temperature is continuing to drop. Soon we won't be possible to survive outside for more than a few minutes without a full spacesuit.</Page>
             <Page>We've been packing up everything, that's why me and Salmon are the only ones here.</Page>
             <Page>From now on new recruits will be trained on Ravenous Tides.</Page>
         </Dialogue>
@@ -65,7 +65,7 @@
     <DialogueNode>
         <Name>Advice</Name>
         <Dialogue>
-            <Page>Look for radio houses. You can pick up their signals pretty easily, they're a pretty good way to find the settlements if you get lost.</Page>
+            <Page>Look for radio houses. You can pick up their signals pretty easily, and they're a pretty good way to find the settlements if you get lost.</Page>
         </Dialogue>
     </DialogueNode>
 

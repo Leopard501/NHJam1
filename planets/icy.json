@@ -4,8 +4,7 @@
     "starSystem": "smallbug.NHJam1",
     "Base": {
         "surfaceGravity": 15,
-        "surfaceSize": 200,
-        "groundSize": 200,
+        "surfaceSize": 250,
         "hasMapMarker": true,
         "invulnerableToSun": true,
         "ambientLight": 2
@@ -19,24 +18,30 @@
             "r": 200, "g": 20, "b": 0
         }
     },
+    "HeightMap": {
+        "textureMap": "assets/maps/icy_texture.png",
+        "heightMap": "assets/maps/icy_height.png",
+        "minHeight": 200,
+        "maxHeight": 300
+    },
     "Atmosphere": {
         "atmosphereSunIntensity": 1.2,
         "useAtmosphereShader": true,
-        "size": 310,
+        "size": 350,
         "hasOxygen": true,
         "hasTrees": false,
         "atmosphereTint": {
             "r": 50, "g": 60, "b": 145
         },
-        "fogSize": 330,
+        "fogSize": 360,
         "fogDensity": 1,
         "fogTint": {
             "r": 255, "g": 100, "b": 30
         },
         "clouds": {
             "cloudsPrefab": "giantsDeep",
-            "innerCloudRadius": 300,
-            "outerCloudRadius": 330,
+            "innerCloudRadius": 330,
+            "outerCloudRadius": 360,
             "texturePath": "assets/maps/icy_clouds.png",
             "tint": {
                 "r": 255, "g": 100, "b": 30
@@ -58,6 +63,9 @@
             ]
         }
     },
+    "Water": {
+        "size": 240
+    },
     "Lava": {
         "size": 350,
         "curve": [
@@ -72,55 +80,6 @@
             {
                 "time": 15.00,
                 "value": 1
-            }
-        ]
-    },
-    "Props": {
-        "tornados": [
-            {
-                "wanderRate": 0,
-                "elevation": 200,
-                "fluidType": "plasma",
-                "height": 100,
-                "tint": {
-                    "r": 255, "g": 100, "b": 30
-                }
-            },
-            {
-                "wanderRate": 0,
-                "elevation": 200,
-                "fluidType": "plasma",
-                "height": 100,
-                "tint": {
-                    "r": 255, "g": 100, "b": 30
-                }
-            },
-            {
-                "wanderRate": 0,
-                "elevation": 200,
-                "fluidType": "plasma",
-                "height": 100,
-                "tint": {
-                    "r": 255, "g": 100, "b": 30
-                }
-            },
-            {
-                "wanderRate": 0,
-                "elevation": 200,
-                "fluidType": "plasma",
-                "height": 100,
-                "tint": {
-                    "r": 255, "g": 100, "b": 30
-                }
-            },
-            {
-                "wanderRate": 0,
-                "elevation": 200,
-                "fluidType": "plasma",
-                "height": 100,
-                "tint": {
-                    "r": 255, "g": 100, "b": 30
-                }
             }
         ]
     }
