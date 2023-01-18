@@ -12,7 +12,7 @@
         "semiMajorAxis": 7000,
         "primaryBody": "Helios",
         "trueAnomaly": 202,
-        "siderealPeriod": 12,
+        "siderealPeriod": 24,
         "tint": {
             "r": 114, "g": 179, "b": 219
         }
@@ -36,7 +36,7 @@
     "Spawn": {
         "playerSpawnPoint": {"x": -34.39838, "y": 46.25693, "z": 188.6293},
         "shipSpawnPoint": {"x": -3.137028, "y": -53.484, "z": 187.8762},
-        "startWithSuit": false
+        "startWithSuit": true
     },
     "Lava": {
         "size": 250,
@@ -56,7 +56,36 @@
         ]
     },
     "Props": {
+        "dialogue": [
+            {
+                "position": {
+                    "x": -25.9576416,
+                    "y": 24.86979,
+                    "z": 196.515442
+                },
+                "xmlFile": "assets/dialog/salmon.xml"
+            }
+        ],
         "details": [
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Characters_Observatory/Villager_HEA_Hornfels (1)/Villager_HEA_Hornfels_ANIM_Working",
+				"position": {
+					"x": -25.9576416,
+					"y": 24.86979,
+					"z": 194.515442
+				},
+				"rotation": {
+					"x": 298.7381,
+					"y": 249.688843,
+					"z": 283.698578
+				}
+			},
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/LaunchTower/Effects_HEA_Campfire",
+                "alignToNormal": true,
+                "position": {"x": -30.76723, "y": 25.94514, "z": 193.6607}
+            },
+
             {
                 "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone4/Sector_BlightedShore/Sector_ProjectionHouse_Zone4",
                 "position": {

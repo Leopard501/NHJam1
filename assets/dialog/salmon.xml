@@ -1,0 +1,145 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+    <NameField>Salmon</NameField>
+
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>Good morning, recruit! How'd you sleep?</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Good, I'm looking forward to making a difference!</Text>
+                <DialogueTarget>Good Sleep</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Ok, I'm a little nervous.</Text>
+                <DialogueTarget>Ok Sleep</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Not great, its so cold out here...</Text>
+                <DialogueTarget>Bad Sleep</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Good Sleep</Name>
+        <Dialogue>
+            <Page>Glad to here it! We're always happy to have another helping hand.</Page>
+        </Dialogue>
+        <DialogueTarget>Mission</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Ok Sleep</Name>
+        <Dialogue>
+            <Page>I understand, this will be a challenging and even dangerous job, but I'm sure you'll do great. We're happy to have you on board!</Page>
+        </Dialogue>
+        <DialogueTarget>Mission</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Bad Sleep</Name>
+        <Dialogue>
+            <Page>To be honest, me too. It's still getting colder here, but we're not ready to move our base of operations yet. Thank you for being here.</Page>
+        </Dialogue>
+        <DialogueTarget>Mission</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Mission</Name>
+        <Dialogue>
+            <Page>Now that you've completed your training, we have an important job for you.</Page>
+            <Page>Evacuations are complete, and most of the new settlements are at least somewhat self-sufficient, but as I'm sure you're aware, conditions are not ideal.</Page>
+            <Page>Environmental conditions make life difficult and everyone is packed into our few small settlements, and with the destruction one of the Icy Ridge settlements we're all under stress right now.</Page>
+            <Page>So we need you to act as a scout to find more suitable locations for settlements. You're free to investigate anywhere in the solar system that seems promising.</Page>
+            <Page>Your ship has fantastic range and speed—I'd say it's our best work yet—so it should be able to get anywhere in the solar system.</Page>
+            <Page>Where would do you plan on exploring first?</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>I'll take another look at Ravenous Tides.</Text>
+                <DialogueTarget>Tides</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>I think I'll explore here first.</Text>
+                <DialogueTarget>Warm</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>I want to understand what happened on Icy Ridge.</Text>
+                <DialogueTarget>Icy</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>I'm planning on visiting Icy Ridge's moon.</Text>
+                <DialogueTarget>Moon</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>I'd like to investigate Sunbaked Stone.</Text>
+                <DialogueTarget>Sunbaked</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>I'm not sure yet...</Text>
+                <DialogueTarget>IDK</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Tides</Name>
+        <Dialogue>
+            <Page>Good idea! Our most successful settlement is on Ravenous Tides, and there may be more promising locations that have been overlooked.</Page>
+        </Dialogue>
+        <DialogueTarget>Exit</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Warm</Name>
+        <Dialogue>
+            <Page>That's smart. There may be evidence here that could point to the cause of this ice age. Just don't forget your mission!</Page>
+        </Dialogue>
+        <DialogueTarget>Exit</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Icy</Name>
+        <Dialogue>
+            <Page>We all do, what a horrible disaster. If we can understand why it happened maybe Icy Ridges could be a safer place for future settlements.</Page>
+        </Dialogue>
+        <DialogueTarget>Exit</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Moon</Name>
+        <Dialogue>
+            <Page>Interesting plan. It hasn't seemed like a viable place for settlement, but with enough research maybe it could be.</Page>
+        </Dialogue>
+        <DialogueTarget>Exit</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Sunbaked</Name>
+        <Dialogue>
+            <Page>Hmm, nobody had considered Sunbaked Stone as a viable location for settlement, but maybe we're wrong. I like how you think!</Page>
+        </Dialogue>
+        <DialogueTarget>Exit</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>IDK</Name>
+        <Dialogue>
+            <Page>That's ok, if you ask around I'm sure people could give you some ideas.</Page>
+        </Dialogue>
+        <DialogueTarget>Exit</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Exit</Name>
+        <Dialogue>
+            <Page>Talk with Sunfish in the base if you'd like anything.</Page>
+            <Page>—They're supposed to be out here briefing you with me, but you know how they get sucked into things.</Page>
+            <Page>Good luck recruit!</Page>
+        </Dialogue>
+    </DialogueNode>
+</DialogueTree>
