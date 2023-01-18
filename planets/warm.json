@@ -35,8 +35,8 @@
     },
     "Spawn": {
         "playerSpawnPoint": {"x": -28.68296, "y": 34.28471, "z": 192.408},
-        "shipSpawnPoint": {"x": -3.137028, "y": -53.484, "z": 187.8762},
-        "startWithSuit": true
+        "shipSpawnPoint": {"x": -22.05165, "y": -21.01003, "z": 194.286},
+        "startWithSuit": false
     },
     "Lava": {
         "size": 250,
@@ -59,6 +59,7 @@
         "signals": [
             {
                 "position": {"x": -54.69296, "y": 38.24079, "z": 188.1753},
+                "detectionRadius": 10,
                 "frequency": "Traveler",
                 "audio": "TapeRecorder_LP",
                 "onlyAudibleToScope": false,
@@ -100,6 +101,72 @@
             }
         ],
         "details": [
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
+                "alignToNormal": true,
+                "position": {"x": 85.64521, "y": -125.312, "z": -134.929}
+            },
+            {
+                "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Sector_DreamFireHouse_Zone1",
+                "position": {
+                    "x": 66.39775,
+                    "y": -142.459152,
+                    "z": -133.748474
+                },
+                "rotation": {
+                    "x": 320.971619,
+                    "y": 102.597542,
+                    "z": 212.125778
+                },
+                "scale": 0.75,
+                "keepLoaded": true
+            },
+            {
+                "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_MapHouse_Zone2/Geo_MapHouse_Zone2/MapHouse",
+                "position": {
+                    "x": 97.89017,
+                    "y": -129.089676,
+                    "z": -120.074486
+                },
+                "rotation": {
+                    "x": 4.754028,
+                    "y": 40.2302361,
+                    "z": 234.211929
+                },
+                "scale": 0.75,
+                "keepLoaded": true
+            },
+            {
+                "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_MapHouse_Zone2/Geo_MapHouse_Zone2/MapHouse",
+                "position": {
+                    "x": 77.67927,
+                    "y": -117.3652,
+                    "z": -146.4426
+                },
+                "rotation": {
+                    "x": 329.875427,
+                    "y": 219.744736,
+                    "z": 124.296806
+                },
+                "scale": 0.75,
+                "keepLoaded": true
+            },
+            {
+                "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_MapHouse_Zone2/Geo_MapHouse_Zone2/MapHouse",
+                "position": {
+                    "x": 98.37293,
+                    "y": -110.564461,
+                    "z": -135.357788
+                },
+                "rotation": {
+                    "x": 310.441925,
+                    "y": 93.98191,
+                    "z": 219.704712
+                },
+                "scale": 0.75,
+                "keepLoaded": true
+            },
+
             {
                 "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Characters_Observatory/Character_HEA_Hal_Museum/Villager_HEA_Hal_ANIM_Museum",
                 "position": {
