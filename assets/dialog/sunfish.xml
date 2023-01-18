@@ -1,0 +1,78 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+    <NameField>Sunfish</NameField>
+
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>...</Page>
+            <Page>Oh hey! Sorry I didn't see you there recruit.</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>I just completed my training!</Text>
+                <DialogueTarget>Training</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>What is there to explore around here?</Text>
+                <DialogueTarget>Explore</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>How much longer can we hold out here?</Text>
+                <DialogueTarget>Survive</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Any advice?</Text>
+                <DialogueTarget>Advice</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Nevermind</Text>
+                <DialogueTarget>Exit</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Training</Name>
+        <Dialogue>
+            <Page>Wait, you just completed your training? And Salmon gave you your first mission?</Page>
+            <Page>Darn it! I can't believe it slipped my mind! I'm so sorry!</Page>
+            <Page>I was thinking about how we could further increase fuel efficiency by rerouting excess power from the reactor to overclock the fuel pumps to reduce waste from fuel getting gummed up in the fuel lines...</Page>
+            <Page>Sorry, I got distracted again.</Page>
+        </Dialogue>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Explore</Name>
+        <Dialogue>
+            <Page>If you're looking for information about the ice age, there are logs around that detail its start.</Page>
+            <Page>The other village might have more information, I know they were monitoring the climate more closely.</Page>
+            <Page>Theres also a Precursor ruin you can check out, maybe they experienced something similar?</Page>
+        </Dialogue>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Survive</Name>
+        <Dialogue>
+            <Page>Not much longer, I'm afraid.</Page>
+            <Page>Somehow, the temperature is continuing to drop. Soon it won't be possible to survive outside for more than a few minutes without a full spacesuit.</Page>
+            <Page>We've been packing up everything, that's why me and Salmon are the only ones here.</Page>
+            <Page>From now on new recruits will be trained on Ravenous Tides.</Page>
+        </Dialogue>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Advice</Name>
+        <Dialogue>
+            <Page>Look for radio houses. You can pick up their signals pretty easily, they're a pretty good way to find the settlements if you get lost.</Page>
+        </Dialogue>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Exit</Name>
+        <Dialogue>
+            <Page>Safe travels!</Page>
+        </Dialogue>
+    </DialogueNode>
+</DialogueTree>

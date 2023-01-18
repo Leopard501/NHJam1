@@ -34,7 +34,7 @@
         "maxHeight": 215
     },
     "Spawn": {
-        "playerSpawnPoint": {"x": -34.39838, "y": 46.25693, "z": 188.6293},
+        "playerSpawnPoint": {"x": -28.68296, "y": 34.28471, "z": 192.408},
         "shipSpawnPoint": {"x": -3.137028, "y": -53.484, "z": 187.8762},
         "startWithSuit": true
     },
@@ -64,9 +64,30 @@
                     "z": 196.515442
                 },
                 "xmlFile": "assets/dialog/salmon.xml"
+            },
+            {
+                "position": {
+                    "x": 5.324806,
+                    "y": 11.2006512,
+                    "z": 198.4
+                },
+                "xmlFile": "assets/dialog/sunfish.xml"
             }
         ],
         "details": [
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Characters_Observatory/Character_HEA_Hal_Museum/Villager_HEA_Hal_ANIM_Museum",
+                "position": {
+                    "x": 5.324806,
+                    "y": 11.2006512,
+                    "z": 196.89624
+                },
+                "rotation": {
+                    "x": 311.204163,
+                    "y": 270.336365,
+                    "z": 269.663757
+                }
+            },
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Characters_Observatory/Villager_HEA_Hornfels (1)/Villager_HEA_Hornfels_ANIM_Working",
 				"position": {
@@ -88,30 +109,47 @@
 
             {
                 "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone4/Sector_BlightedShore/Sector_ProjectionHouse_Zone4",
+                "scale": 0.75,
                 "position": {
                     "x": 1.212121,
                     "y": 1.84453583,
-                    "z": 195.868134
+                    "z": 196.868134
                 },
                 "rotation": {
                     "x": 313.884277,
                     "y": 89.85311,
-                    "z": 95.31958
+                    "z": 90.31958
                 },
                 "keepLoaded": true
             },
             {
                 "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_MapHouse_Zone2/Geo_MapHouse_Zone2/MapHouse",
                 "position": {
-                    "x": -14.81752,
-                    "y": 41.9565048,
-                    "z": 191.742157
+                    "x": -10.6429977,
+                    "y": 31.761961,
+                    "z": 194.272919
                 },
                 "rotation": {
-                    "x": 309.1455,
-                    "y": 249.2469,
-                    "z": 290.47348
+                    "x": 320.04248,
+                    "y": 99.67654,
+                    "z": 75.60532
                 },
+                "scale": 0.75,
+                "keepLoaded": true
+            },
+            {
+                "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_MapHouse_Zone2/Geo_MapHouse_Zone2/MapHouse",
+                "position": {
+                    "x": -27.5151882,
+                    "y": 49.8792038,
+                    "z": 188.5581
+                },
+                "rotation": {
+                    "x": 288.7272,
+                    "y": 149.912949,
+                    "z": 21.7213783
+                },
+                "scale": 0.75,
                 "keepLoaded": true
             },
             {
@@ -126,10 +164,12 @@
                     "y": 258.9167,
                     "z": 269.0377
                 },
+                "scale": 0.75,
                 "keepLoaded": true
             },
             {
                 "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Sector_DreamFireHouse_Zone1",
+                "scale": 0.75,
                 "position": {
                     "x": -54.807785,
                     "y": 38.0588036,
