@@ -1,0 +1,33 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+    <NameField>Audio Log</NameField>
+
+    <DialogueNode>
+        <Name>Main</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>ENTRY 16</Page>
+            <Page>Another unusually cold winter, this is getting difficult to bear.</Page>
+            <Page>I'm worried our food stores are going to run out, we could never catch enough to feed us for this long...</Page>
+            <Page>ENTRY 27</Page>
+            <Page>Nobody caught anything today. First the late thaw, now this!?</Page>
+            <Page>I guess the fish are having just as much difficulty with the cold as we are.</Page>
+            <Page>ENTRY 36</Page>
+            <Page>The climatologists in the southern village are saying this winter is going to be worse than the last one.</Page>
+            <Page>I don't know how we can survive this...</Page>
+            <Page>I hear Sunfish spending more and more time on their experiments, I worry about them.</Page>
+            <Page>ENTRY 40</Page>
+            <Page>I heard an explosion last night, and woke up to see Sunfish flying through the air on some sort of flaming device!</Page>
+            <Page>Salmon and Bass took an interest, they think this will somehow solve our problems.</Page>
+            <Page>I don't know how "spaceships" put food on the table.</Page>
+            <Page>ENTRY 52</Page>
+            <Page>Bass landed their spaceship on another planet!</Page>
+            <Page>They radioed back and said the air is warm and breathable, and there's fresh water on the surface! And fish!</Page>
+            <Page>They say we should go there, but how will we all make it?</Page>
+            <Page>Entry 57</Page>
+            <Page>Salmon says we should pack as light as possible, that there isn't much room to spare.</Page>
+            <Page>I thought I would be sad to leave our old home behind, and all our things and our history...</Page>
+            <Page>But I'm just happy to be alive.</Page>
+        </Dialogue>
+    </DialogueNode>
+</DialogueTree>

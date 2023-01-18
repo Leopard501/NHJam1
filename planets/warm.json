@@ -72,6 +72,14 @@
                     "z": 198.4
                 },
                 "xmlFile": "assets/dialog/sunfish.xml"
+            },
+            {
+                "position": {
+                    "x": -44.8236923,
+                    "y": 3.152585,
+                    "z": 198.985153
+                },
+                "xmlFile": "assets/dialog/north_village_log1.xml"
             }
         ],
         "details": [
@@ -101,6 +109,19 @@
 					"z": 283.698578
 				}
 			},
+            {
+                "path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder/Props_HEA_Recorder_Geo",
+                "position": {
+                    "x": -44.8236923,
+                    "y": 3.152585,
+                    "z": 198.985153
+                },
+                "rotation": {
+                    "x": 352.131165,
+                    "y": 79.34986,
+                    "z": 90.80205
+                }
+            },
             {
                 "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/LaunchTower/Effects_HEA_Campfire",
                 "alignToNormal": true,
