@@ -67,7 +67,6 @@
             },
             {
                 "position": {"x": 66.4608, "y": -143.2323, "z": -134.9437},
-                "detectionRadius": 10,
                 "frequency": "Traveler",
                 "audio": "TapeRecorder_LP",
                 "onlyAudibleToScope": false,

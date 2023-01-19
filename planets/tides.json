@@ -55,7 +55,7 @@
     },
     "Water": {
         "size": 245,
-        "curve": [
+        "curve_DISABLED": [
             {
                 "time": 0,
                 "value": 0.90
@@ -137,7 +137,61 @@
         ]
     },
     "Props": {
+        "signals": [
+            {
+                "position": {"x": 157.6804, "y": -83.5453, "z": -182.8763},
+                "frequency": "Traveler",
+                "audio": "TapeRecorder_LP",
+                "onlyAudibleToScope": false,
+                "name": "Ravenous Tides Radio House"
+            }
+        ],
         "details": [
+            {
+                "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_MapHouse_Zone2/Geo_MapHouse_Zone2/MapHouse",
+                "position": {
+                    "x": 91.6504059,
+                    "y": -88.12806,
+                    "z": -226.733414
+                },
+                "rotation": {
+                    "x": 307.645782,
+                    "y": 219.6278,
+                    "z": 124.6119
+                },
+                "scale": 0.75,
+                "keepLoaded": true
+            },
+            {
+                "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_MapHouse_Zone2/Geo_MapHouse_Zone2/MapHouse",
+                "position": {
+                    "x": 72.8882141,
+                    "y": -115.446571,
+                    "z": -221.366409
+                },
+                "rotation": {
+                    "x": 31.2276363,
+                    "y": 267.7348,
+                    "z": 118.784149
+                },
+                "scale": 0.75,
+                "keepLoaded": true
+            },
+            {
+                "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_MapHouse_Zone2/Geo_MapHouse_Zone2/MapHouse",
+                "position": {
+                    "x": 96.9861145,
+                    "y": -120.727219,
+                    "z": -208.701721
+                },
+                "rotation": {
+                    "x": 50.6184959,
+                    "y": 21.6656532,
+                    "z": 218.754364
+                },
+                "scale": 0.75,
+                "keepLoaded": true
+            },
             {
                 "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Sector_DreamFireHouse_Zone1",
                 "position": {
@@ -152,6 +206,11 @@
                 },
                 "scale": 0.75,
                 "keepLoaded": true
+            },
+            {
+                "alignToNormal": true,
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/LaunchTower/Effects_HEA_Campfire",
+                "position": {"x": 91.38615, "y": -108.6305, "z": -217.8072}
             },
 
             {
