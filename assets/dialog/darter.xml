@@ -1,0 +1,47 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+    <NameField>Darter</NameField>
+
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>Hey Mx. are you going to save us?</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>That's a little dramatic, we're only having a housing shortage!</Text>
+                <DialogueTarget>Housing</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Of course! Outer Wilds Rescue is here for you!</Text>
+                <DialogueTarget>Yes</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>I'm certainly going to try.</Text>
+                <DialogueTarget>Maybe</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Housing</Name>
+        <Dialogue>
+            <Page>I'm having a housing shortage, my house is too small! I hate being so cramped all the time!</Page>
+        </Dialogue>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Yes</Name>
+        <Dialogue>
+            <Page>Good, my parent says Outer Wilds Rescue is supposed to solve allllll our problems!</Page>
+        </Dialogue>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Maybe</Name>
+        <Dialogue>
+            <Page>You'd better! I'm tired of being so cramped all the time!</Page>
+        </Dialogue>
+    </DialogueNode>
+</DialogueTree>

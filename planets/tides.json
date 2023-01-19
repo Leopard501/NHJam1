@@ -166,6 +166,14 @@
                     "z": -219.734085
                 },
                 "xmlFile": "assets/dialog/walleye.xml"
+            },
+            {
+                "position": {
+                    "x": 90.67976,
+                    "y": -93.77582,
+                    "z": -226.539142
+                },
+                "xmlFile": "assets/dialog/darter.xml"
             }
         ],
         "rafts": [
