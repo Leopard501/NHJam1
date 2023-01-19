@@ -146,7 +146,18 @@
                 "name": "Ravenous Tides Radio House"
             }
         ],
+        "dialogue": [
+            {
+                "position": {"x": 43.42401, "y": -115.124, "z": -224.9376},
+                "xmlFile": "assets/dialog/bass.xml"
+            }
+        ],
         "details": [
+            {
+                "path": "DB_PioneerDimension_Body/Sector_PioneerDimension/Interactables_PioneerDimension/Pioneer_Characters/Traveller_HEA_Feldspar/Traveller_HEA_Feldspar_ANIM_Talking",
+                "position": {"x": 43.42401, "y": -115.124, "z": -223.9376},
+                "alignToNormal": true
+            },
             {
                 "path": "DB_PioneerDimension_Body/Sector_PioneerDimension/Interactables_PioneerDimension/FeldsparShip_Body/Prefab_HEA_FeldsparShip",
                 "position": {

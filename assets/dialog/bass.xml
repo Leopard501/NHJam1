@@ -1,0 +1,68 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+    <NameField>Bass</NameField>
+
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>Recruit! I heard you just completed your training, and I'm glad to see you have your own ship now!</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>What are you up to?</Text>
+                <DialogueTarget>WYD</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>What is there to explore around here?</Text>
+                <DialogueTarget>Explore</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>How dangerous is that water column?</Text>
+                <DialogueTarget>Water Column</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Goodbye</Text>
+                <DialogueTarget>Exit</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>WYD</Name>
+        <Dialogue>
+            <Page>Right now I'm on break, and we're still moving our base of operations here.</Page>
+            <Page>We'd like to build a new building for it, but there's nowhere dry or level enough for it left on this island!</Page>
+            <Page>So at the moment we're just occupying one of these residences (we got permission of course.)</Page>
+            <Page>Maybe you could help find a good location?</Page>
+        </Dialogue>
+        <DialogueTarget>Start</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Explore</Name>
+        <Dialogue>
+            <Page>There are a few Precursor ruins on the seafloor that you can check out.</Page>
+            <Page>I'd be careful though, one of them is leaking some sort of strange energy, fried the probe I sent in!</Page>
+            <Page>And obviously, try not to drown.</Page>
+            <Page>I always thought the Precursors were only on Warm Embrace, but we've found their presence on every planet!</Page>
+        </Dialogue>
+        <DialogueTarget>Start</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Water Column</Name>
+        <Dialogue>
+            <Page>Not as dangerous as you'd expect!</Page>
+            <Page>It can hurt a little if you get caught in it, but sometimes it won't even slow you down.</Page>
+            <Page>What you should really worry about is the black hole in orbit. We sent a probe in, and never heard back from it! I'd steer clear of it.</Page>
+        </Dialogue>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Exit</Name>
+        <Dialogue>
+            <Page>See you soon, recruit!</Page>
+        </Dialogue>
+    </DialogueNode>
+</DialogueTree>

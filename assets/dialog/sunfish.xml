@@ -27,7 +27,7 @@
                 <DialogueTarget>Advice</DialogueTarget>
             </DialogueOption>
             <DialogueOption>
-                <Text>Nevermind</Text>
+                <Text>Goodbye</Text>
                 <DialogueTarget>Exit</DialogueTarget>
             </DialogueOption>
         </DialogueOptionsList>
@@ -41,6 +41,7 @@
             <Page>I was thinking about how we could further increase fuel efficiency by rerouting excess power from the reactor to overclock the fuel pumps to reduce waste from fuel getting gummed up in the fuel lines...</Page>
             <Page>Sorry, I got distracted again.</Page>
         </Dialogue>
+        <DialogueTarget>Start</DialogueTarget>
     </DialogueNode>
 
     <DialogueNode>
@@ -50,6 +51,7 @@
             <Page>The South Village might have more information, I know they were monitoring the climate more closely.</Page>
             <Page>Theres also a Precursor ruin you can check out, maybe they experienced something similar?</Page>
         </Dialogue>
+        <DialogueTarget>Start</DialogueTarget>
     </DialogueNode>
 
     <DialogueNode>
@@ -60,6 +62,7 @@
             <Page>We've been packing up everything, that's why me and Salmon are the only ones here.</Page>
             <Page>From now on new recruits will be trained on Ravenous Tides.</Page>
         </Dialogue>
+        <DialogueTarget>Start</DialogueTarget>
     </DialogueNode>
 
     <DialogueNode>
@@ -67,6 +70,7 @@
         <Dialogue>
             <Page>Look for radio houses. You can pick up their signals pretty easily, and they're a pretty good way to find the settlements if you get lost.</Page>
         </Dialogue>
+        <DialogueTarget>Start</DialogueTarget>
     </DialogueNode>
 
     <DialogueNode>
