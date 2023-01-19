@@ -1,0 +1,26 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+    <NameField>Walleye</NameField>
+
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>Hey kid, how's the flying?</Page>
+            <Page>Want to try some of this fish sauce?</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Ew, no.</Text>
+                <DialogueTarget>Ew</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Ew</Name>
+        <Dialogue>
+            <Page>How can you still not like fish sauce? You grew up on fish!</Page>
+        </Dialogue>
+    </DialogueNode>
+</DialogueTree>

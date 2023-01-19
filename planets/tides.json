@@ -158,6 +158,14 @@
                     "z": -153.9834
                 },
                 "xmlFile": "assets/dialog/sturgeon.xml"
+            },
+            {
+                "position": {
+                    "x": 93.25486,
+                    "y": -106.065018,
+                    "z": -219.734085
+                },
+                "xmlFile": "assets/dialog/walleye.xml"
             }
         ],
         "rafts": [
