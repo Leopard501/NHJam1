@@ -55,7 +55,7 @@
     },
     "Water": {
         "size": 245,
-        "curve_DISABLED": [
+        "curve": [
             {
                 "time": 0,
                 "value": 0.90
@@ -150,6 +150,19 @@
             {
                 "position": {"x": 43.42401, "y": -115.124, "z": -224.9376},
                 "xmlFile": "assets/dialog/bass.xml"
+            },
+            {
+                "position": {
+                    "x": 140.631378,
+                    "y": -133.922531,
+                    "z": -153.9834
+                },
+                "xmlFile": "assets/dialog/sturgeon.xml"
+            }
+        ],
+        "rafts": [
+            {
+                "position": {"x": 139.6517, "y": -123.6857, "z": -156.2444}
             }
         ],
         "details": [

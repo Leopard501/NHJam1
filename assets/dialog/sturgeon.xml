@@ -1,0 +1,129 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+    <NameField>Sturgeon</NameField>
+
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>Hey kid!</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>How's the fishing?</Text>
+                <DialogueTarget>Fishing</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Do you have any good fishing stories?</Text>
+                <DialogueTarget>Story</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Goodbye</Text>
+                <DialogueTarget>Exit</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Fishing</Name>
+        <Dialogue>
+            <Page>Bah, fishing on Warm Embrace was better!</Page>
+            <Page>Fishing requires too much patience here!</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>That's because the tide's too low half the time, your line is just dragging on the rock!</Text>
+                <DialogueTarget>Fishing_Tide</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>At least there ARE fish, we nearly starved before we moved here!</Text>
+                <DialogueTarget>Fishing_Fish</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Better than eating seaweed!</Text>
+                <DialogueTarget>Fishing_Seaweed</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Fishing_Tide</Name>
+        <Dialogue>
+            <Page>What you say? Tide?</Page>
+        </Dialogue>
+        <DialogueTarget>Start</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Fishing_Fish</Name>
+        <Dialogue>
+            <Page>I know, I know, but I have a right to complain, alright?</Page>
+        </Dialogue>
+        <DialogueTarget>Start</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Fishing_Seaweed</Name>
+        <Dialogue>
+            <Page>I pity those poor fools on Icy Ridges. I am glad to live here, where there's real food!</Page>
+        </Dialogue>
+        <DialogueTarget>Start</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Story</Name>
+        <Dialogue>
+            <Page>Ah, I've got a good one!</Page>
+            <Page>It was shortly after I moved here, I was out on my raft fishing in open waters...</Page>
+            <Page>When something snagged on my line! I jerked and jerked, trying to pull loose!</Page>
+            <Page>Then I felt this tremendous shock as something electrified my line! Completely knocked me out!</Page>
+            <Page>When I came to, my rod had been burnt to ashes!</Page>
+            <Page>Last time I ever fished in open water.</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Is that true?</Text>
+                <DialogueTarget>Story_True</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>I don't believe that!</Text>
+                <DialogueTarget>Story_Fake</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Wow, what a story!</Text>
+                <DialogueTarget>Story_Story</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Story_True</Name>
+        <Dialogue>
+            <Page>Of course it's true!</Page>
+        </Dialogue>
+        <DialogueTarget>Start</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Story_Fake</Name>
+        <Dialogue>
+            <Page>Well it happened, whether you believe it or not!</Page>
+        </Dialogue>
+        <DialogueTarget>Start</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Story_Story</Name>
+        <Dialogue>
+            <Page>It wasn't just a story, it was TRUTH!</Page>
+        </Dialogue>
+        <DialogueTarget>Start</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Exit</Name>
+        <Dialogue>
+            <Page>Later, kid!</Page>
+        </Dialogue>
+    </DialogueNode>
+</DialogueTree>
