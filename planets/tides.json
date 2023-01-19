@@ -162,7 +162,7 @@
         ],
         "rafts": [
             {
-                "position": {"x": 139.6517, "y": -123.6857, "z": -156.2444}
+                "position": {"x": 141.6517, "y": -124.6857, "z": -158.2444}
             }
         ],
         "details": [
@@ -177,7 +177,8 @@
                     "x": 51.82537,
                     "y": 40.2120361,
                     "z": 235.840637
-                }
+                },
+                "removeChildren": ["ConversationZone"]
             },
             {
                 "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Villager_HEA_Tephra",
@@ -190,7 +191,8 @@
                     "x": 49.94395,
                     "y": 42.1816521,
                     "z": 237.377518
-                }
+                },
+                "removeChildren": ["ConversationZone"]
             },
             {
                 "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Porphy",
@@ -203,7 +205,8 @@
                     "x": 0.658596754,
                     "y": 65.91731,
                     "z": 246.309265
-                }
+                },
+                "removeChildren": ["ConversationZone"]
             },
             {
                 "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Spinel",
@@ -216,7 +219,8 @@
                     "x": 17.4914169,
                     "y": 36.9968376,
                     "z": 235.549316
-                }
+                },
+                "removeChildren": ["ConversationZone"]
             },
             {
                 "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Gneiss",
@@ -229,7 +233,8 @@
                     "x": 302.016449,
                     "y": 131.17218,
                     "z": 201.047638
-                }
+                },
+                "removeChildren": ["ConversationZone"]
             },
             {
                 "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Marl",
@@ -242,7 +247,8 @@
                     "x": 300.16156,
                     "y": 71.84609,
                     "z": 249.0898
-                }
+                },
+                "removeChildren": ["ConversationZone"]
             },
             {
                 "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_ProjectionHouse_Zone2/Geo_ProjectionHouse_Zone2/Bridge_ProjectionHouse_Zone2_Intact",
