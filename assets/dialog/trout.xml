@@ -1,0 +1,70 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+    <NameField>Trout</NameField>
+
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>Hey kiddo, how was your first flight?</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Are the accommodations to your liking?</Text>
+                <DialogueTarget>Formal</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Any gossip?</Text>
+                <DialogueTarget>Gossip</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Goodbye</Text>
+                <DialogueTarget>Exit</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Formal</Name>
+        <Dialogue>
+            <Page>Getting all formal on me now that you're part of the OWR, huh kiddo?</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Mama, I'm just trying to do my job...</Text>
+                <DialogueTarget>Formal_2</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Formal_2</Name>
+        <Dialogue>
+            <Page>Oh alright, I'll play along.</Page>
+            <Page>It's cramped, and damp, and poorly furnished... but I couldn't be happier to be free from that freezing place.</Page>
+            <Page>"Warm Embrace", we really jinxed ourselves by picking that name huh?</Page>
+            <Page>Back there, I was so worried, for you especially.</Page>
+            <Page>Here, the air is warm, there's food, and it turns out that's all we really need.</Page>
+        </Dialogue>
+        <DialogueTarget>Start</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Gossip</Name>
+        <Dialogue>
+            <Page>Well let me think...</Page>
+            <Page>Darter and Shiner are growing up nice and strong, I was really worried the hunger would have stunted their growth.</Page>
+            <Page>Sturgeon fell off the dock again after fishing too late into the night, I worry about them sometimes...</Page>
+            <Page>And we're all even more cramped after Sturgeon and Walleye had to move from OWR's new building.</Page>
+            <Page>I was told it was your job to do something about that, huh?</Page>
+        </Dialogue>
+        <DialogueTarget>Start</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Exit</Name>
+        <Dialogue>
+            <Page>Fly safe, kiddo!</Page>
+        </Dialogue>
+    </DialogueNode>
+</DialogueTree>
