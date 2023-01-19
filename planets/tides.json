@@ -55,7 +55,7 @@
     },
     "Water": {
         "size": 245,
-        "curve_DISABLED": [
+        "curve": [
             {
                 "time": 0,
                 "value": 0.90
@@ -147,6 +147,15 @@
             }
         ],
         "details": [
+            {
+                "path": "DB_PioneerDimension_Body/Sector_PioneerDimension/Interactables_PioneerDimension/FeldsparShip_Body/Prefab_HEA_FeldsparShip",
+                "position": {
+                    "x": 38.8502, "y": -119.9405, "z": -226.634
+                },
+                "rotation": {
+                    "x": 16.2087, "y": 179.6012, "z": 159.046
+                }
+            },
             {
                 "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_MapHouse_Zone2/Geo_MapHouse_Zone2/MapHouse",
                 "position": {
