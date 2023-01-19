@@ -55,7 +55,7 @@
     },
     "Water": {
         "size": 245,
-        "curve": [
+        "curve_DISABLED": [
             {
                 "time": 0,
                 "value": 0.90
@@ -153,6 +153,94 @@
             }
         ],
         "details": [
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Villager_HEA_Galena",
+                "position": {
+                    "x": 91.17201,
+                    "y": -93.22692,
+                    "z": -224.893524
+                },
+                "rotation": {
+                    "x": 51.82537,
+                    "y": 40.2120361,
+                    "z": 235.840637
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Villager_HEA_Tephra",
+                "position": {
+                    "x": 90.67976,
+                    "y": -93.77582,
+                    "z": -225.839142
+                },
+                "rotation": {
+                    "x": 49.94395,
+                    "y": 42.1816521,
+                    "z": 237.377518
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Porphy",
+                "position": {
+                    "x": 93.25486,
+                    "y": -105.065018,
+                    "z": -218.734085
+                },
+                "rotation": {
+                    "x": 0.658596754,
+                    "y": 65.91731,
+                    "z": 246.309265
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Spinel",
+                "position": {
+                    "x": 139.631378,
+                    "y": -132.922531,
+                    "z": -152.9834
+                },
+                "rotation": {
+                    "x": 17.4914169,
+                    "y": 36.9968376,
+                    "z": 235.549316
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Gneiss",
+                "position": {
+                    "x": 93.72691,
+                    "y": -119.722824,
+                    "z": -210.806488
+                },
+                "rotation": {
+                    "x": 302.016449,
+                    "y": 131.17218,
+                    "z": 201.047638
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Marl",
+                "position": {
+                    "x": 110.848412,
+                    "y": -94.1350555,
+                    "z": -215.032867
+                },
+                "rotation": {
+                    "x": 300.16156,
+                    "y": 71.84609,
+                    "z": 249.0898
+                }
+            },
+            {
+                "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_ProjectionHouse_Zone2/Geo_ProjectionHouse_Zone2/Bridge_ProjectionHouse_Zone2_Intact",
+                "position": {
+                    "x": 130.4318, "y": -123.8984, "z": -168.7607
+                },
+                "rotation": {
+                    "x": 333.7524, "y": 210.3197, "z": 127.5959
+                },
+                "keepLoaded": true
+            },
             {
                 "path": "DB_PioneerDimension_Body/Sector_PioneerDimension/Interactables_PioneerDimension/Pioneer_Characters/Traveller_HEA_Feldspar/Traveller_HEA_Feldspar_ANIM_Talking",
                 "position": {"x": 43.42401, "y": -115.124, "z": -223.9376},
