@@ -114,6 +114,14 @@
                     "z": 264.64267
                 },
                 "xmlFile": "assets/dialog/icy_east_settlement_log1.xml"
+            },
+            {
+                "position": {
+                    "x": 2.32592964,
+                    "y": -104.776855,
+                    "z": 267.878876
+                },
+                "xmlFile": "assets/dialog/stoneroller.xml"
             }
         ],
         "geysers": [
@@ -152,7 +160,8 @@
                     "x": 320.923767,
                     "y": 283.572083,
                     "z": 243.970245
-                }
+                },
+                "removeChildren": ["ConversationZone"]
             },
             {
                 "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_UpperVillage/Characters_UpperVillage/Villager_HEA_Arkose_GhostMatter",
@@ -165,7 +174,8 @@
                     "x": 12.5646038,
                     "y": 91.9014359,
                     "z": 111.280945
-                }
+                },
+                "removeChildren": ["ConversationZone"]
             },
             {
                 "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_UpperVillage/Characters_UpperVillage/Villager_HEA_Tektite",
@@ -178,7 +188,8 @@
                     "x": 46.5202446,
                     "y": 110.603271,
                     "z": 120.985641
-                }
+                },
+                "removeChildren": ["ConversationZone"]
             },
             {
                 "path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_Lakebed/Interactables_Lakebed/Traveller_HEA_Chert",

@@ -1,0 +1,51 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+    <NameField>Stoneroller</NameField>
+
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>Hi...</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Is that your rock collection?</Text>
+                <DialogueTarget>Rocks</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Wait, your name is Stoneroller, and you're throwing stones?</Text>
+                <DialogueTarget>Stones</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Rocks</Name>
+        <Dialogue>
+            <Page>Yeah! I have 34 of them!</Page>
+            <Page>Now I have 33!</Page>
+            <Page>I don't want to move again! We just got here!</Page>
+        </Dialogue>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Stones</Name>
+        <Dialogue>
+            <Page>Yeah? A stoneroller is a type of fish.</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Well I know that, we're all named after fish, but... nevermind.</Text>
+                <DialogueTarget>Stones_2</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Stones_2</Name>
+        <Dialogue>
+            <Page>You're weird.</Page>
+        </Dialogue>
+    </DialogueNode>
+</DialogueTree>
