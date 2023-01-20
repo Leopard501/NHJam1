@@ -138,6 +138,14 @@
                     "z": 280.400055
                 },
                 "xmlFile": "assets/dialog/minnow.xml"
+            },
+            {
+                "position": {
+                    "x": -14.1557083,
+                    "y": -122.843781,
+                    "z": 258.435181
+                },
+                "xmlFile": "assets/dialog/dace.xml"
             }
         ],
         "geysers": [

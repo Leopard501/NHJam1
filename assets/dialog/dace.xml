@@ -1,0 +1,36 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+    <NameField>Dace</NameField>
+
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>I can't see any stars through these thick clouds!</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>You can still hear signals though!</Text>
+                <DialogueTarget>Signals</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Why are you looking for stars anyways?</Text>
+                <DialogueTarget>Why</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Signals</Name>
+        <Dialogue>
+            <Page>I know, but all I hear are boring radio transmissions! I want to see stars!</Page>
+        </Dialogue>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Why</Name>
+        <Dialogue>
+            <Page>Cause' they're cool! And I'm tired of looking at boring clouds.</Page>
+        </Dialogue>
+    </DialogueNode>
+</DialogueTree>
