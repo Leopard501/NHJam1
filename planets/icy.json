@@ -24,11 +24,6 @@
         "minHeight": 200,
         "maxHeight": 300
     },
-    "Spawn": {
-        "playerSpawnPoint": {"x": 19.1562, "y": -180.5924, "z": -216.7319},
-        "shipSpawnPoint": {"x": 19.1562, "y": -180.5924, "z": -216.7319},
-        "startWithSuit": true
-    },
     "Atmosphere": {
         "atmosphereSunIntensity": 1.6,
         "useAtmosphereShader": true,

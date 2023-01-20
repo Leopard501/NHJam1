@@ -53,7 +53,7 @@
         <Dialogue>
             <Page>Now that you've completed your training, we'd like to welcome you to Outer Wilds Rescue!</Page>
             <Page>We have an important job for you...</Page>
-            <Page>Evacuations are complete, and most of the new settlements are at least somewhat self-sufficient, but as I'm sure you're aware, conditions are not ideal.</Page>
+            <Page>Evacuations are complete, and all the new settlements are at least somewhat self-sufficient, but as I'm sure you're aware, conditions are not ideal.</Page>
             <Page>Environmental conditions make life difficult and everyone is packed into our few small settlements, and with the destruction of one of the Icy Ridge settlements we're all under stress right now.</Page>
             <Page>So we need you to act as a scout to find more suitable locations for settlements. You're free to investigate anywhere in the solar system that seems promising.</Page>
             <Page>Your ship has fantastic range and speed—I'd say it's our best work yet—so it should be able to get anywhere in the solar system.</Page>
@@ -141,7 +141,7 @@
             <Page>Speak with Sunfish if you need any more help.</Page>
             <Page>—They're supposed to be out here briefing you with me, but you know how they get sucked into things.</Page>
             <Page>Go in through the back entrance, the stairs to the main entrance have collapsed again.</Page>
-            <Page>And hey, you finished your training just before a planetary alignment! I think that's good luck</Page>
+            <Page>And hey, you finished your training just before a planetary alignment! I think that's good luck.</Page>
         </Dialogue>
     </DialogueNode>
 </DialogueTree>

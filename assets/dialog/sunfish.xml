@@ -7,7 +7,7 @@
         <EntryCondition>DEFAULT</EntryCondition>
         <Dialogue>
             <Page>...</Page>
-            <Page>Oh hey! Sorry I didn't see you there recruit.</Page>
+            <Page>Oh hey! Sorry, I didn't see you there recruit.</Page>
         </Dialogue>
         <DialogueOptionsList>
             <DialogueOption>
@@ -58,7 +58,7 @@
         <Name>Survive</Name>
         <Dialogue>
             <Page>Not much longer, I'm afraid.</Page>
-            <Page>Somehow, the temperature is continuing to drop. Soon we won't be possible to survive outside for more than a few minutes without a full spacesuit.</Page>
+            <Page>Somehow, the temperature is continuing to drop. Soon it won't be possible to survive outside for more than a few minutes without a full spacesuit.</Page>
             <Page>We've been packing up everything, that's why me and Salmon are the only ones here.</Page>
             <Page>From now on new recruits will be trained on Ravenous Tides.</Page>
         </Dialogue>

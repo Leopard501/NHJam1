@@ -12,7 +12,7 @@
         "semiMajorAxis": 7000,
         "primaryBody": "Helios",
         "trueAnomaly": 202,
-        "siderealPeriod": 24,
+        "siderealPeriod": 36,
         "tint": {
             "r": 114, "g": 179, "b": 219
         }
@@ -33,7 +33,7 @@
         "minHeight": 185,
         "maxHeight": 215
     },
-    "Spawn_DISABLED": {
+    "Spawn": {
         "playerSpawnPoint": {"x": -28.68296, "y": 34.28471, "z": 192.408},
         "shipSpawnPoint": {"x": -22.05165, "y": -21.01003, "z": 194.286},
         "startWithSuit": false

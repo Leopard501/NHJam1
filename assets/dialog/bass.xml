@@ -57,6 +57,7 @@
             <Page>It can hurt a little if you get caught in it, but sometimes it won't even slow you down.</Page>
             <Page>What you should really worry about is the black hole in orbit. We sent a probe in, and never heard back from it! I'd steer clear of it.</Page>
         </Dialogue>
+        <DialogueTarget>Start</DialogueTarget>
     </DialogueNode>
 
     <DialogueNode>

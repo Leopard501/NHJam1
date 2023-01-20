@@ -40,7 +40,7 @@
                 <DialogueTarget>Fishing_Fish</DialogueTarget>
             </DialogueOption>
             <DialogueOption>
-                <Text>Better than eating seaweed!</Text>
+                <Text>Better than eating algae!</Text>
                 <DialogueTarget>Fishing_Seaweed</DialogueTarget>
             </DialogueOption>
         </DialogueOptionsList>
