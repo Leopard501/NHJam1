@@ -88,6 +88,31 @@
             }
         ]
     },
+    "Volumes": {
+        "hazardVolumes": [
+            {
+                "radius": 15,
+                "position": {"x": 99.08061, "y": -213.666, "z": -233.1249},
+                "type": "electricity",
+                "firstContactDamageType": "electrical",
+                "firstContactDamage": 200
+            },
+            {
+                "radius": 15,
+                "position": {"x": 92.08061, "y": -198.666, "z": -213.1249},
+                "type": "electricity",
+                "firstContactDamageType": "electrical",
+                "firstContactDamage": 200
+            },
+            {
+                "radius": 15,
+                "position": {"x": 83.08061, "y": -187.666, "z": -194.1249},
+                "type": "electricity",
+                "firstContactDamageType": "electrical",
+                "firstContactDamage": 200
+            }
+        ]
+    },
     "Props": {
         "signals": [
             {
@@ -202,6 +227,17 @@
             {"position": {"x": -197.4766, "y": -109.035, "z": -49.75602}},
 
             {"position": {"x": -62.28226, "y": -145.846, "z": -169.4607}}
+        ],
+        "tornados": [
+            {
+                "position": {"x": 83.08061, "y": -187.666, "z": -194.1249},
+                "tint": {
+                    "r": 255, "g": 100, "b": 30
+                },
+                "height": 50,
+                "fluidType": "plasma",
+                "wanderRate": 0
+            }
         ],
         "details": [
             {
