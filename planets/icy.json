@@ -24,7 +24,7 @@
         "minHeight": 200,
         "maxHeight": 300
     },
-    "Spawn_DISABLED": {
+    "Spawn": {
         "playerSpawnPoint": {"x": 131.5166, "y": -21.91989, "z": 254.5644},
         "shipSpawnPoint": {"x": 131.5166, "y": -21.91989, "z": 254.5644},
         "startWithSuit": true
@@ -112,6 +112,55 @@
             {"position": {"x": -197.4766, "y": -109.035, "z": -49.75602}},
 
             {"position": {"x": -62.28226, "y": -145.846, "z": -169.4607}}
+        ],
+        "details": [
+            {
+                "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_MapHouse_Zone2/Geo_MapHouse_Zone2/MapHouse",
+                "position": {
+                    "x": -5.470886,
+                    "y": -97.8634338,
+                    "z": 269.395538
+                },
+                "rotation": {
+                    "x": 291.5327,
+                    "y": 335.762268,
+                    "z": 201.664719
+                },
+                "scale": 0.75
+            },
+            {
+                "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_MapHouse_Zone2/Geo_MapHouse_Zone2/MapHouse",
+                "position": {
+                    "x": -3.76145554,
+                    "y": -129.1941,
+                    "z": 256.299377
+                },
+                "rotation": {
+                    "x": 62.8509521,
+                    "y": 197.7293,
+                    "z": 196.566269
+                },
+                "scale": 0.75
+            },
+            {
+                "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Sector_DreamFireHouse_Zone1",
+                "position": {
+                    "x": 34.147644,
+                    "y": -110.56398,
+                    "z": 265.3232
+                },
+                "rotation": {
+                    "x": 13.84084,
+                    "y": 270.5952,
+                    "z": 246.013885
+                },
+                "scale": 0.75
+            },
+            {
+                "position": {"x": -1.736557, "y": -113.0933, "z": 263.0859},
+                "alignToNormal": true,
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/LaunchTower/Effects_HEA_Campfire"
+            }
         ]
     }
 }
