@@ -110,6 +110,94 @@
                 "type": "electricity",
                 "firstContactDamageType": "electrical",
                 "firstContactDamage": 200
+            },
+
+            {
+                "radius": 15,
+                "position": {"x": -230, "y": 0.3811607, "z": 196},
+                "type": "electricity",
+                "firstContactDamageType": "electrical",
+                "firstContactDamage": 200
+            },
+            {
+                "radius": 15,
+                "position": {"x": -211, "y": 0.3811607, "z": 180},
+                "type": "electricity",
+                "firstContactDamageType": "electrical",
+                "firstContactDamage": 200
+            },
+            {
+                "radius": 15,
+                "position": {"x": -191.6915, "y": 0.3811607, "z": 163.2859},
+                "type": "electricity",
+                "firstContactDamageType": "electrical",
+                "firstContactDamage": 200
+            },
+
+            {
+                "radius": 15,
+                "position": {"x": 60, "y": 292, "z": -78},
+                "type": "electricity",
+                "firstContactDamageType": "electrical",
+                "firstContactDamage": 200
+            },
+            {
+                "radius": 15,
+                "position": {"x": 55, "y": 268, "z": -72},
+                "type": "electricity",
+                "firstContactDamageType": "electrical",
+                "firstContactDamage": 200
+            },
+            {
+                "radius": 15,
+                "position": {"x": 49.58992, "y": 243.7014, "z": -65.58776},
+                "type": "electricity",
+                "firstContactDamageType": "electrical",
+                "firstContactDamage": 200
+            },
+
+            {
+                "radius": 15,
+                "position": {"x": 268, "y": 102, "z": 74},
+                "type": "electricity",
+                "firstContactDamageType": "electrical",
+                "firstContactDamage": 200
+            },
+            {
+                "radius": 15,
+                "position": {"x": 246, "y": 94, "z": 68},
+                "type": "electricity",
+                "firstContactDamageType": "electrical",
+                "firstContactDamage": 200
+            },
+            {
+                "radius": 15,
+                "position": {"x": 223.4547, "y": 84.97373, "z": 61.9729},
+                "type": "electricity",
+                "firstContactDamageType": "electrical",
+                "firstContactDamage": 200
+            },
+
+            {
+                "radius": 15,
+                "position": {"x": -180, "y": -242, "z": -72},
+                "type": "electricity",
+                "firstContactDamageType": "electrical",
+                "firstContactDamage": 200
+            },
+            {
+                "radius": 15,
+                "position": {"x": -164.6, "y": -222, "z": -67},
+                "type": "electricity",
+                "firstContactDamageType": "electrical",
+                "firstContactDamage": 200
+            },
+            {
+                "radius": 15,
+                "position": {"x": -149.5843, "y": -202.0806, "z": -61.10131},
+                "type": "electricity",
+                "firstContactDamageType": "electrical",
+                "firstContactDamage": 200
             }
         ]
     },
@@ -235,6 +323,42 @@
                     "r": 255, "g": 100, "b": 30
                 },
                 "height": 50,
+                "fluidType": "plasma",
+                "wanderRate": 0
+            },
+            {
+                "position": {"x": -191.6915, "y": 0.3811607, "z": 163.2859},
+                "tint": {
+                    "r": 255, "g": 100, "b": 30
+                },
+                "height": 70,
+                "fluidType": "plasma",
+                "wanderRate": 0
+            },
+            {
+                "position": {"x": 49.58992, "y": 243.7014, "z": -65.58776},
+                "tint": {
+                    "r": 255, "g": 100, "b": 30
+                },
+                "height": 70,
+                "fluidType": "plasma",
+                "wanderRate": 0
+            },
+            {
+                "position": {"x": 223.4547, "y": 84.97373, "z": 61.9729},
+                "tint": {
+                    "r": 255, "g": 100, "b": 30
+                },
+                "height": 70,
+                "fluidType": "plasma",
+                "wanderRate": 0
+            },
+            {
+                "position": {"x": -149.5843, "y": -202.0806, "z": -61.10131},
+                "tint": {
+                    "r": 255, "g": 100, "b": 30
+                },
+                "height": 70,
                 "fluidType": "plasma",
                 "wanderRate": 0
             }
