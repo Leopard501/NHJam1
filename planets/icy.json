@@ -25,8 +25,8 @@
         "maxHeight": 300
     },
     "Spawn": {
-        "playerSpawnPoint": {"x": 131.5166, "y": -21.91989, "z": 254.5644},
-        "shipSpawnPoint": {"x": 131.5166, "y": -21.91989, "z": 254.5644},
+        "playerSpawnPoint": {"x": 19.1562, "y": -180.5924, "z": -216.7319},
+        "shipSpawnPoint": {"x": 19.1562, "y": -180.5924, "z": -216.7319},
         "startWithSuit": true
     },
     "Atmosphere": {
@@ -181,6 +181,55 @@
             {"position": {"x": -62.28226, "y": -145.846, "z": -169.4607}}
         ],
         "details": [
+            {
+                "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_SlideBurningHouse_Zone2",
+                "position": {
+                    "x": 60.5627556,
+                    "y": -199.668472,
+                    "z": -191.430054
+                },
+                "rotation": {
+                    "x": 314.132751,
+                    "y": 184.433151,
+                    "z": 167.168777
+                },
+                "scale": 0.75
+            },
+            {
+                "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Structures_Zone1/BrokenLanternHouse_Zone1",
+                "position": {
+                    "x": 86.1685944,
+                    "y": -176.5773,
+                    "z": -205.3203
+                },
+                "rotation": {
+                    "x": 28.469677,
+                    "y": 37.59519,
+                    "z": 225.019714
+                },
+                "scale": 0.75,
+                "removeChildren": ["Props_BrokenLanternHouse_Zone1/Prefab_IP_BROKENLanternItem (1)"]
+            },
+            {
+                "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Sector_DreamFireHouse_Zone1",
+                "position": {
+                    "x": 27.918396,
+                    "y": -197.575821,
+                    "z": -205.712692
+                },
+                "rotation": {
+                    "x": 319.219147,
+                    "y": 132.641739,
+                    "z": 208.5046
+                },
+                "scale": 0.75
+            },
+            {
+                "position": {"x": 60.36526, "y": -178.3458, "z": -211.5478},
+                "alignToNormal": true,
+                "path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire"
+            },
+
             {
                 "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_UpperVillage/Characters_UpperVillage/Villager_HEA_Moraine",
                 "position": {
