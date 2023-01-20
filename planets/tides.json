@@ -148,6 +148,14 @@
         ],
         "dialogue": [
             {
+                "position": {
+                    "x": 160.381119,
+                    "y": -82.2869644,
+                    "z": -179.284729
+                },
+                "xmlFile": "assets/dialog/tides_settlement_log1.xml"
+            },
+            {
                 "position": {"x": 43.42401, "y": -115.124, "z": -224.9376},
                 "xmlFile": "assets/dialog/bass.xml"
             },
@@ -190,6 +198,19 @@
             }
         ],
         "details": [
+            {
+                "path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder/Props_HEA_Recorder_Geo",
+                "position": {
+                    "x": 160.381119,
+                    "y": -82.2869644,
+                    "z": -179.284729
+                },
+                "rotation": {
+                    "x": 17.7304535,
+                    "y": 236.680176,
+                    "z": 109.202538
+                }
+            },
             {
                 "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Villager_HEA_Galena",
                 "position": {
@@ -286,7 +307,7 @@
             },
             {
                 "path": "DB_PioneerDimension_Body/Sector_PioneerDimension/Interactables_PioneerDimension/Pioneer_Characters/Traveller_HEA_Feldspar/Traveller_HEA_Feldspar_ANIM_Talking",
-                "position": {"x": 43.42401, "y": -115.124, "z": -223.9376},
+                "position": {"x": 43.42401, "y": -115.124, "z": -221.9376},
                 "alignToNormal": true
             },
             {
