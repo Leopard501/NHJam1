@@ -122,6 +122,14 @@
                     "z": 267.878876
                 },
                 "xmlFile": "assets/dialog/stoneroller.xml"
+            },
+            {
+                "position": {
+                    "x": 1.30569458,
+                    "y": -106.192719,
+                    "z": 267.884125
+                },
+                "xmlFile": "assets/dialog/gar.xml"
             }
         ],
         "geysers": [

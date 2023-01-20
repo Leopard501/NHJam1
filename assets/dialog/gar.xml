@@ -1,0 +1,41 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+    <NameField>Gar</NameField>
+
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>You there, you're here just in time!</Page>
+            <Page>Help us move, we're getting off of this stinking rock!</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Why are you moving?</Text>
+                <DialogueTarget>Why</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>I'm busy right now, I have an important mission.</Text>
+                <DialogueTarget>Busy</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Why</Name>
+        <Dialogue>
+            <Page>It's hot, the air stinks, these constant flashes of light hurt my eyes, we have to eat algae, and THE WEST SETTLEMENT BURNED TO THE GROUND!</Page>
+            <Page>I cannot stand another day here, in fact it might actually kill me, kill us all! Me and Stoneroller are leaving!</Page>
+            <Page>Now, are you going to help us?</Page>
+        </Dialogue>
+        <DialogueTarget>Start</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Busy</Name>
+        <Dialogue>
+            <Page>Too busy to help an old fellow and their child?</Page>
+            <Page>No no, I get it, just go get Minnow for me.</Page>
+        </Dialogue>
+    </DialogueNode>
+</DialogueTree>
