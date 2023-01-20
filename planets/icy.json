@@ -96,6 +96,13 @@
                 "audio": "TapeRecorder_LP",
                 "onlyAudibleToScope": false,
                 "name": "Icy Ridges East Radio House"
+            },
+            {
+                "position": {"x": 27.92824, "y": -199.5628, "z": -207.7236},
+                "frequency": "Traveler",
+                "audio": "ShipCockpitLandingCamStatic_LP",
+                "onlyAudibleToScope": false,
+                "name": "Icy Ridges West Radio House"
             }
         ],
         "dialogue": [
@@ -154,6 +161,14 @@
                     "z": 258.566956
                 },
                 "xmlFile": "assets/dialog/carp.xml"
+            },
+            {
+                "position": {
+                    "x": 25.5148487,
+                    "y": -200.419937,
+                    "z": -204.3773
+                },
+                "xmlFile": "assets/dialog/icy_east_settlement_log1.xml"
             }
         ],
         "geysers": [
@@ -181,6 +196,19 @@
             {"position": {"x": -62.28226, "y": -145.846, "z": -169.4607}}
         ],
         "details": [
+            {
+                "path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder/Props_HEA_Recorder_Geo",
+                "position": {
+                    "x": 25.5148487,
+                    "y": -200.419937,
+                    "z": -204.3773
+                },
+                "rotation": {
+                    "x": 316.2725,
+                    "y": 140.904312,
+                    "z": 202.95134
+                }
+            },
             {
                 "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_SlideBurningHouse_Zone2",
                 "position": {
