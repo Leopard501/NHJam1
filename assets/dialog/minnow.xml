@@ -61,6 +61,7 @@
             <Page>They only form in the lower elevations though.</Page>
             <Page>...well, they used to.</Page>
         </Dialogue>
+        <DialogueTarget>Start</DialogueTarget>
     </DialogueNode>
 
     <DialogueNode>

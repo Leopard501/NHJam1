@@ -1,0 +1,75 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+    <NameField>Carp</NameField>
+    
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>Hey, new recruit, nice to meet you!</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Hi, who're you?</Text>
+                <DialogueTarget>Who</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>How's it living on Icy Ridges?</Text>
+                <DialogueTarget>How</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>What was it like when the other settlement burned down?</Text>
+                <DialogueTarget>What</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Goodbye</Text>
+                <DialogueTarget>Exit</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+    
+    <DialogueNode>
+        <Name>Who</Name>
+        <Dialogue>
+            <Page>I'm surprised you've never heard of me, I'm Carp, and I'm the scientist that predicted the ice age.</Page>
+            <Page>I've been studying the climate on Icy Ridges too, and it's been having very similar anomalies to those on Warm Embrace, but reversed.</Page>
+            <Page>Heat just appears in the atmosphere, as if being summoned into existence!</Page>
+            <Page>There was more, but I get forgetful in my age, and all my observations were lost when West Settlement burned down.</Page>
+            <Page>I hope I didn't discover anything really important.</Page>
+        </Dialogue>
+        <DialogueTarget>Start</DialogueTarget>
+    </DialogueNode>
+    
+    <DialogueNode>
+        <Name>How</Name>
+        <Dialogue>
+            <Page>It could be worse. I remember that second winter back on Warm Embrace, when it was so cold it felt like there was nothing I could do to get warm.</Page>
+            <Page>That was the hardest time of my life. Compared to that, this isn't so bad.</Page>
+            <Page>Well, except for the fire.</Page>
+        </Dialogue>
+        <DialogueTarget>Start</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>What</Name>
+        <Dialogue>
+            <Page>Wow, you just come right out with the hard questions, huh?</Page>
+            <Page>I was actually there when it happened, I used to live there.</Page>
+            <Page>At first it seemed like just a normal day, but then things felt... off.</Page>
+            <Page>This strange static filled the air, and everything got real still for a moment.</Page>
+            <Page>Then I saw it descending right onto a building! That terrible twisting thing.</Page>
+            <Page>We all huddled in the radio house because it was the furthest building from it, someone manned the radio and called for help.</Page>
+            <Page>I was so worried the interference would make it impossible to get a signal out, but thankfully someone heard us.</Page>
+            <Page>Minnow arrived, and Bass shortly after and loaded everybody on.</Page>
+            <Page>I haven't been there since.</Page>
+        </Dialogue>
+        <DialogueTarget>Start</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Exit</Name>
+        <Dialogue>
+            <Page>See you around, young recruit!</Page>
+        </Dialogue>
+    </DialogueNode>
+</DialogueTree>

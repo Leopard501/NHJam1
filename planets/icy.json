@@ -146,6 +146,14 @@
                     "z": 258.435181
                 },
                 "xmlFile": "assets/dialog/dace.xml"
+            },
+            {
+                "position": {
+                    "x": -6.595833,
+                    "y": -127.00589,
+                    "z": 258.566956
+                },
+                "xmlFile": "assets/dialog/carp.xml"
             }
         ],
         "geysers": [
