@@ -142,6 +142,86 @@
         ],
         "details": [
             {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_UpperVillage/Characters_UpperVillage/Villager_HEA_Moraine",
+                "position": {
+                    "x": -14.1557083,
+                    "y": -122.343781,
+                    "z": 257.435181
+                },
+                "rotation": {
+                    "x": 320.923767,
+                    "y": 283.572083,
+                    "z": 243.970245
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_UpperVillage/Characters_UpperVillage/Villager_HEA_Arkose_GhostMatter",
+                "position": {
+                    "x": 2.32592964,
+                    "y": -104.276855,
+                    "z": 266.878876
+                },
+                "rotation": {
+                    "x": 12.5646038,
+                    "y": 91.9014359,
+                    "z": 111.280945
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_UpperVillage/Characters_UpperVillage/Villager_HEA_Tektite",
+                "position": {
+                    "x": 1.30569458,
+                    "y": -105.442719,
+                    "z": 266.384125
+                },
+                "rotation": {
+                    "x": 46.5202446,
+                    "y": 110.603271,
+                    "z": 120.985641
+                }
+            },
+            {
+                "path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_Lakebed/Interactables_Lakebed/Traveller_HEA_Chert",
+                "position": {
+                    "x": 16.6434021,
+                    "y": -59.812355,
+                    "z": 279.400055
+                },
+                "rotation": {
+                    "x": 51.17289,
+                    "y": 237.823425,
+                    "z": 233.895874
+                },
+                "removeChildren": ["ConversationZone"]
+            },
+            {
+                "path": "CaveTwin_Body/Sector_CaveTwin/Geometry_CaveTwin/OtherComponentsGroup/Prefab_HEA_ChertShip",
+                "position": {
+                    "x": 11.1763649,
+                    "y": -54.9888725,
+                    "z": 286.1453
+                },
+                "rotation": {
+                    "x": 37.6288452,
+                    "y": 99.51143,
+                    "z": 112.157875
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Rutile",
+                "position": {
+                    "x": -6.595833,
+                    "y": -126.50589,
+                    "z": 257.566956
+                },
+                "rotation": {
+                    "x": 306.129456,
+                    "y": 47.4674,
+                    "z": 137.883759
+                },
+                "removeChildren": ["ConversationZone"]
+            },
+            {
                 "path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder/Props_HEA_Recorder_Geo",
                 "position": {
                     "x": 32.597908,
