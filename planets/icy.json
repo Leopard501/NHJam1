@@ -67,14 +67,14 @@
         "size": 240
     },
     "Lava": {
-        "size": 350,
+        "size": 375,
         "curve": [
             {
                 "time": 0,
                 "value": 0
             },
             {
-                "time": 14.98,
+                "time": 14.95,
                 "value": 0
             },
             {
