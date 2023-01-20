@@ -1,0 +1,34 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+    <NameField>Observations Log</NameField>
+
+    <DialogueNode>
+        <Name>Main</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>[Summer? 13/208]</Page>
+            <Page>I'm not sure how to date this, Icy Ridges doesn't have seasons. I guess I'll just keep using the old data format for clarity.</Page>
+            <Page>The new lab has finally finished construction, and I've unpacked all my equipment, so I'm ready to start doing experiments!</Page>
+            <Page>I'm so excited, this planet is FASCINATING!</Page>
+            <Page>[Summer 15/208]</Page>
+            <Page>As I expected, this weather is fully anomalous, and seemingly violates thermodynamics!</Page>
+            <Page>Heat is seemingly created out of thin air with no source, the opposite of how heat was destroyed on Warm Embrace.</Page>
+            <Page>More research is needed.</Page>
+            <Page>[Summer 18/208]</Page>
+            <Page>Another unusual thing, the heat doesn't appear to enter Icy Ridges from one specific point.</Page>
+            <Page>It doesn't come down from the sunlight, or up from the core. It just appears everywhere at once!</Page>
+            <Page>This explains why the ice melted so quickly, it uniformly increased in temperature until it reached its melting point.</Page>
+            <Page>[Summer 23/208]</Page>
+            <Page>I fired a probe into one of tornadoes. It was destroyed, but I learned a lot!</Page>
+            <Page>High winds are driven by a core of highly electrically charged plasma, like a constant lightning bolt!</Page>
+            <Page>I can't fathom how they are possible, there's no way the charge difference between the surface and the clouds can be that high?</Page>
+            <Page>I'm going to start monitoring the electric charge in the air, I should have thought of this sooner.</Page>
+            <Page>[Summer 25/208]</Page>
+            <Page>As I suspected, there is a turbulent current of electric charge weaving it's way through the planet!</Page>
+            <Page>The whole planet is a giant dynamo!</Page>
+            <Page>Well, most planets are, that's the natural result of a molten metal core, but this planet is unusually charged!</Page>
+            <Page>[Winter 18/208]</Page>
+            <Page>The charge readings are higher than they were last season. More research is required to make sure this isn't an anomaly.</Page>
+        </Dialogue>
+    </DialogueNode>
+</DialogueTree>

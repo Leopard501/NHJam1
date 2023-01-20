@@ -169,6 +169,14 @@
                     "z": -204.3773
                 },
                 "xmlFile": "assets/dialog/icy_east_settlement_log1.xml"
+            },
+            {
+                "position": {
+                    "x": 54.44561,
+                    "y": -198.876389,
+                    "z": -195.3706
+                },
+                "xmlFile": "assets/dialog/icy_west_settlement_log1.xml"
             }
         ],
         "geysers": [
@@ -196,6 +204,19 @@
             {"position": {"x": -62.28226, "y": -145.846, "z": -169.4607}}
         ],
         "details": [
+            {
+                "path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder/Props_HEA_Recorder_Geo",
+                "position": {
+                    "x": 54.44561,
+                    "y": -198.876389,
+                    "z": -195.3706
+                },
+                "rotation": {
+                    "x": 36.56183,
+                    "y": 33.5674248,
+                    "z": 212.330566
+                }
+            },
             {
                 "path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder/Props_HEA_Recorder_Geo",
                 "position": {
