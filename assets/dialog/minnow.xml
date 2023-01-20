@@ -1,0 +1,72 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+    <NameField>Minnow</NameField>
+
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>Hey there recruit, I'm glad you've made it this far!</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>What's there to explore around here?</Text>
+                <DialogueTarget>Explore</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>How is it possible to live here?</Text>
+                <DialogueTarget>Live</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>How dangerous is that lightning?</Text>
+                <DialogueTarget>Lightning</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Goodbye</Text>
+                <DialogueTarget>Exit</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Explore</Name>
+        <Dialogue>
+            <Page>There's a Precursor ruin not far from here that you can check out, it seems every planet in this system has at least one.</Page>
+            <Page>What I don't understand, is that it's built into the bedrock. That means it was buried under hundreds of feet of ice and water before this planet warmed up!</Page>
+            <Page>I don't understand how that's possible! The precursor ruins must be extremely old.</Page>
+            <Page>You can also visit the West Settlement, but I'd be wary of that place, it's very dangerous, and a little grim.</Page>
+        </Dialogue>
+        <DialogueTarget>Start</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Live</Name>
+        <Dialogue>
+            <Page>I know right? It's amazing that this place is as habitable as it is!</Page>
+            <Page>The constant mysterious generation of heat keeps this place a livable temperature, if a little warm.</Page>
+            <Page>And the heat melted and evaporated the ice, creating a breathable atmosphere!</Page>
+            <Page>There's no native life on this planet, but we've introduced algae in the lakes which act as a food source.</Page>
+            <Page>Makes me a little nervous though, what if the heat goes away, or it gets even hotter?</Page>
+            <Page>But hey, we need a place to stay!</Page>
+        </Dialogue>
+        <DialogueTarget>Start</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Lightning</Name>
+        <Dialogue>
+            <Page>The lightning? Not at all, it's just content to jump between the clouds.</Page>
+            <Page>The tornadoes though are extremely dangerous, even more so than normal tornadoes.</Page>
+            <Page>They have a core of electrified plasma that'll fry ya!</Page>
+            <Page>They only form in the lower elevations though.</Page>
+            <Page>...well, they used to.</Page>
+        </Dialogue>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Exit</Name>
+        <Dialogue>
+            <Page>Stay safe out there, recruit.</Page>
+        </Dialogue>
+    </DialogueNode>
+</DialogueTree>

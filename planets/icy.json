@@ -130,6 +130,14 @@
                     "z": 267.884125
                 },
                 "xmlFile": "assets/dialog/gar.xml"
+            },
+            {
+                "position": {
+                    "x": 16.6434021,
+                    "y": -59.812355,
+                    "z": 280.400055
+                },
+                "xmlFile": "assets/dialog/minnow.xml"
             }
         ],
         "geysers": [
