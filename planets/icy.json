@@ -89,6 +89,33 @@
         ]
     },
     "Props": {
+        "signals": [
+            {
+                "position": {"x": 34.13217, "y": -111.5781, "z": 267.3193},
+                "frequency": "Traveler",
+                "audio": "TapeRecorder_LP",
+                "onlyAudibleToScope": false,
+                "name": "Icy Ridges East Radio House"
+            }
+        ],
+        "dialogue": [
+            {
+                "position": {
+                    "x": 38.00338,
+                    "y": -109.515694,
+                    "z": 266.0563
+                },
+                "xmlFile": "assets/dialog/tides_settlement_log1.xml"
+            },
+            {
+                "position": {
+                    "x": 32.597908,
+                    "y": -114.246017,
+                    "z": 264.64267
+                },
+                "xmlFile": "assets/dialog/icy_east_settlement_log1.xml"
+            }
+        ],
         "geysers": [
             {"position": {"x": 215.7857, "y": -40.98363, "z": 77.10916}},
 
@@ -114,6 +141,32 @@
             {"position": {"x": -62.28226, "y": -145.846, "z": -169.4607}}
         ],
         "details": [
+            {
+                "path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder/Props_HEA_Recorder_Geo",
+                "position": {
+                    "x": 32.597908,
+                    "y": -114.246017,
+                    "z": 264.64267
+                },
+                "rotation": {
+                    "x": 303.997131,
+                    "y": 57.0973434,
+                    "z": 134.9198
+                }
+            },
+            {
+                "path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder/Props_HEA_Recorder_Geo",
+                "position": {
+                    "x": 38.00338,
+                    "y": -109.515694,
+                    "z": 266.0563
+                },
+                "rotation": {
+                    "x": 24.1257763,
+                    "y": 265.587341,
+                    "z": 244.386169
+                }
+            },
             {
                 "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_MapHouse_Zone2/Geo_MapHouse_Zone2/MapHouse",
                 "position": {

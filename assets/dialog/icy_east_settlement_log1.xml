@@ -1,0 +1,19 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+    <NameField>Radio Transmission Recording</NameField>
+
+    <DialogueNode>
+        <Name>Main</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>IRW: This is Icy R...an anyone respond? I repeat, this is Icy Ridges West Settlement, can anyon...pond?!</Page>
+            <Page>IRW: We are ...ergency situation, can any...spond!?</Page>
+            <Page>IRE: This is Icy Ridges East Settlement, we read you Icy Ridges West Settlement, but there seems to be some interference.</Page>
+            <Page>IRW: We are having an emergency situation, a ...touched down in the settlement! I repeat, a tornado ha...n the settlement!</Page>
+            <Page>IRW: Ther...tensive fires, and we have multiple inju...eat, there are extensive fires...ve multiple injuries!</Page>
+            <Page>IRE: Understood Icy Ridges East Settlement, we are sending over Minnow and a rescue crew to help with evacuation!</Page>
+            <Page>IRE: Radio back if the situation changes, we're going to get in contact with the Outer Wilds Rescue team at Ravenous Tides Settlement. Icy Ridges East Settlement out.</Page>
+            <Page>IRW: Understood, Ic...est Settlement out.</Page>
+        </Dialogue>
+    </DialogueNode>
+</DialogueTree>
