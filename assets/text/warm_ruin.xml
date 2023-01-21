@@ -1,0 +1,26 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+    <TextBlock>
+        <ID>1</ID>
+        <Text>Kasili: Ok, that marks the completion of the second component! At this rate we should be done in no time!</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>2</ID>
+        <ParentID>1</ParentID>
+        <Text>Makalu: Hold up Kasili, let's not get ahead of ourselves! We still have a lot of work to do before this project is complete.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>3</ID>
+        <ParentID>1</ParentID>
+        <Text>Nela: This should provide plenty of stability while the device is in operation, but I still think we should have gone with the thicker coolent lines.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>4</ID>
+        <ParentID>2</ParentID>
+        <Text>Silana: Let her celebrate Makalu, Kasili's never worked on such a large project so far from home, she has a right to be excited!</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>5</ID>
+        <ParentID>3</ParentID>
+        <Text>Kasili: Relax Nela, the coolent will be fine.</Text>
+    </TextBlock>
+</NomaiObject>

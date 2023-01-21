@@ -33,9 +33,14 @@
         "minHeight": 185,
         "maxHeight": 215
     },
-    "Spawn": {
+    "Spawn_DISABLED": {
         "playerSpawnPoint": {"x": -28.68296, "y": 34.28471, "z": 192.408},
         "shipSpawnPoint": {"x": -22.05165, "y": -21.01003, "z": 194.286},
+        "startWithSuit": false
+    },
+    "Spawn": {
+        "playerSpawnPoint": {"x": -74.20021, "y": 177.1618, "z": -65.0279},
+        "shipSpawnPoint": {"x": -74.20021, "y": 177.1618, "z": -65.0279},
         "startWithSuit": false
     },
     "Lava": {
@@ -136,7 +141,138 @@
                 "xmlFile": "assets/dialog/south_village_log1.xml"
             }
         ],
+        "nomaiText": [
+            {
+                "type": "scroll",
+                "position": {"x": -114.0766, "y": 148.6523, "z": -70.18085},
+                "xmlFile": "assets/text/warm_ruin.xml",
+                "arcInfo": [
+                    {},
+                    {
+                        "position": {
+                            "x": -0.8, "y": 0.8
+                        },
+                        "mirror": true,
+                        "zRotation": 45
+                    },
+                    {
+                        "position": {
+                            "x": 0, "y": 0.9
+                        },
+                        "mirror": true
+                    },
+                    {
+                        "zRotation": 180,
+                        "position": {
+                            "x": -1.2, "y": 0.8
+                        },
+                        "variation": 1,
+                        "mirror": true
+                    },
+                    {
+                        "position": {
+                            "x": 0.3, "y": 1.7
+                        },
+                        "zRotation": 270
+                    }
+                ]
+            }
+        ],
         "details": [
+            {
+                "path": "StatueIsland_Body/Sector_StatueIsland/Interactables_StatueIsland/Prefab_NOM_Sign/Props_NOM_Trailmarker",
+                "position": {
+                    "x": -108.360626,
+                    "y": 145.068115,
+                    "z": -84.5438843
+                },
+                "rotation": {
+                    "x": 21.8451958,
+                    "y": 181.278488,
+                    "z": 324.686462
+                }
+            },
+            {
+                "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_SimpleChair_NoSkeleton (1)",
+                "position": {
+                    "x": -92.86839,
+                    "y": 165.390091,
+                    "z": -68.35147
+                },
+                "rotation": {
+                    "x": 324.698975,
+                    "y": 0.497986376,
+                    "z": 15.0620594
+                }
+            },
+            {
+                "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Treepot",
+                "position": {
+                    "x": -105.685623,
+                    "y": 158.448822,
+                    "z": -63.4451027
+                },
+                "rotation": {
+                    "x": 315.719,
+                    "y": 44.2696838,
+                    "z": 348.295715
+                }
+            },
+            {
+                "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
+                "position": {
+                    "x": -90.12808,
+                    "y": 156.544678,
+                    "z": -86.3562851
+                },
+                "rotation": {
+                    "x": 30.2190723,
+                    "y": 139.562912,
+                    "z": 317.610931
+                }
+            },
+            {
+                "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Shelf (2)/Strucutre_NOM_Shelf",
+                "position": {
+                    "x": -113.260307,
+                    "y": 148.768036,
+                    "z": -68.90909
+                },
+                "rotation": {
+                    "x": 9.784374,
+                    "y": 330.102875,
+                    "z": 128.636215
+                }
+            },
+            {
+                "path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/Prefab_NOM_Whiteboard (2)",
+                "position": {
+                    "x": -91.78398,
+                    "y": 162.276566,
+                    "z": -75.41835
+                },
+                "rotation": {
+                    "x": 330.4373,
+                    "y": 92.9023361,
+                    "z": 335.131439
+                },
+                "removeChildren": ["ArcSocket/Prefab_NOM_Scroll"]
+            },
+            {
+                "path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_TimeLoopExperiment/Geometry_TimeLoopExperiment/ControlledByProxy_Arch/Structure_NOM_TimeLoopExperiment/TLE_Exterior/TLE_Exterior_Geo",
+                "position": {
+                    "x": -85.69725,
+                    "y": 133.707855,
+                    "z": -62.87427
+                },
+                "rotation": {
+                    "x": 38.631176,
+                    "y": 214.032349,
+                    "z": 344.6278
+                },
+                "scale": 0.75
+            },
+
             {
                 "path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
                 "alignToNormal": true,
