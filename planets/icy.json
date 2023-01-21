@@ -24,7 +24,7 @@
         "minHeight": 200,
         "maxHeight": 300
     },
-    "Spawn": {
+    "Spawn_DISABLED": {
         "playerSpawnPoint": {"x": -229.4325, "y": 56.64513, "z": 110.0139},
         "shipSpawnPoint": {"x": -229.4325, "y": 56.64513, "z": 110.0139},
         "startWithSuit": true

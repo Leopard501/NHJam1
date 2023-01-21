@@ -23,9 +23,9 @@
         "minHeight": 200,
         "maxHeight": 260
     },
-    "Spawn_DISABLED": {
-        "shipSpawnPoint": {"x": 210.8242, "y": -45.59285, "z": 85.20501},
-        "playerSpawnPoint": {"x": 210.8242, "y": -45.59285, "z": 85.20501},
+    "Spawn": {
+        "shipSpawnPoint": {"x": -28.51926, "y": -219.2757, "z": -43.62436},
+        "playerSpawnPoint": {"x": -28.51926, "y": -219.2757, "z": -43.62436},
         "startWithSuit": true
     },
     "Atmosphere": {
@@ -136,6 +136,38 @@
             }
         ]
     },
+    "Volumes": {
+        "hazardVolumes_DISABLED": [
+            {
+                "type": "ghostMatter",
+                "position": {"x": -7.976116, "y": -229.2703, "z": -3.653636},
+                "radius": 10,
+                "TODO": "fix once submergable ghost matter works"
+            },
+            {
+                "type": "ghostMatter",
+                "position": {"x": -18.55, "y": -229.3073, "z": 8.515899},
+                "radius": 10,
+                "TODO": "fix once submergable ghost matter works"
+            }
+        ],
+        "notificationVolumes": [
+            {
+                "entryNotification": {
+                    "displayMessage": "DANGER: GHOST MATTER DETECTED NEARBY"
+                },
+                "position": {"x": -7.976116, "y": -229.2703, "z": -3.653636},
+                "radius": 30
+            },
+            {
+                "entryNotification": {
+                    "displayMessage": "DANGER: GHOST MATTER DETECTED NEARBY"
+                },
+                "position": {"x": -18.55, "y": -229.3073, "z": 8.515899},
+                "radius": 30
+            }
+        ]
+    },
     "Props": {
         "signals": [
             {
@@ -144,6 +176,14 @@
                 "audio": "TapeRecorder_LP",
                 "onlyAudibleToScope": false,
                 "name": "Ravenous Tides Radio House"
+            },
+            {
+                "position": {"x": -7.976116, "y": -229.2703, "z": -3.653636},
+                "frequency": "Ansible",
+                "audio": "Singularity_BlackHole_LP",
+                "onlyAudibleToScope": false,
+                "name": "Ravenous Tides Ansible",
+                "identificationRadius": 6
             }
         ],
         "dialogue": [
@@ -222,9 +262,168 @@
                         "zRotation": 270
                     }
                 ]
+            },
+            {
+                "type": "preCrashComputer",
+                "position": {"x": -18.55, "y": -229.3073, "z": 8.515899},
+                "xmlFile": "assets/text/tides_ghost_ruin.xml"
             }
         ],
         "details": [
+            {
+                "path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Geo_Crossroads/OtherComponentsGroup/ControlledByProxy_Buildings/Architecture_Crossroads/Ruin_Campfire",
+                "position": {
+                    "x": -21.3433571,
+                    "y": -229.1718,
+                    "z": 8.5395155
+                },
+                "rotation": {
+                    "x": 1.43948531,
+                    "y": 215.322891,
+                    "z": 184.379318
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+                "position": {
+                    "x": -18.8717,
+                    "y": -229.029846,
+                    "z": 10.7708082
+                },
+                "rotation": {
+                    "x": 354.842529,
+                    "y": 285.518677,
+                    "z": 188.374741
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+                "position": {
+                    "x": -26.9394379,
+                    "y": -229.081879,
+                    "z": 12.1018372
+                },
+                "rotation": {
+                    "x": 352.708344,
+                    "y": 27.6602554,
+                    "z": 178.026062
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+                "position": {
+                    "x": -29.7860069,
+                    "y": -229.218689,
+                    "z": 8.165582
+                },
+                "rotation": {
+                    "x": 8.457514,
+                    "y": 11.2941866,
+                    "z": 181.422943
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+                "position": {
+                    "x": -27.957325,
+                    "y": -228.466522,
+                    "z": 1.93777466
+                },
+                "rotation": {
+                    "x": 5.815485,
+                    "y": 344.2662,
+                    "z": 169.644135
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+                "position": {
+                    "x": -25.4547119,
+                    "y": -228.805939,
+                    "z": 1.70809937
+                },
+                "rotation": {
+                    "x": 0.8510579,
+                    "y": 319.314331,
+                    "z": 168.168655
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+                "position": {
+                    "x": -23.14963,
+                    "y": -228.873108,
+                    "z": -1.08701372
+                },
+                "rotation": {
+                    "x": 356.4962,
+                    "y": 312.577942,
+                    "z": 168.2993
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+                "position": {
+                    "x": -14.9895725,
+                    "y": -227.619385,
+                    "z": -7.804717
+                },
+                "rotation": {
+                    "x": 10.9560061,
+                    "y": 315.467346,
+                    "z": 165.245346
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+                "position": {
+                    "x": -2.73672247,
+                    "y": -230.192978,
+                    "z": 2.11558485
+                },
+                "rotation": {
+                    "x": 346.608154,
+                    "y": 248.572021,
+                    "z": 174.149734
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+                "position": {
+                    "x": -1.3199935,
+                    "y": -229.261536,
+                    "z": -7.16797352
+                },
+                "rotation": {
+                    "x": 14.8378754,
+                    "y": 21.4859371,
+                    "z": 164.22966
+                }
+            },
+            {
+                "path": "Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+                "position": {
+                    "x": -10.8108892,
+                    "y": -226.230988,
+                    "z": -14.23519
+                },
+                "rotation": {
+                    "x": 16.4317379,
+                    "y": 69.98255,
+                    "z": 196.785141
+                }
+            },
+            {
+                "path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_EscapePod/Interactables_EscapePod/EscapePod_VisibleFrom_Far/DistressBeaconTransmitter/Props_NOM_Transponder",
+                "position": {"x": -7.976116, "y": -229, "z": -3.653636},
+                "alignToNormal": true
+            },
+            {
+                "path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_EscapePod/Interactables_EscapePod/EscapePod_VisibleFrom_Far/DistressBeaconTransmitter/LightBeam",
+                "position": {"x": -7.976116, "y": -229.2703, "z": -3.653636},
+                "alignToNormal": true
+            },
+
             {
                 "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_SimpleChair_NoSkeleton (1)",
                 "position": {

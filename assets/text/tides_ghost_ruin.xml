@@ -1,0 +1,26 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+    <TextBlock>
+        <ID>1</ID>
+        <Text>[56/7432] HOME SYSTEM: Lens array delivered. Make good use of this, we are low on resources and political goodwill.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>2</ID>
+        <ParentID>1</ParentID>
+        <Text>[89/7432] INSTALLATION: The weapon has been completed, awaiting your orders Home System.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>3</ID>
+        <ParentID>2</ParentID>
+        <Text>[89/7432] HOME SYSTEM: Hang tight Installation, we're in a difficult spot right now.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>4</ID>
+        <ParentID>3</ParentID>
+        <Text>[99/7432] INSTALLATION: What's the situation Home System, we haven't heard from you in a while?</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>5</ID>
+        <ParentID>4</ParentID>
+        <Text>[100/7432] INSTALLATION: Home System, what's the situation?</Text>
+    </TextBlock>
+</NomaiObject>
