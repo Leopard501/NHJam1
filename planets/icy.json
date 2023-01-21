@@ -24,6 +24,11 @@
         "minHeight": 200,
         "maxHeight": 300
     },
+    "Spawn": {
+        "playerSpawnPoint": {"x": -229.4325, "y": 56.64513, "z": 110.0139},
+        "shipSpawnPoint": {"x": -229.4325, "y": 56.64513, "z": 110.0139},
+        "startWithSuit": true
+    },
     "Atmosphere": {
         "atmosphereSunIntensity": 1.6,
         "useAtmosphereShader": true,
@@ -358,7 +363,113 @@
                 "wanderRate": 0
             }
         ],
+        "nomaiText": [
+            {
+                "type": "scroll",
+                "position": {"x": -198.4447, "y": 12.96387, "z": 153.6454},
+                "xmlFile": "assets/text/icy_ruin1.xml",
+                "arcInfo": [
+                    {},
+                    {
+                        "position": {
+                            "x": -1, "y": 1
+                        }
+                    },
+                    {
+                        "position": {
+                            "x": 0, "y": 1
+                        },
+                        "zRotation": 270
+                    },
+                    {
+                        "position": {
+                            "x": -1.7, "y": 2
+                        },
+                        "mirror": true,
+                        "zRotation": 115
+                    },
+                    {
+                        "position": {
+                            "x": 1, "y": 1.2
+                        },
+                        "variation": 1
+                    }
+                ]
+            },
+            {
+                "type": "recorder",
+                "position": {"x": -212.9555, "y": 15.87986, "z": 131.0701},
+                "xmlFile": "assets/text/icy_ruin2.xml"
+            }
+        ],
         "details": [
+            {
+                "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Treepot",
+                "position": {
+                    "x": -207.731766,
+                    "y": 4.18944931,
+                    "z": 142.698166
+                },
+                "rotation": {
+                    "x": 334.635284,
+                    "y": 202.316315,
+                    "z": 271.7694
+                }
+            },
+            {
+                "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_SimpleChair_NoSkeleton (1)",
+                "position": {
+                    "x": -208.059662,
+                    "y": 22.653553,
+                    "z": 141.2779
+                },
+                "rotation": {
+                    "x": 77.23774,
+                    "y": 147.401367,
+                    "z": 208.73262
+                }
+            },
+            {
+                "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
+                "position": {
+                    "x": -213.40921,
+                    "y": 13.8182373,
+                    "z": 129.837051
+                },
+                "rotation": {
+                    "x": 331.481781,
+                    "y": 39.1046524,
+                    "z": 93.81714
+                }
+            },
+            {
+                "path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_TimeLoopExperiment/Geometry_TimeLoopExperiment/ControlledByProxy_Arch/Structure_NOM_TimeLoopExperiment/TLE_Exterior/TLE_Exterior_Geo",
+                "position": {
+                    "x": -188.38945,
+                    "y": 12.8507919,
+                    "z": 132.40918
+                },
+                "rotation": {
+                    "x": 286.888,
+                    "y": 256.567841,
+                    "z": 233.64212
+                }
+            },
+            {
+                "path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/Prefab_NOM_Whiteboard (2)",
+                "position": {
+                    "x": -202.617554,
+                    "y": 20.1880417,
+                    "z": 148.591736
+                },
+                "rotation": {
+                    "x": 299.951538,
+                    "y": 8.152008,
+                    "z": 120.39296
+                },
+                "removeChildren": ["ArcSocket/Prefab_NOM_Scroll"]
+            },
+
             {
                 "path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder/Props_HEA_Recorder_Geo",
                 "position": {

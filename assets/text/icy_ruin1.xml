@@ -1,0 +1,26 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+    <TextBlock>
+        <ID>1</ID>
+        <Text>KASILI: The final node is complete! Now we can move on to the next phase of the project!</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>2</ID>
+        <ParentID>1</ParentID>
+        <Text>MAKALU: Good work team, Everybody did great work!</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>3</ID>
+        <ParentID>1</ParentID>
+        <Text>NELA: No it isn't! The node will leak huge amounts of heat and electricity while charging!</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>4</ID>
+        <ParentID>2</ParentID>
+        <Text>SAMATU: I agree, you and your team did incredible Makalu! I'll make sure to put in a good word with the other project leaders!</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>5</ID>
+        <ParentID>3</ParentID>
+        <Text>SILANA: I'm sorry Nela, but we have to prioritize our few remaining resources on finishing the project on time.</Text>
+    </TextBlock>
+</NomaiObject>

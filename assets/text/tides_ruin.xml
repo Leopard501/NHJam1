@@ -1,7 +1,7 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
     <TextBlock>
         <ID>1</ID>
-        <Text>SILANA: Third component, done! We're making some serious progress, team!</Text>
+        <Text>SILANA: Third node, done! We're making some serious progress, team!</Text>
     </TextBlock>
     <TextBlock>
         <ID>2</ID>
@@ -11,7 +11,7 @@
     <TextBlock>
         <ID>3</ID>
         <ParentID>1</ParentID>
-        <Text>NELA: One step closer to finally taking our revenge and destroying them!</Text>
+        <Text>NELA: One step closer to finally taking our revenge and destroying them for good!</Text>
     </TextBlock>
     <TextBlock>
         <ID>4</ID>

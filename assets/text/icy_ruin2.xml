@@ -1,0 +1,26 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+    <TextBlock>
+        <ID>1</ID>
+        <Text>KASILI: I can't tell anyone else, but I think I'm having doubts about this project...</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>2</ID>
+        <ParentID>1</ParentID>
+        <Text>KASILI: When I was in engineering school, I was taught, "first, do no harm."</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>3</ID>
+        <ParentID>2</ParentID>
+        <Text>KASILI: After the attack, everybody seems to have forgotten that in the name of getting revenge.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>4</ID>
+        <ParentID>3</ParentID>
+        <Text>KASILI: There has to be a better, more measured and peaceful response than basically firing a giant laser through another species home system!</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>5</ID>
+        <ParentID>4</ParentID>
+        <Text>KASILI: Is this the way we want to spend our dwindling resources?</Text>
+    </TextBlock>
+</NomaiObject>
