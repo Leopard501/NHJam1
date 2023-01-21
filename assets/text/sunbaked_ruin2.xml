@@ -1,26 +1,26 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
     <TextBlock>
         <ID>1</ID>
-        <Text>Kata: Ok, the maintenance hatch is finished. Maintenance hatch? Maintenance hatch does not feel like it accurately describes what we just built!</Text>
+        <Text>KATA: Ok, the maintenance hatch is finished. Maintenance hatch? Maintenance hatch does not feel like it accurately describes what we just built!</Text>
     </TextBlock>
     <TextBlock>
         <ID>2</ID>
         <ParentID>1</ParentID>
-        <Text>Oli: Why did we need to go through all that work again? I mean, there's no way they'd be able to make it into the core with how well fortified it is, right?</Text>
+        <Text>OLI: Why did we need to go through all that work again? I mean, there's no way they'd be able to make it into the core with how well fortified it is, right?</Text>
     </TextBlock>
     <TextBlock>
         <ID>4</ID>
         <ParentID>1</ParentID>
-        <Text>Mila: Maintenance slide, more like!</Text>
+        <Text>MILA: Maintenance slide, more like!</Text>
     </TextBlock>
     <TextBlock>
         <ID>3</ID>
         <ParentID>2</ParentID>
-        <Text>Tekana: Do not underestimate them.</Text>
+        <Text>TEKANA: Do not underestimate them.</Text>
     </TextBlock>
     <TextBlock>
         <ID>5</ID>
         <ParentID>4</ParentID>
-        <Text>Kata: Excuse me, GRAND maintenance slide into the ALL-POWERFUL CORE!</Text>
+        <Text>KATA: Excuse me, GRAND maintenance slide into the ALL-POWERFUL CORE!</Text>
     </TextBlock>
 </NomaiObject>

@@ -23,9 +23,9 @@
         "minHeight": 200,
         "maxHeight": 260
     },
-    "Spawn_DISABLED": {
-        "shipSpawnPoint": {"x": 133.8886, "y": -92.12689, "z": -197.3403},
-        "playerSpawnPoint": {"x": 133.8886, "y": -92.12689, "z": -197.3403},
+    "Spawn": {
+        "shipSpawnPoint": {"x": 210.8242, "y": -45.59285, "z": 85.20501},
+        "playerSpawnPoint": {"x": 210.8242, "y": -45.59285, "z": 85.20501},
         "startWithSuit": true
     },
     "Atmosphere": {
@@ -197,7 +197,102 @@
                 "position": {"x": 141.6517, "y": -124.6857, "z": -158.2444}
             }
         ],
+        "nomaiText": [
+            {
+                "type": "scroll",
+                "position": {"x": 203.9367, "y": -4.585804, "z": 104.8131},
+                "xmlFile": "assets/text/tides_ruin.xml",
+                "arcInfo": [
+                    {},
+                    {
+                        "position": {
+                            "x": -0.9, "y": 0.9
+                        },
+                        "zRotation": 45
+                    },
+                    {
+                        "position": {
+                            "x": 0, "y": 1
+                        }
+                    },
+                    {
+                        "position": {
+                            "x": 0.6, "y": 1.6
+                        },
+                        "zRotation": 270
+                    }
+                ]
+            }
+        ],
         "details": [
+            {
+                "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_SimpleChair_NoSkeleton (1)",
+                "position": {
+                    "x": 196.883331,
+                    "y": -17.7395058,
+                    "z": 117.772461
+                },
+                "rotation": {
+                    "x": 349.186432,
+                    "y": 160.627487,
+                    "z": 97.04816
+                }
+            },
+            {
+                "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Shelf (2)/Strucutre_NOM_Shelf",
+                "position": {
+                    "x": 204.445328,
+                    "y": -2.84421539,
+                    "z": 104.293732
+                },
+                "rotation": {
+                    "x": 22.3451557,
+                    "y": 335.232452,
+                    "z": 265.512634
+                }
+            },
+            {
+                "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
+                "position": {
+                    "x": 204.921021,
+                    "y": -15.3954582,
+                    "z": 97.82841
+                },
+                "rotation": {
+                    "x": 270.0,
+                    "y": 246.039246
+                }
+            },
+            {
+                "path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_TimeLoopExperiment/Geometry_TimeLoopExperiment/ControlledByProxy_Arch/Structure_NOM_TimeLoopExperiment/TLE_Exterior/TLE_Exterior_Geo",
+                "position": {
+                    "x": 180.337067,
+                    "y": -12.997221,
+                    "z": 105.789772
+                },
+                "rotation": {
+                    "x": 285.587524,
+                    "y": 131.401978,
+                    "z": 126.560249
+                },
+                "scale": 0.75,
+                "keepLoaded": true
+            },
+            {
+                "path": "BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Surface_QRock_Shard/Prefab_NOM_Whiteboard (2)",
+                "position": {
+                    "x": 200.2266,
+                    "y": -23.4265442,
+                    "z": 107.713051
+                },
+                "rotation": {
+                    "x": 80.643,
+                    "y": 221.813171,
+                    "z": 157.10614
+                },
+                "removeChildren": ["ArcSocket/Prefab_NOM_Scroll"]
+            },
+
             {
                 "path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder/Props_HEA_Recorder_Geo",
                 "position": {
@@ -307,7 +402,7 @@
             },
             {
                 "path": "DB_PioneerDimension_Body/Sector_PioneerDimension/Interactables_PioneerDimension/Pioneer_Characters/Traveller_HEA_Feldspar/Traveller_HEA_Feldspar_ANIM_Talking",
-                "position": {"x": 43.42401, "y": -115.124, "z": -222.9376},
+                "position": {"x": 43.42401, "y": -115.124, "z": -223.9376},
                 "alignToNormal": true
             },
             {
