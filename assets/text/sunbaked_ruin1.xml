@@ -1,0 +1,21 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+    <TextBlock>
+        <ID>1</ID>
+        <Text>Makalu: That's the first node done, and it's quite impressive if I say so myself!</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>2</ID>
+        <ParentID>1</ParentID>
+        <Text>Samatu: Good work crew, lets see if we can keep up this pace for the next one!</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>3</ID>
+        <ParentID>1</ParentID>
+        <Text>Silana: I'm quite proud of this, I must say this is the largest project I've ever contributed too! The specifications were challenging, this node draws in a HUGE amount of energy!</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>4</ID>
+        <ParentID>3</ParentID>
+        <Text>Makalu: Having the energy collector be dish-shaped was an excellent idea Silana, it's amazing what we can get done with such a well-balanced team! (And an unlimited budget...)</Text>
+    </TextBlock>
+</NomaiObject>

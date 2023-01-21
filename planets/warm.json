@@ -38,11 +38,6 @@
         "shipSpawnPoint": {"x": -22.05165, "y": -21.01003, "z": 194.286},
         "startWithSuit": false
     },
-    "Spawn": {
-        "playerSpawnPoint": {"x": -74.20021, "y": 177.1618, "z": -65.0279},
-        "shipSpawnPoint": {"x": -74.20021, "y": 177.1618, "z": -65.0279},
-        "startWithSuit": false
-    },
     "Lava": {
         "size": 250,
         "curve": [
@@ -270,7 +265,8 @@
                     "y": 214.032349,
                     "z": 344.6278
                 },
-                "scale": 0.75
+                "scale": 0.75,
+                "keepLoaded": true
             },
 
             {
