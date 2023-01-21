@@ -1,0 +1,91 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+    <TextBlock>
+        <ID>1</ID>
+        <Text>SAMATU: I'm sure you are all aware of why I've gathered you here, but I'm going to say it again anyway: we have not received any communication from Home System in a very long time.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>2</ID>
+        <ParentID>1</ParentID>
+        <Text>OLI: Do we have any idea what's going on with them?</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>3</ID>
+        <ParentID>2</ParentID>
+        <Text>SAMATU: The last message they sent only mentioned that they were in a "tough spot."</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>4</ID>
+        <ParentID>3</ParentID>
+        <Text>MAKALU: We got some worrying hints about the political and financial situation back home in the final year of the project, maybe something happened?</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>5</ID>
+        <ParentID>4</ParentID>
+        <Text>NELA: Worse than the attack?</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>6</ID>
+        <ParentID>5</ParentID>
+        <Text>TEKANA: It would have to be, the attack didn't sever all communication between the Home World and the colonies.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>7</ID>
+        <ParentID>6</ParentID>
+        <Text>SILANA: Perhaps the cost of this project bankrupted the Home World?</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>8</ID>
+        <ParentID>7</ParentID>
+        <Text>KASILI: We never should have built this terrible weapon...</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>9</ID>
+        <ParentID>8</ParentID>
+        <Text>MAKALU: No Silana, they wouldn't just stop all communication if that happened, they'd want us to come home, right?</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>10</ID>
+        <ParentID>9</ParentID>
+        <Text>KATA: This is making me sick...</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>11</ID>
+        <ParentID>10</ParentID>
+        <Text>NELA: The enemy must have attacked again, with more firepower this time!</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>12</ID>
+        <ParentID>11</ParentID>
+        <Text>MILA: There's no way they could develop that much firepower with their limited resources in these few years.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>13</ID>
+        <ParentID>12</ParentID>
+        <Text>SAMATU: Well, whatever happened to them, we may have to just wait it out, for as long as it may take.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>14</ID>
+        <ParentID>13</ParentID>
+        <Text>KATA: You're not suggesting...?</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>15</ID>
+        <ParentID>14</ParentID>
+        <Text>SAMATU: We have no interstellar-capable ships, and no materials with which to build them. We have no choice but to use the cryopods in the failsafe system.</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>16</ID>
+        <ParentID>15</ParentID>
+        <Text>NELA: Those cryopods can't keep us alive forever! What if we're never found?</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>17</ID>
+        <ParentID>16</ParentID>
+        <Text>OLI: I don't want to think about that...</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>18</ID>
+        <ParentID>17</ParentID>
+        <Text>MAKALU: I don't think we have any other choice.</Text>
+    </TextBlock>
+</NomaiObject>

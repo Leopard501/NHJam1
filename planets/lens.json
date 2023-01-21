@@ -1,12 +1,11 @@
 {
     "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-    "name": "lens",
+    "name": "Lens",
     "starSystem": "smallbug.NHJam1",
     "Base": {
-        "surfaceSize": 10,
-        "groundSize": 10,
-        "surfaceGravity": 0,
-        "hasMapMarker": false
+        "invulnerableToSun": true,
+        "hasMapMarker": false,
+        "showMinimap": false
     },
     "Orbit": {
         "semiMajorAxis": 20000,
@@ -14,21 +13,257 @@
         "showOrbitLine": false,
         "isStatic": true
     },
-    "Funnel": {
-        "type": "star",
-        "target": "Helios",
-        "curve": [
+    "Spawn": {
+        "playerSpawnPoint": {"x": 28.087188, "y": -24.813673, "z": 23.380233},
+        "shipSpawnPoint": {"x": 28.087188, "y": -24.813673, "z": 23.380233},
+        "startWithSuit": true
+    },
+    "Volumes": {
+        "zeroGravityVolumes": [
             {
-                "time": 0,
-                "value": 0
+                "position": {
+                    "x": 0, "y": 0, "z": 0
+                },
+                "radius": 100
+            }
+        ]
+    },
+    "ReferenceFrame": {
+        "localPosition": {
+            "x": 50, "y": 0, "z": 0
+        },
+        "hideInMap": true,
+        "maxTargetDistance": 5000
+    },
+    "Props": {
+        "signals": [
+            {
+                "position": {
+                    "x": 50,
+                    "y": 0,
+                    "z": -38
+                },
+                "frequency": "Ansible",
+                "audio": "Singularity_BlackHole_LP",
+                "onlyAudibleToScope": false,
+                "name": "Lens Ansible"
+            }
+        ],
+        "nomaiText": [
+            {
+                "type": "preCrashComputer",
+                "position": {"x": 50, "y": -38, "z": 0},
+                "normal": {"x": 0, "y": -1, "z": 0},
+                "xmlFile": "assets/text/lens1.xml"
             },
             {
-                "time": 14.90,
-                "value": 0
+                "type": "recorder",
+                "position": {"x": 50, "y": 38.48825, "z": -0},
+                "normal": {"x": 0, "y": 1, "z": 0},
+                "rotation": {
+                    "x": 0,
+                    "y": 265,
+                    "z": 180
+                },
+                "xmlFile": "assets/text/lens2.xml"
+            }
+        ],
+        "details": [
+            {
+                "path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_EscapePod/Interactables_EscapePod/EscapePod_VisibleFrom_Far/DistressBeaconTransmitter/LightBeam",
+                "position": {
+                    "x": 50,
+                    "y": 0,
+                    "z": -38
+                },
+                "rotation": {
+                    "x": 0.4118725,
+                    "y": 265.0,
+                    "z": 90.0
+                }
             },
             {
-                "time": 14.98,
-                "value": 1
+                "path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_EscapePod/Interactables_EscapePod/EscapePod_VisibleFrom_Far/DistressBeaconTransmitter/Props_NOM_Transponder",
+                "position": {
+                    "x": 50,
+                    "y": 0,
+                    "z": -38
+                },
+                "rotation": {
+                    "x": 0.4118725,
+                    "y": 265.0,
+                    "z": 90.0
+                }
+            },
+            {
+                "path": "BrittleHollow_Body/Sector_BH/Sector Quantum Pole Path/Fragment QuantumPolePath 2/Interactables_QPP2/Prefab_NOM_GravityCrystal",
+                "position": {
+                    "x": 50.34463,
+                    "y": 0.254424453,
+                    "z": -36.45997
+                },
+                "rotation": {
+                    "x": 328.538147,
+                    "y": 84.99998,
+                    "z": 270.0
+                }
+            },
+            {
+                "path": "BrittleHollow_Body/Sector_BH/Sector Quantum Pole Path/Fragment QuantumPolePath 2/Interactables_QPP2/Prefab_NOM_GravityCrystal",
+                "position": {
+                    "x": 49.87378,
+                    "y": -36.4882545,
+                    "z": 0.0154800415
+                },
+                "rotation": {
+                    "x": 2.035555E-13,
+                    "y": 271.569519,
+                    "z": 180.0
+                }
+            },
+            {
+                "path": "BrittleHollow_Body/Sector_BH/Sector Quantum Pole Path/Fragment QuantumPolePath 2/Interactables_QPP2/Prefab_NOM_GravityCrystal",
+                "position": {
+                    "x": 50.0484,
+                    "y": -0.119533539,
+                    "z": 36.4943542
+                },
+                "rotation": {
+                    "x": 20.23848,
+                    "y": 264.999969,
+                    "z": 270.0
+                }
+            },
+            {
+                "path": "BrittleHollow_Body/Sector_BH/Sector Quantum Pole Path/Fragment QuantumPolePath 2/Interactables_QPP2/Prefab_NOM_GravityCrystal",
+                "position": {
+                    "x": 50.0767174,
+                    "y": 36.4882545,
+                    "z": 0.176551819
+                },
+                "rotation": {
+                    "x": 1.01777751E-13,
+                    "y": 321.5313,
+                    "z": 2.76234641E-06
+                }
+            },
+            {
+                "path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_GravityCannon/Geometry_GravityCannon/ControlledByProxy_Arch/Structure_NOM_GravityCannon_HT/Structure_NOM_GravityCannon/Structure_NOM_GravityCannon_LaunchuingPlatform_Collider",
+                "position": {
+                    "x": 50,
+                    "y": 0,
+                    "z": -38
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 265,
+                    "z": 270
+                }
+            },
+            {
+                "path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_GravityCannon/Geometry_GravityCannon/ControlledByProxy_Arch/Structure_NOM_GravityCannon_HT/Structure_NOM_GravityCannon/Structure_NOM_GravityCannon_LaunchingPlatform",
+                "position": {
+                    "x": 50,
+                    "y": 0,
+                    "z": -38
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 265,
+                    "z": 270
+                },
+                "keepLoaded": true
+            },
+            {
+                "path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_GravityCannon/Geometry_GravityCannon/ControlledByProxy_Arch/Structure_NOM_GravityCannon_HT/Structure_NOM_GravityCannon/Structure_NOM_GravityCannon_LaunchuingPlatform_Collider",
+                "position": {
+                    "x": 50,
+                    "y": 0,
+                    "z": 38
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 265,
+                    "z": 90
+                }
+            },
+            {
+                "path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_GravityCannon/Geometry_GravityCannon/ControlledByProxy_Arch/Structure_NOM_GravityCannon_HT/Structure_NOM_GravityCannon/Structure_NOM_GravityCannon_LaunchingPlatform",
+                "position": {
+                    "x": 50,
+                    "y": 0,
+                    "z": 38
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 265,
+                    "z": 90
+                },
+                "keepLoaded": true
+            },
+            {
+                "path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_GravityCannon/Geometry_GravityCannon/ControlledByProxy_Arch/Structure_NOM_GravityCannon_HT/Structure_NOM_GravityCannon/Structure_NOM_GravityCannon_LaunchuingPlatform_Collider",
+                "position": {
+                    "x": 50,
+                    "y": 38,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 265,
+                    "z": 180
+                }
+            },
+            {
+                "path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_GravityCannon/Geometry_GravityCannon/ControlledByProxy_Arch/Structure_NOM_GravityCannon_HT/Structure_NOM_GravityCannon/Structure_NOM_GravityCannon_LaunchingPlatform",
+                "position": {
+                    "x": 50,
+                    "y": 38,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 265,
+                    "z": 180
+                },
+                "keepLoaded": true
+            },
+            {
+                "path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_GravityCannon/Geometry_GravityCannon/ControlledByProxy_Arch/Structure_NOM_GravityCannon_HT/Structure_NOM_GravityCannon/Structure_NOM_GravityCannon_LaunchuingPlatform_Collider",
+                "position": {
+                    "x": 50,
+                    "y": -38,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 265,
+                    "z": 0
+                }
+            },
+            {
+                "path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_GravityCannon/Geometry_GravityCannon/ControlledByProxy_Arch/Structure_NOM_GravityCannon_HT/Structure_NOM_GravityCannon/Structure_NOM_GravityCannon_LaunchingPlatform",
+                "position": {
+                    "x": 50,
+                    "y": -38,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 265,
+                    "z": 0
+                },
+                "keepLoaded": true
+            },
+            {
+                "alignToNormal": true,
+                "position": {"x": 30, "y": 0, "z": 0},
+                "path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_GravityCannon/Geometry_GravityCannon/ControlledByProxy_Arch/Structure_NOM_GravityCannon_HT",
+                "keepLoaded": true,
+                "removeChildren": [
+                    "Structure_NOM_GravityCannon/Structure_NOM_GravityCannon_LaunchingPlatform",
+                    "Structure_NOM_GravityCannon/Structure_NOM_GravityCannon_LaunchuingPlatform_Collider"
+                ]
             }
         ]
     }

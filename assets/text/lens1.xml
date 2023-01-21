@@ -1,0 +1,26 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+    <TextBlock>
+        <ID>1</ID>
+        <Text>[89/7432] No commands entered for 10 minutes, locking down</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>2</ID>
+        <ParentID>1</ParentID>
+        <Text>[27/9368] WARNING: Debris detected on nodes, clean immediately to ensure proper functionality</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>3</ID>
+        <ParentID>2</ParentID>
+        <Text>[COLLAPSED 172669271 DUPLICATE MESSAGES]</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>4</ID>
+        <ParentID>3</ParentID>
+        <Text>[243/672345] Enemy detec&amp;#116ed, system ente&amp;#114ing automatic power-u&amp;#112 sequence</Text>
+    </TextBlock>
+    <TextBlock>
+        <ID>5</ID>
+        <ParentID>4</ParentID>
+        <Text>[107/672350] Failsafe proto&amp;#99ol manually acti&amp;#118ated — Administrator manua&amp;#108ly selected</Text>
+    </TextBlock>
+</NomaiObject>

@@ -11,7 +11,7 @@
     <TextBlock>
         <ID>3</ID>
         <ParentID>1</ParentID>
-        <Text>NELA: No it isn't! The node will leak huge amounts of heat and electricity while charging!</Text>
+        <Text>NELA: No it isn't! This node will leak huge amounts of heat and electricity while charging, which will greatly increase power-up time!</Text>
     </TextBlock>
     <TextBlock>
         <ID>4</ID>
