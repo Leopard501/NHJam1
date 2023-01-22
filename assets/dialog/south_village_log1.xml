@@ -29,5 +29,8 @@
             <Page>For the first time since I was a child, I did no research at all this past month. I've only been trying to survive.</Page>
             <Page>We have to come up with a solution soon.</Page>
         </Dialogue>
+        <RevealFacts>
+            <FactID>climate_records_explore</FactID>
+        </RevealFacts>
     </DialogueNode>
 </DialogueTree>

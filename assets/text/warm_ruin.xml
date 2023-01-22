@@ -16,11 +16,23 @@
     <TextBlock>
         <ID>4</ID>
         <ParentID>2</ParentID>
-        <Text>SILANA: Let her celebrate Makalu, Kasili's never worked on such a large project so far from home, she has a right to be excited!</Text>
+        <Text>SILANA: Let her celebrate Makalu, Kasili's never worked on such a large project so far from the Home System, she has a right to be excited!</Text>
     </TextBlock>
     <TextBlock>
         <ID>5</ID>
         <ParentID>3</ParentID>
         <Text>KASILI: Relax Nela, the coolent will be fine.</Text>
     </TextBlock>
+    <ShipLogConditions>
+        <RevealFact>
+            <FactID>node_2_explore</FactID>
+            <Condition>1, 3</Condition>
+        </RevealFact>
+    </ShipLogConditions>
+    <ShipLogConditions>
+        <RevealFact>
+            <FactID>precursors_do_not_belong_explore</FactID>
+            <Condition>4</Condition>
+        </RevealFact>
+    </ShipLogConditions>
 </NomaiObject>

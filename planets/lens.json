@@ -13,7 +13,7 @@
         "showOrbitLine": false,
         "isStatic": true
     },
-    "Spawn": {
+    "Spawn_DISABLED": {
         "playerSpawnPoint": {"x": 28.087188, "y": -24.813673, "z": 23.380233},
         "shipSpawnPoint": {"x": 28.087188, "y": -24.813673, "z": 23.380233},
         "startWithSuit": true

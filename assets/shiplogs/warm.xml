@@ -1,0 +1,61 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>warm</ID>
+
+    <Entry>
+        <ID>north_village</ID>
+        <Name>North Village</Name>
+        <Curiosity>escape</Curiosity>
+
+        <ExploreFact>
+            <ID>ice_age_explore</ID>
+            <Text>This planet was once lush, but now it has been consumed by an ice age.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>space_program_explore</ID>
+            <Text>A makeshift space program was developed to escape the ice age to a more habitable planet.</Text>
+        </ExploreFact>
+    </Entry>
+
+    <Entry>
+        <ID>south_village</ID>
+        <Name>South Village</Name>
+        <Curiosity>escape</Curiosity>
+
+        <RumorFact>
+            <ID>climate_records_rumor</ID>
+            <SourceID>north_village</SourceID>
+            <Text>Sunfish says there might be more information on the start of an ice agez in the South Village.</Text>
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>climate_records_explore</ID>
+            <Text>The ice age was preceded by a sudden earthquake throughout the entire planet, then heat started being seemingly erased from existence, violating the laws of physics.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>astro_records_explore</ID>
+            <Text>Over two years Icy Ridges went from an icy planet to having liquid water and a thick opaque atmosphere.</Text>
+        </ExploreFact>
+    </Entry>
+
+    <Entry>
+        <ID>warm_ruin</ID>
+        <Name>Precursor Ruin</Name>
+        <Curiosity>machine</Curiosity>
+
+        <RumorFact>
+            <ID>warm_ruin_rumor</ID>
+            <SourceID>north_village</SourceID>
+            <Text>There is a Precursor ruin on this planet.</Text>
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>node_2_explore</ID>
+            <Text>The Precursors built something they refer to as the "second node", which provides stability for some device.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>precursors_do_not_belong_explore</ID>
+            <Text>The Precursors mentioned being far from their home system.</Text>
+        </ExploreFact>
+    </Entry>
+</AstroObjectEntry>

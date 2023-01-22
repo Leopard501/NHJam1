@@ -51,6 +51,10 @@
             <Page>The South Village might have more information, I know they were monitoring the climate more closely.</Page>
             <Page>Theres also a Precursor ruin you can check out, maybe they experienced something similar?</Page>
         </Dialogue>
+        <RevealFacts>
+            <FactID>climate_records_rumor</FactID>
+            <FactID>warm_ruin_rumor</FactID>
+        </RevealFacts>
         <DialogueTarget>Start</DialogueTarget>
     </DialogueNode>
 

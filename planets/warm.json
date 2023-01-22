@@ -38,6 +38,13 @@
         "shipSpawnPoint": {"x": -22.05165, "y": -21.01003, "z": 194.286},
         "startWithSuit": false
     },
+    "ShipLog": {
+        "xmlFile": "assets/shiplogs/warm.xml",
+        "spriteFolder": "assets/photos",
+        "mapMode": {
+            "revealedSprite": "assets/icons/warm.png"
+        }
+    },
     "Lava": {
         "size": 250,
         "curve": [
@@ -77,6 +84,8 @@
             {
                 "position": {"x": 106.5679, "y": -131.211, "z": -120.8031},
                 "rotation": {"x": 0.5880017, "y": -0.5827767, "z": -0.5609148},
+                "reveals": ["astro_records_explore"],
+                "playWithShipLogFacts": ["astro_records_explore"],
                 "slides": [
                     {"imagePath": "assets/slides/south_village/1.png"},
                     {"imagePath": "assets/slides/south_village/2.png"},

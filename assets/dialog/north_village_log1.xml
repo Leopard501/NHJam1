@@ -9,6 +9,7 @@
             <Page>ENTRY 16</Page>
             <Page>Another unusually cold winter, this is getting difficult to bear.</Page>
             <Page>I'm worried our food stores are going to run out, we could never catch enough to feed us for this long...</Page>
+            <Page>The poor kids, this hunger is hard on them.</Page>
             <Page>ENTRY 27</Page>
             <Page>Nobody caught anything today. First the late thaw, now this!?</Page>
             <Page>I guess the fish are having just as much difficulty with the cold as we are.</Page>
@@ -20,7 +21,6 @@
             <Page>I heard an explosion last night, and woke up to see Sunfish flying through the air on some sort of flaming device!</Page>
             <Page>Salmon and Bass took an interest, they think this will somehow solve our problems.</Page>
             <Page>I don't know how "spaceships" put food on the table.</Page>
-            <Page>The poor kids, this hunger is hard on them.</Page>
             <Page>ENTRY 46</Page>
             <Page>Sunfish's experiments truly are a sight to witness.</Page>
             <Page>They explode much less frequently now that Salmon is helping with management and Bass is piloting.</Page>
@@ -34,5 +34,9 @@
             <Page>I thought I would be sad to leave our old home behind, and all our things and our history...</Page>
             <Page>But I'm just happy we're all alive.</Page>
         </Dialogue>
+        <RevealFacts>
+            <FactID>space_program_explore</FactID>
+            <FactID>ice_age_explore</FactID>
+        </RevealFacts>
     </DialogueNode>
 </DialogueTree>

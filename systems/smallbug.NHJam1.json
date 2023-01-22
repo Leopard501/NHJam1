@@ -2,5 +2,27 @@
     "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
     "enableTimeLoop": true,
     "loopDuration": 15,
-    "startHere": true
+    "startHere": true,
+    "curiosities": [
+        {
+            "id": "misc",
+            "color": {"r": 100, "g": 100, "b": 100, "a": 255},
+            "highlightColor": {"r": 160, "g": 160, "b": 160, "a": 255}
+        },
+        {
+            "id": "machine",
+            "color": {"r": 220, "g": 101, "b": 64, "a": 255},
+            "highlightColor": {"r": 255, "g": 141, "b": 74, "a": 255}
+        },
+        {
+            "id": "war",
+            "color": {"r": 115, "g": 50, "b": 211, "a": 255},
+            "highlightColor": {"r": 160, "g": 25, "b": 230, "a": 255}
+        },
+        {
+            "id": "escape",
+            "color": {"r": 20, "g": 199, "b": 222, "a": 255},
+            "highlightColor": {"r": 157, "g": 187, "b": 216, "a": 255}
+        }
+    ]
 }
