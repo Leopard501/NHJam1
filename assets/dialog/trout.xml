@@ -46,6 +46,9 @@
             <Page>Back there, I was so worried, for you especially.</Page>
             <Page>Here, the air is warm, there's food, and it turns out that's all we really need.</Page>
         </Dialogue>
+        <RevealFacts>
+            <FactID>cramped_explore</FactID>
+        </RevealFacts>
         <DialogueTarget>Start</DialogueTarget>
     </DialogueNode>
 
@@ -58,6 +61,9 @@
             <Page>And we're all even more cramped after Sturgeon and Walleye had to move from OWR's new building.</Page>
             <Page>I was told it was your job to do something about that, huh?</Page>
         </Dialogue>
+        <RevealFacts>
+            <FactID>cramped_explore</FactID>
+        </RevealFacts>
         <DialogueTarget>Start</DialogueTarget>
     </DialogueNode>
 

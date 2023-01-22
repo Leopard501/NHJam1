@@ -40,12 +40,13 @@
 
     <Entry>
         <ID>warm_ruin</ID>
-        <Name>Precursor Ruin</Name>
+        <Name>Second Node</Name>
         <Curiosity>machine</Curiosity>
 
         <RumorFact>
             <ID>warm_ruin_rumor</ID>
             <SourceID>north_village</SourceID>
+            <RumorName>Precursor Ruin</RumorName>
             <Text>There is a Precursor ruin on this planet.</Text>
         </RumorFact>
 

@@ -36,6 +36,9 @@
             <Page>So at the moment we're just occupying one of these residences (we got permission of course.)</Page>
             <Page>Maybe you could help find a good location?</Page>
         </Dialogue>
+        <RevealFacts>
+            <FactID>new_base_explore</FactID>
+        </RevealFacts>
         <DialogueTarget>Start</DialogueTarget>
     </DialogueNode>
 
@@ -47,6 +50,9 @@
             <Page>And obviously, try not to drown.</Page>
             <Page>I always thought the Precursors were only on Warm Embrace, but we've found their presence on every planet!</Page>
         </Dialogue>
+        <RevealFacts>
+            <FactID>tides_ruin_rumor</FactID>
+        </RevealFacts>
         <DialogueTarget>Start</DialogueTarget>
     </DialogueNode>
 

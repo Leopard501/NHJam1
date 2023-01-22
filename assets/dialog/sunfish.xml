@@ -66,6 +66,9 @@
             <Page>We've been packing up everything, that's why me and Salmon are the only ones here.</Page>
             <Page>From now on new recruits will be trained on Ravenous Tides.</Page>
         </Dialogue>
+        <RevealFacts>
+            <FactID>new_base_rumor</FactID>
+        </RevealFacts>
         <DialogueTarget>Start</DialogueTarget>
     </DialogueNode>
 

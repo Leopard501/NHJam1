@@ -23,10 +23,17 @@
         "minHeight": 200,
         "maxHeight": 260
     },
-    "Spawn_DISABLED": {
-        "shipSpawnPoint": {"x": -28.51926, "y": -219.2757, "z": -43.62436},
-        "playerSpawnPoint": {"x": -28.51926, "y": -219.2757, "z": -43.62436},
+    "Spawn": {
+        "shipSpawnPoint": {"x": -21.73723, "y": -96.47488, "z": -221.3848},
+        "playerSpawnPoint": {"x": -21.73723, "y": -96.47488, "z": -221.3848},
         "startWithSuit": true
+    },
+    "ShipLog": {
+        "xmlFile": "assets/shiplogs/tides.xml",
+        "spriteFolder": "assets/photos",
+        "mapMode": {
+            "revealedSprite": "assets/icons/tides.png"
+        }
     },
     "Atmosphere": {
         "useAtmosphereShader": true,
@@ -151,7 +158,7 @@
                 "TODO": "fix once submergable ghost matter works"
             }
         ],
-        "notificationVolumes": [
+        "notificationVolumes_DISABLED": [
             {
                 "entryNotification": {
                     "displayMessage": "DANGER: GHOST MATTER DETECTED NEARBY"
@@ -270,6 +277,17 @@
             }
         ],
         "details": [
+            {
+                "path": "GabbroIsland_Body/Sector_GabbroIsland/Interactables_GabbroIsland/DarkMatter_Submergible",
+                "position": {"x": -8.76862, "y": -228.9548, "z": -5.656337},
+                "alignToNormal": true
+            },
+            {
+                "path": "GabbroIsland_Body/Sector_GabbroIsland/Interactables_GabbroIsland/DarkMatter_Submergible",
+                "position": {"x": -19.23206, "y": -229.152, "z": 9.935262},
+                "alignToNormal": true
+            },
+
             {
                 "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Props_HEA_Radio/",
                 "position": {

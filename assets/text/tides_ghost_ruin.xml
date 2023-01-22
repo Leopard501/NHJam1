@@ -23,4 +23,16 @@
         <ParentID>4</ParentID>
         <Text>[100/7432] INSTALLATION: Home System, what's the situation?</Text>
     </TextBlock>
+    <ShipLogConditions>
+        <RevealFact>
+            <FactID>weapon_complete_explore</FactID>
+            <Condition>2</Condition>
+        </RevealFact>
+    </ShipLogConditions>
+    <ShipLogConditions>
+        <RevealFact>
+            <FactID>disappear_explore</FactID>
+            <Condition>5</Condition>
+        </RevealFact>
+    </ShipLogConditions>
 </NomaiObject>

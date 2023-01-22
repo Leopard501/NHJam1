@@ -1,0 +1,69 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>tides</ID>
+
+    <Entry>
+        <ID>tides_settlement</ID>
+        <Name>Settlement</Name>
+        <Curiosity>escape</Curiosity>
+        
+        <RumorFact>
+            <ID>new_base_rumor</ID>
+            <SourceID>north_village</SourceID>
+            <Text>Sunfish says they and Salmon are packing up the Outer Wilds Rescue base and moving to Ravenous Tides.</Text>
+        </RumorFact>
+        
+        <ExploreFact>
+            <ID>new_base_explore</ID>
+            <Text>Outer Wilds Rescue is moving into one of the residences in this settlement, because there are no good locations known to build a dedicated base.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>cramped_explore</ID>
+            <Text>This settlement is becoming very overcrowded, but there's nowhere else on this planet discovered where a new settlement could be built.</Text>
+        </ExploreFact>
+    </Entry>
+    
+    <Entry>
+        <ID>tides_ruin</ID>
+        <Name>Third Node</Name>
+        <Curiosity>machine</Curiosity>
+        
+        <RumorFact>
+            <ID>tides_ruin_rumor</ID>
+            <SourceID>tides_settlement</SourceID>
+            <RumorName>Precursor Ruin</RumorName>
+            <Text>Bass says there is a Precursor ruin on the seafloor.</Text>
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>node_3_explore</ID>
+            <Text>The Precursors built something called the "third node", which involved a pocket dimension.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>revenge_explore</ID>
+            <Text>The Precursors wanted to take revenge by destroying "them".</Text>
+        </ExploreFact>
+    </Entry>
+
+    <Entry>
+        <ID>tides_ghost_ruin</ID>
+        <Name>Ansible</Name>
+        <Curiosity>war</Curiosity>
+
+        <RumorFact>
+            <ID>tides_ghost_ruin_rumor</ID>
+            <SourceID>tides_settlement</SourceID>
+            <RumorName>Strange Precursor Ruin</RumorName>
+            <Text>Bass says there is a Precursor ruin on the seafloor that's leaking strange energy.</Text>
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>weapon_complete_explore</ID>
+            <Text>The Precursors finished construction of the weapon at great expense.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>disappear_explore</ID>
+            <Text>Shortly after the completion of the weapon, there was radio silence from the Home System.</Text>
+        </ExploreFact>
+    </Entry>
+</AstroObjectEntry>

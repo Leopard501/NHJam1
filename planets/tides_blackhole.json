@@ -13,6 +13,11 @@
         "primaryBody": "Ravenous Tides",
         "isMoon": true
     },
+    "ShipLog": {
+        "mapMode": {
+            "invisibleWhenHidden": true
+        }
+    },
     "Props": {
         "singularities": [
             {

@@ -18,4 +18,16 @@
         <ParentID>3</ParentID>
         <Text>MAKALU: Nela, your enthusiasm for violence worries me.</Text>
     </TextBlock>
+    <ShipLogConditions>
+        <RevealFact>
+            <FactID>node_3_explore</FactID>
+            <Condition>2</Condition>
+        </RevealFact>
+    </ShipLogConditions>
+    <ShipLogConditions>
+        <RevealFact>
+            <FactID>revenge_explore</FactID>
+            <Condition>3</Condition>
+        </RevealFact>
+    </ShipLogConditions>
 </NomaiObject>
