@@ -1,0 +1,42 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>lens</ID>
+
+    <Entry>
+        <ID>lens_main</ID>
+        <Name>Lens</Name>
+        <Curiosity>machine</Curiosity>
+
+        <RumorFact>
+            <ID>lens_rumor</ID>
+            <SourceID>tides_ghost_ruin</SourceID>
+            <Text>The Precursor home system mentioned the delivery of a "lens array".</Text>
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>lens_explore</ID>
+            <Text>There is giant precursor space station sitting stationary on the edge of the solar system.</Text>
+        </ExploreFact>
+
+        <Entry>
+            <ID>lens_computer</ID>
+            <Name>Lens Computer Terminal</Name>
+            <Curiosity>machine</Curiosity>
+
+            <ExploreFact>
+                <ID>lens_malfunctioning_explore</ID>
+                <Text>A computer terminal on the Lens seemed to indicate that the Precursor's weapon is malfunctioning, and that a failsafe was activated.</Text>
+            </ExploreFact>
+        </Entry>
+
+        <Entry>
+            <ID>lens_recording</ID>
+            <Name>Lens Recording</Name>
+
+            <ExploreFact>
+                <ID>lens_recording_explore</ID>
+                <Text>The Precursors in this system were gathered at the lens to discuss the radio silence coming from their home system. They ultimately decided to hibernate in cryopods in the Core, despite the risk of never waking up again.</Text>
+            </ExploreFact>
+        </Entry>
+    </Entry>
+</AstroObjectEntry>

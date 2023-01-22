@@ -71,7 +71,7 @@
     <TextBlock>
         <ID>15</ID>
         <ParentID>14</ParentID>
-        <Text>SAMATU: We have no interstellar-capable ships, and no materials with which to build them. We have no choice but to use the cryopods in the failsafe system.</Text>
+        <Text>SAMATU: We have no interstellar-capable ships, and no materials with which to build them. We have no choice but to use the cryopods in the Core.</Text>
     </TextBlock>
     <TextBlock>
         <ID>16</ID>
@@ -88,4 +88,10 @@
         <ParentID>17</ParentID>
         <Text>MAKALU: I don't think we have any other choice.</Text>
     </TextBlock>
+    <ShipLogConditions>
+        <RevealFact>
+            <FactID>lens_recording_explore</FactID>
+            <Condition>18</Condition>
+        </RevealFact>
+    </ShipLogConditions>
 </NomaiObject>

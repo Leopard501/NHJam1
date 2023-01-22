@@ -6,7 +6,7 @@
     <TextBlock>
         <ID>2</ID>
         <ParentID>1</ParentID>
-        <Text>[27/9368] WARNING: Debris detected on nodes, clean immediately to ensure proper functionality</Text>
+        <Text>[27/9368] WARNING: Debris detected on multiple nodes, clean immediately to ensure proper functionality</Text>
     </TextBlock>
     <TextBlock>
         <ID>3</ID>
@@ -23,4 +23,10 @@
         <ParentID>4</ParentID>
         <Text>[107/672350] Failsafe proto&amp;#99ol manually acti&amp;#118ated — Administrator manua&amp;#108ly selected</Text>
     </TextBlock>
+    <ShipLogConditions>
+        <RevealFact>
+            <FactID>lens_malfunctioning_explore</FactID>
+            <Condition>5</Condition>
+        </RevealFact>
+    </ShipLogConditions>
 </NomaiObject>

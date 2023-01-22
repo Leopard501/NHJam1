@@ -34,6 +34,15 @@
                 },
                 "radius": 100
             }
+        ],
+        "revealVolumes": [
+            {
+                "position": {
+                    "x": 0, "y": 0, "z": 0
+                },
+                "radius": 100,
+                "reveals": ["lens_explore"]
+            }
         ]
     },
     "ReferenceFrame": {

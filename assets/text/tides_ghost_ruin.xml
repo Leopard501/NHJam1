@@ -25,6 +25,12 @@
     </TextBlock>
     <ShipLogConditions>
         <RevealFact>
+            <FactID>lens_rumor</FactID>
+            <Condition>1</Condition>
+        </RevealFact>
+    </ShipLogConditions>
+    <ShipLogConditions>
+        <RevealFact>
             <FactID>weapon_complete_explore</FactID>
             <Condition>2</Condition>
         </RevealFact>
