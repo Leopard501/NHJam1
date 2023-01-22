@@ -205,14 +205,14 @@
         "signals": [
             {
                 "position": {"x": 34.13217, "y": -111.5781, "z": 267.3193},
-                "frequency": "Traveler",
+                "frequency": "Radio",
                 "audio": "TapeRecorder_LP",
                 "onlyAudibleToScope": false,
                 "name": "Icy Ridges East Radio House"
             },
             {
                 "position": {"x": 27.92824, "y": -199.5628, "z": -207.7236},
-                "frequency": "Traveler",
+                "frequency": "Radio",
                 "audio": "ShipCockpitLandingCamStatic_LP",
                 "onlyAudibleToScope": false,
                 "name": "Icy Ridges West Radio House"
@@ -403,6 +403,32 @@
             }
         ],
         "details": [
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Props_HEA_Radio/",
+                "position": {
+                    "x": 27.73552,
+                    "y": -197.300842,
+                    "z": -205.174347
+                },
+                "rotation": {
+                    "x": 321.397,
+                    "y": 127.755753,
+                    "z": 211.626724
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Props_HEA_Radio/",
+                "position": {
+                    "x": 34.15794,
+                    "y": -110.40535,
+                    "z": 264.95282
+                },
+                "rotation": {
+                    "x": 16.1251316,
+                    "y": 269.536346,
+                    "z": 245.740051
+                }
+            },
             {
                 "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Treepot",
                 "position": {

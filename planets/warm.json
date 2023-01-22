@@ -60,14 +60,14 @@
             {
                 "position": {"x": -54.69296, "y": 38.24079, "z": 188.1753},
                 "detectionRadius": 10,
-                "frequency": "Traveler",
+                "frequency": "Radio",
                 "audio": "TapeRecorder_LP",
                 "onlyAudibleToScope": false,
                 "name": "North Village Radio House"
             },
             {
                 "position": {"x": 66.4608, "y": -143.2323, "z": -134.9437},
-                "frequency": "Traveler",
+                "frequency": "Radio",
                 "audio": "TapeRecorder_LP",
                 "onlyAudibleToScope": false,
                 "name": "South Village Radio House"
@@ -174,6 +174,33 @@
             }
         ],
         "details": [
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Props_HEA_Radio/",
+                "position": {
+                    "x": -54.3972168,
+                    "y": 38.0458374,
+                    "z": 184.7819
+                },
+                "rotation": {
+                    "x": 36.8808022,
+                    "y": 62.4273071,
+                    "z": 74.01562
+                }
+            },
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Props_HEA_Radio/",
+                "position": {
+                    "x": 66.24761,
+                    "y": -141.848038,
+                    "z": -133.536819
+                },
+                "rotation": {
+                    "x": 320.641144,
+                    "y": 103.28228,
+                    "z": 211.693069
+                }
+            },
+
             {
                 "path": "StatueIsland_Body/Sector_StatueIsland/Interactables_StatueIsland/Prefab_NOM_Sign/Props_NOM_Trailmarker",
                 "position": {

@@ -23,7 +23,7 @@
         "minHeight": 200,
         "maxHeight": 260
     },
-    "Spawn_DISABLED": {
+    "Spawn": {
         "shipSpawnPoint": {"x": -28.51926, "y": -219.2757, "z": -43.62436},
         "playerSpawnPoint": {"x": -28.51926, "y": -219.2757, "z": -43.62436},
         "startWithSuit": true
@@ -172,7 +172,7 @@
         "signals": [
             {
                 "position": {"x": 157.6804, "y": -83.5453, "z": -182.8763},
-                "frequency": "Traveler",
+                "frequency": "Radio",
                 "audio": "TapeRecorder_LP",
                 "onlyAudibleToScope": false,
                 "name": "Ravenous Tides Radio House"
@@ -270,6 +270,20 @@
             }
         ],
         "details": [
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Props_HEA_Radio/",
+                "position": {
+                    "x": 156.444977,
+                    "y": -83.3715,
+                    "z": -180.59903
+                },
+                "rotation": {
+                    "x": 31.1859684,
+                    "y": 242.150177,
+                    "z": 111.475174
+                }
+            },
+
             {
                 "path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Geo_Crossroads/OtherComponentsGroup/ControlledByProxy_Buildings/Architecture_Crossroads/Ruin_Campfire",
                 "position": {
