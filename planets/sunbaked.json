@@ -23,6 +23,18 @@
         "minHeight": 80,
         "maxHeight": 140
     },
+    "Spawn_DISABLED": {
+        "playerSpawnPoint": {"x": 18.63803, "y": 105.2725, "z": -27.05114},
+        "shipSpawnPoint": {"x": 18.63803, "y": 105.2725, "z": -27.05114},
+        "startWithSuit": true
+    },
+    "ShipLog": {
+        "xmlFile": "assets/shiplogs/sunbaked.xml",
+        "spriteFolder": "assets/photos",
+        "mapMode": {
+            "revealedSprite": "assets/icons/sunbaked.png"
+        }
+    },
     "Lava": {
         "size": 150,
         "curve": [

@@ -1,0 +1,26 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>sunbaked</ID>
+
+    <Entry>
+        <ID>sunbaked_ruin</ID>
+        <Name>First Node</Name>
+        <Curiosity>machine</Curiosity>
+
+        <ExploreFact>
+            <ID>node_1_explore</ID>
+            <Text>The Precursors built something called the "first node", which had an energy collecting disk.</Text>
+        </ExploreFact>
+    </Entry>
+
+    <Entry>
+        <ID>sunbaked_ruin_2</ID>
+        <Name>Maintenance Hatch</Name>
+        <Curiosity>war</Curiosity>
+
+        <ExploreFact>
+            <ID>hatch_explore</ID>
+            <Text>The Precursors built what they called a "maintenance hatch", although they did not believe maintenance hatch accurately described what they built.</Text>
+        </ExploreFact>
+    </Entry>
+</AstroObjectEntry>

@@ -13,10 +13,18 @@
         "showOrbitLine": false,
         "isStatic": true
     },
-    "Spawn_DISABLED": {
+    "Spawn": {
         "playerSpawnPoint": {"x": 28.087188, "y": -24.813673, "z": 23.380233},
         "shipSpawnPoint": {"x": 28.087188, "y": -24.813673, "z": 23.380233},
         "startWithSuit": true
+    },
+    "ShipLog": {
+        "xmlFile": "assets/shiplogs/lens.xml",
+        "spriteFolder": "assets/photos",
+        "mapMode": {
+            "revealedSprite": "assets/icons/lens.png",
+            "invisibleWhenHidden": true
+        }
     },
     "Volumes": {
         "zeroGravityVolumes": [

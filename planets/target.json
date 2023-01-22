@@ -15,6 +15,11 @@
     "ReferenceFrame": {
         "enabled": false
     },
+    "ShipLog": {
+        "mapMode": {
+            "invisibleWhenHidden": true
+        }
+    },
     "Funnel": {
         "type": "star",
         "target": "Helios",

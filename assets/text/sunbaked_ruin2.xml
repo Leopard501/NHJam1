@@ -23,4 +23,10 @@
         <ParentID>4</ParentID>
         <Text>KATA: Excuse me, GRAND maintenance slide into the ALL-POWERFUL CORE!</Text>
     </TextBlock>
+    <ShipLogConditions>
+        <RevealFact>
+            <FactID>sunbaked_ruin_2</FactID>
+            <Condition>1</Condition>
+        </RevealFact>
+    </ShipLogConditions>
 </NomaiObject>

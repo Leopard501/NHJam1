@@ -18,4 +18,10 @@
         <ParentID>3</ParentID>
         <Text>MAKALU: Having the energy collector be dish-shaped was an excellent idea Silana, it's amazing what we can get done with such a well-balanced team! (And an unlimited budget...)</Text>
     </TextBlock>
+    <ShipLogConditions>
+        <RevealFact>
+            <FactID>node_1_explore</FactID>
+            <Condition>1</Condition>
+        </RevealFact>
+    </ShipLogConditions>
 </NomaiObject>
