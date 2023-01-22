@@ -1,0 +1,93 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>icy</ID>
+
+    <Entry>
+        <ID>icy_settlement</ID>
+        <Name>East Settlement</Name>
+        <Curiosity>escape</Curiosity>
+
+        <RumorFact>
+            <ID>aided_rumor</ID>
+            <SourceID>tides_settlement</SourceID>
+            <Text>Icy Ridges East Settlement called upon the Ravenous Tides settlement to aid with relief after a natural disaster at Icy Ridges West Settlement.</Text>
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>underpopulated_explore</ID>
+            <Text>Icy Ridges is being rapidly depopulated as people flee, fearing its unpredictable weather.</Text>
+        </ExploreFact>
+    </Entry>
+    
+    <Entry>
+        <ID>destroyed_settlement</ID>
+        <Name>Destroyed Settlement</Name>
+        <Curiosity>escape</Curiosity>
+        
+        <RumorFact>
+            <ID>destroyed_settlement_rumor</ID>
+            <SourceID>north_village</SourceID>
+            <Text>Salmon mentioned a settlement that was recently destroyed on Icy Ridges.</Text>
+        </RumorFact>
+        <RumorFact>
+            <ID>tornadoed_settlement_rumor</ID>
+            <SourceID>icy_settlement</SourceID>
+            <Text>The East Settlement received a transmission from the West Settlement saying that it was being destroyed by a tornado, and requested aid.</Text>
+        </RumorFact>
+        <RumorFact>
+            <ID>icy_climate_records_rumor</ID>
+            <SourceID>icy_settlement</SourceID>
+            <Text>Carp says they left observations of Icy Ridges' climate in the destroyed settlement.</Text>
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>destroyed_settlement_explore</ID>
+            <Text>The Icy Ridges West Settlement was destroyed by the sudden appearance of a tornado.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>icy_climate_records_explore</ID>
+            <Text>Heat is seemingly created everywhere at once on Icy Ridges, violating the laws of physics, and the opposite of what is happening on Warm Embrace.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>icy_climate_records_2_explore</ID>
+            <Text>Electrical charge is continually building up on Icy Ridges.</Text>
+        </ExploreFact>
+    </Entry>
+
+    <Entry>
+        <ID>icy_ruin</ID>
+        <Name>Fourth Component</Name>
+        <Curiosity>machine</Curiosity>
+
+        <RumorFact>
+            <ID>icy_ruin_rumor</ID>
+            <SourceID>icy_settlement</SourceID>
+            <RumorName>Precursor Ruin</RumorName>
+            <Text>Minnow says there is a Precursor ruin near the East Settlement.</Text>
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>node_4_explore</ID>
+            <Text>The Precursors built something called the "final node". </Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>node_heat_explore</ID>
+            <Text>One of the Precursors, Nela, warned that this node would build up massive amounts of heat and electricity while charging, increasing power-up time.</Text>
+        </ExploreFact>
+
+        <Entry>
+            <ID>icy_ruin_2</ID>
+            <Name>Precursor Journal</Name>
+            <Curiosity>war</Curiosity>
+
+            <ExploreFact>
+                <ID>concerns_explore</ID>
+                <Text>One of the Precursors, Kasili, had ethical concerns about the weapon they were building, and that the other Precursors were blinded by their quest for revenge.</Text>
+            </ExploreFact>
+            <ExploreFact>
+                <ID>weapon_purpose_explore</ID>
+                <Text>The Precursors were building a weapon to take revenge on an enemy that attacked them.</Text>
+            </ExploreFact>
+        </Entry>
+    </Entry>
+</AstroObjectEntry>

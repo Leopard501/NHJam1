@@ -31,5 +31,9 @@
             <Page>[Spring 18/209]</Page>
             <Page>The charge readings are higher than they were last season. More research is required to make sure this isn't an anomaly.</Page>
         </Dialogue>
+        <RevealFacts>
+            <FactID>icy_climate_records_explore</FactID>
+            <FactID>icy_climate_records_2_explore</FactID>
+        </RevealFacts>
     </DialogueNode>
 </DialogueTree>

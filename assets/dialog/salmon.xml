@@ -85,6 +85,9 @@
                 <DialogueTarget>IDK</DialogueTarget>
             </DialogueOption>
         </DialogueOptionsList>
+        <RevealFacts>
+            <FactID>destroyed_settlement_rumor</FactID>
+        </RevealFacts>
     </DialogueNode>
 
     <DialogueNode>

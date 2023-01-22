@@ -15,5 +15,8 @@
             <Page>IRE: Radio back if the situation changes, we're going to get in contact with the Outer Wilds Rescue team at Ravenous Tides Settlement. Icy Ridges East Settlement out.</Page>
             <Page>IRW: Understood, Ic...est Settlement out.</Page>
         </Dialogue>
+        <RevealFacts>
+            <FactID>tornadoed_settlement_rumor</FactID>
+        </RevealFacts>
     </DialogueNode>
 </DialogueTree>

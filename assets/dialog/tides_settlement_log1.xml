@@ -16,5 +16,8 @@
             <Page>RT: Keep us posted if the situation changes, Icy Ridges East Settlement. Ravenous Tides Settlement out.</Page>
             <Page>IRE: Thanks for the help Ravenous Tides Settlement. Icy Ridges East Settlement out.</Page>
         </Dialogue>
+        <RevealFacts>
+            <FactID>aided_rumor</FactID>
+        </RevealFacts>
     </DialogueNode>
 </DialogueTree>

@@ -28,6 +28,9 @@
             <Page>I cannot stand another day here, in fact it might actually kill me, kill us all! Me and Stoneroller are leaving!</Page>
             <Page>Now, are you going to help us?</Page>
         </Dialogue>
+        <RevealFacts>
+            <FactID>underpopulated_explore</FactID>
+        </RevealFacts>
         <DialogueTarget>Start</DialogueTarget>
     </DialogueNode>
 

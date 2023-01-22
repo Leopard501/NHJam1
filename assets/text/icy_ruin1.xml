@@ -23,4 +23,16 @@
         <ParentID>3</ParentID>
         <Text>SILANA: I'm sorry Nela, but we have to prioritize our few remaining resources on finishing the project on time.</Text>
     </TextBlock>
+    <ShipLogConditions>
+        <RevealFact>
+            <FactID>node_4_explore</FactID>
+            <Condition>1</Condition>
+        </RevealFact>
+    </ShipLogConditions>
+    <ShipLogConditions>
+        <RevealFact>
+            <FactID>node_heat_explore</FactID>
+            <Condition>4</Condition>
+        </RevealFact>
+    </ShipLogConditions>
 </NomaiObject>

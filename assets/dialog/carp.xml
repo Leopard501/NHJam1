@@ -37,6 +37,9 @@
             <Page>There was more, but I get forgetful in my age, and all my observations were lost when West Settlement burned down.</Page>
             <Page>I hope I didn't discover anything really important.</Page>
         </Dialogue>
+        <RevealFacts>
+            <FactID>icy_climate_records_rumor</FactID>
+        </RevealFacts>
         <DialogueTarget>Start</DialogueTarget>
     </DialogueNode>
     
@@ -45,7 +48,7 @@
         <Dialogue>
             <Page>It could be worse. I remember that second winter back on Warm Embrace, when it was so cold it felt like there was nothing I could do to get warm.</Page>
             <Page>That was the hardest time of my life. Compared to that, this isn't so bad.</Page>
-            <Page>Well, except for the fire.</Page>
+            <Page>Well, except for the lightning tornadoes.</Page>
         </Dialogue>
         <DialogueTarget>Start</DialogueTarget>
     </DialogueNode>

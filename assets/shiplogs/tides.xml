@@ -49,6 +49,7 @@
         <ID>tides_ghost_ruin</ID>
         <Name>Ansible</Name>
         <Curiosity>war</Curiosity>
+        <AltPhotoCondition>weapon_complete_explore</AltPhotoCondition>
 
         <RumorFact>
             <ID>tides_ghost_ruin_rumor</ID>
@@ -58,12 +59,20 @@
         </RumorFact>
 
         <ExploreFact>
+            <ID>tides_ghost_ruin_explore</ID>
+            <Text>I found a Precursor ruin with some sort of beacon, but it's surrounded by strange and dangerous energy.</Text>
+        </ExploreFact>
+        <ExploreFact>
             <ID>weapon_complete_explore</ID>
             <Text>The Precursors finished construction of the weapon at great expense.</Text>
         </ExploreFact>
         <ExploreFact>
             <ID>disappear_explore</ID>
             <Text>Shortly after the completion of the weapon, there was radio silence from the Home System.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>close_to_ansible</ID>
+            <Text>The signal the beacon is giving off can't be identified while it's submerged in water. Identifying it may be a suicide mission...</Text>
         </ExploreFact>
     </Entry>
 </AstroObjectEntry>

@@ -36,6 +36,9 @@
             <Page>I don't understand how that's possible! The precursor ruins must be extremely old.</Page>
             <Page>You can also visit the West Settlement, but I'd be wary of that place, it's very dangerous, and a little grim.</Page>
         </Dialogue>
+        <RevealFacts>
+            <FactID>icy_ruin_rumor</FactID>
+        </RevealFacts>
         <DialogueTarget>Start</DialogueTarget>
     </DialogueNode>
 

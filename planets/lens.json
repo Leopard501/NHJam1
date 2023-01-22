@@ -43,7 +43,7 @@
                     "y": 0,
                     "z": -38
                 },
-                "frequency": "Ansible",
+                "frequency": "WarpCore",
                 "audio": "Singularity_BlackHole_LP",
                 "onlyAudibleToScope": false,
                 "name": "Lens Ansible"

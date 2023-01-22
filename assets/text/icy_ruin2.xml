@@ -6,7 +6,7 @@
     <TextBlock>
         <ID>2</ID>
         <ParentID>1</ParentID>
-        <Text>KASILI: When I was in engineering school, I was taught, "first, do no harm."</Text>
+        <Text>KASILI: When I was in engineering school, I was taught not to cause any harm.</Text>
     </TextBlock>
     <TextBlock>
         <ID>3</ID>
@@ -23,4 +23,16 @@
         <ParentID>4</ParentID>
         <Text>KASILI: Is this the way we want to spend our dwindling resources?</Text>
     </TextBlock>
+    <ShipLogConditions>
+        <RevealFact>
+            <FactID>concerns_explore</FactID>
+            <Condition>5</Condition>
+        </RevealFact>
+    </ShipLogConditions>
+    <ShipLogConditions>
+        <RevealFact>
+            <FactID>weapon_purpose_explore</FactID>
+            <Condition>5</Condition>
+        </RevealFact>
+    </ShipLogConditions>
 </NomaiObject>

@@ -29,6 +29,13 @@
         "shipSpawnPoint": {"x": -229.4325, "y": 56.64513, "z": 110.0139},
         "startWithSuit": true
     },
+    "ShipLog": {
+        "xmlFile": "assets/shiplogs/icy.xml",
+        "spriteFolder": "assets/photos",
+        "mapMode": {
+            "revealedSprite": "assets/icons/icy.png"
+        }
+    },
     "Atmosphere": {
         "atmosphereSunIntensity": 1.6,
         "useAtmosphereShader": true,
@@ -89,6 +96,13 @@
         ]
     },
     "Volumes": {
+        "revealVolumes": [
+            {
+                "position": {"x": 27.92824, "y": -199.5628, "z": -207.7236},
+                "radius": 50,
+                "reveals": ["destroyed_settlement_explore"]
+            }
+        ],
         "hazardVolumes": [
             {
                 "radius": 15,

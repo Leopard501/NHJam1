@@ -23,7 +23,7 @@
         "minHeight": 200,
         "maxHeight": 260
     },
-    "Spawn": {
+    "Spawn_DISABLED": {
         "shipSpawnPoint": {"x": -21.73723, "y": -96.47488, "z": -221.3848},
         "playerSpawnPoint": {"x": -21.73723, "y": -96.47488, "z": -221.3848},
         "startWithSuit": true
@@ -144,34 +144,16 @@
         ]
     },
     "Volumes": {
-        "hazardVolumes_DISABLED": [
+        "revealVolumes": [
             {
-                "type": "ghostMatter",
-                "position": {"x": -7.976116, "y": -229.2703, "z": -3.653636},
-                "radius": 10,
-                "TODO": "fix once submergable ghost matter works"
+                "position": {"x": 157.6804, "y": -83.5453, "z": -182.8763},
+                "radius": 50,
+                "reveals": ["tides_ghost_ruin_explore"]
             },
             {
-                "type": "ghostMatter",
-                "position": {"x": -18.55, "y": -229.3073, "z": 8.515899},
-                "radius": 10,
-                "TODO": "fix once submergable ghost matter works"
-            }
-        ],
-        "notificationVolumes_DISABLED": [
-            {
-                "entryNotification": {
-                    "displayMessage": "DANGER: GHOST MATTER DETECTED NEARBY"
-                },
-                "position": {"x": -7.976116, "y": -229.2703, "z": -3.653636},
-                "radius": 30
-            },
-            {
-                "entryNotification": {
-                    "displayMessage": "DANGER: GHOST MATTER DETECTED NEARBY"
-                },
-                "position": {"x": -18.55, "y": -229.3073, "z": 8.515899},
-                "radius": 30
+                "position": {"x": 157.6804, "y": -83.5453, "z": -182.8763},
+                "radius": 6,
+                "reveals": ["close_to_ansible"]
             }
         ]
     },
@@ -185,8 +167,8 @@
                 "name": "Ravenous Tides Radio House"
             },
             {
-                "position": {"x": -7.976116, "y": -229.2703, "z": -3.653636},
-                "frequency": "Ansible",
+                "position": {"x": -7.976116, "y": -229, "z": -3.653636},
+                "frequency": "WarpCore",
                 "audio": "Singularity_BlackHole_LP",
                 "onlyAudibleToScope": false,
                 "name": "Ravenous Tides Ansible",
