@@ -32,6 +32,7 @@
         <Entry>
             <ID>lens_recording</ID>
             <Name>Lens Recording</Name>
+            <Curiosity>war</Curiosity>
 
             <ExploreFact>
                 <ID>lens_recording_explore</ID>
