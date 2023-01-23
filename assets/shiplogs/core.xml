@@ -11,7 +11,7 @@
         <RumorFact>
             <ID>core_precursors_deactivate_rumor</ID>
             <SourceID>precursors</SourceID>
-            <Text>The surviving Precursors say there is a computer terminal in the Core that will deactivate the weapon.</Text>
+            <Text>The surviving Precursors say there is a computer terminal at the Core's north pole that will deactivate the weapon.</Text>
         </RumorFact>
         <RumorFact>
             <ID>core_precursors_access_rumor</ID>

@@ -1,0 +1,92 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Core",
+    "starSystem": "smallbug.NHJam1_core",
+    "Base": {
+        "surfaceGravity": 6,
+        "surfaceSize": 100,
+        "showMinimap": true,
+        "ambientLight": 2,
+        "centerOfSolarSystem": true
+    },
+    "Orbit": {
+        "isStatic": true
+    },
+    "Spawn": {
+        "playerSpawnPoint": {"x": 96.62566, "y": -11.54287, "z": 22.93331},
+        "shipSpawnPoint": {
+            "x": 1000, "y": 0, "z": 0
+        },
+        "startWithSuit": true
+    },
+    "HeightMap": {
+        "minHeight": 98,
+        "maxHeight": 100,
+        "heightMap": "assets/maps/core_height.png",
+        "textureMap": "assets/maps/core_texture.png"
+    },
+    "Atmosphere": {
+        "atmosphereSunIntensity": 2,
+        "useAtmosphereShader": true,
+        "size": 300,
+        "hasOxygen": true,
+        "hasTrees": false,
+        "atmosphereTint": {"r": 0, "g": 0, "b": 0, "a": 255},
+        "clouds": {
+            "texturePath": "assets/maps/core_texture.png",
+            "cloudsPrefab": "giantsDeep",
+            "innerCloudRadius": 200,
+            "outerCloudRadius": 1000,
+            "tint": {"r": 0, "g": 0, "b": 0, "a": 255}
+        }
+    },
+    "canShowOnTitle": false,
+    "Volumes": {
+        "interferenceVolumes": [
+            {
+                "radius": 1000,
+                "position": {
+                    "x": 0, "y": 0, "z": 0
+                }
+            }
+        ]
+    },
+    "Props": {
+        "singularities": [
+            {
+                "type": "blackHole",
+                "position": {
+                    "x": 0, "y": -102, "z": 0
+                },
+                "size": 3,
+                "horizonRadius": 3,
+                "targetStarSystem": "smallbug.NHJam1"
+            }
+        ],
+        "dialogue": [
+            {
+                "position": {
+                    "x": 0, "y": 101, "z": 0
+                },
+                "radius": 4,
+                "xmlFile": "assets/dialog/core.xml"
+            }
+        ],
+        "details": [
+            {
+                "path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_EscapePod/Interactables_EscapePod/EscapePod_VisibleFrom_Far/DistressBeaconTransmitter/Props_NOM_Transponder",
+                "position": {
+                    "x": 0, "y": 100, "z": 0
+                },
+                "alignToNormal": true
+            },
+            {
+                "path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_EscapePod/Interactables_EscapePod/EscapePod_VisibleFrom_Far/DistressBeaconTransmitter/LightBeam",
+                "position": {
+                    "x": 0, "y": 90, "z": 0
+                },
+                "alignToNormal": true
+            }
+        ]
+    }
+}

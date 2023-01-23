@@ -23,7 +23,7 @@
         "minHeight": 80,
         "maxHeight": 140
     },
-    "Spawn": {
+    "Spawn_DISABLED": {
         "playerSpawnPoint": {"x": 18.63803, "y": 105.2725, "z": -27.05114},
         "shipSpawnPoint": {"x": 18.63803, "y": 105.2725, "z": -27.05114},
         "startWithSuit": true
@@ -63,6 +63,29 @@
         ]
     },
     "Props": {
+        "singularities": [
+            {
+                "type": "blackHole",
+                "targetStarSystem": "smallbug.NHJam1_core",
+                "size": 3,
+                "horizonRadius": 3,
+                "position": {"x": -1.656747, "y": -94, "z": -1.964563},
+                "curve": [
+                    {
+                        "time": 0,
+                        "value": 0
+                    },
+                    {
+                        "time": 14.80,
+                        "value": 0
+                    },
+                    {
+                        "time": 14.88,
+                        "value": 1
+                    }
+                ]
+            }
+        ],
         "nomaiText": [
             {
                 "type": "scroll",

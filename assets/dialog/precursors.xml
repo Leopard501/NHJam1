@@ -103,7 +103,7 @@
     <DialogueNode>
         <Name>Deactivate</Name>
         <Dialogue>
-            <Page>TEKANA: Simply enter the Core, and interface with its computer terminal.</Page>
+            <Page>TEKANA: Simply enter the Core, and interface with its computer terminal at the north pole.</Page>
             <Page>MILA: It will automatically detect that you are the administrator.</Page>
             <Page>KASILI: Do what we should have done all those years ago.</Page>
         </Dialogue>

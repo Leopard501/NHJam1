@@ -1,0 +1,35 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+    <NameField>Core Access Terminal</NameField>
+
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>Analyzing credentials...</Page>
+            <Page>Administrator detected, access granted</Page>
+            <Page>Disable weapon?</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Yes</Text>
+                <DialogueTarget>yok</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Ok</Text>
+                <DialogueTarget>yok</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>yok</Name>
+        <Dialogue>
+            <Page>Weapon disabled</Page>
+            <Page>Use access hatch at the south pole to return</Page>
+            <Page>...</Page>
+            <Page>Thanks for playing!</Page>
+            <Page>Nothing will have changed if you go through the singularity at the south pole, the loop will still continue.</Page>
+        </Dialogue>
+    </DialogueNode>
+</DialogueTree>
