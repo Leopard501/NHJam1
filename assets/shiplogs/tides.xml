@@ -15,7 +15,7 @@
         
         <ExploreFact>
             <ID>new_base_explore</ID>
-            <Text>Outer Wilds Rescue is moving into one of the residences in this settlement, because there are no good locations known to build a dedicated base.</Text>
+            <Text>Outer Wilds Rescue is moving into one of the residences in this settlement because there are no good locations known to build a dedicated base.</Text>
         </ExploreFact>
         <ExploreFact>
             <ID>cramped_explore</ID>

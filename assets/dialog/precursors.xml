@@ -91,8 +91,8 @@
             <Page>KASILI: You are the failsafe.</Page>
             <Page>MAKALU: The failsafe was a system that was designed to automatically activate just before the weapon was fired in order to ensure the weapon wasn't used accidentally or by the wrong hands.</Page>
             <Page>MAKALU: It designates one person as the "administrator", who is the sole person who can deactivate the weapon.</Page>
-            <Page>MAKALU: It also grants the administrator the limited ability to predict the future, about 15 minutes.</Page>
-            <Page>SAMATU: I was the designated administrator, but because I was in cryosleep when the weapon was activated, the system chose randomly.</Page>
+            <Page>MAKALU: It also grants the administrator the limited ability to predict the future, by about 15 minutes.</Page>
+            <Page>SAMATU: I was the designated administrator, but because I was in cryosleep when the weapon was activated, the system chose randomly instead.</Page>
             <Page>TEKANA: It seems it chose you, strange creature.</Page>
             <Page>KASILI: We never expected that life would develop on the Nodes, but we are lucky it did, or we would have nobody to stop our weapon.</Page>
         </Dialogue>
@@ -103,7 +103,7 @@
     <DialogueNode>
         <Name>Deactivate</Name>
         <Dialogue>
-            <Page>TEKANA: Simply enter the Core, and interface with its computer terminal at the north pole.</Page>
+            <Page>TEKANA: Simply enter the Core in the heart of this star, and interface with its computer terminal at the north pole.</Page>
             <Page>MILA: It will automatically detect that you are the administrator.</Page>
             <Page>KASILI: Do what we should have done all those years ago.</Page>
         </Dialogue>

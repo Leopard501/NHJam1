@@ -52,6 +52,7 @@
         </Dialogue>
         <RevealFacts>
             <FactID>tides_ruin_rumor</FactID>
+            <FactID>tides_ghost_ruin_rumor</FactID>
         </RevealFacts>
         <DialogueTarget>Start</DialogueTarget>
     </DialogueNode>

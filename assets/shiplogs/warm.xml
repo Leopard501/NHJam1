@@ -8,6 +8,10 @@
         <Curiosity>escape</Curiosity>
 
         <ExploreFact>
+            <ID>north_village_explore</ID>
+            <Text>This is where I completed my training.</Text>
+        </ExploreFact>
+        <ExploreFact>
             <ID>ice_age_explore</ID>
             <Text>This planet was once lush, but now it has been consumed by an ice age.</Text>
         </ExploreFact>

@@ -167,12 +167,12 @@
     "Volumes": {
         "revealVolumes": [
             {
-                "position": {"x": 157.6804, "y": -83.5453, "z": -182.8763},
-                "radius": 50,
+                "position": {"x": -7.976116, "y": -229, "z": -3.653636},
+                "radius": 35,
                 "reveals": ["tides_ghost_ruin_explore"]
             },
             {
-                "position": {"x": 157.6804, "y": -83.5453, "z": -182.8763},
+                "position": {"x": -7.976116, "y": -229, "z": -3.653636},
                 "radius": 6,
                 "reveals": ["close_to_ansible"]
             }
@@ -189,7 +189,7 @@
             },
             {
                 "position": {"x": -7.976116, "y": -229, "z": -3.653636},
-                "frequency": "WarpCore",
+                "frequency": "Ansible",
                 "audio": "Singularity_BlackHole_LP",
                 "onlyAudibleToScope": false,
                 "name": "Ravenous Tides Ansible",
@@ -206,7 +206,7 @@
                 "xmlFile": "assets/dialog/tides_settlement_log1.xml"
             },
             {
-                "position": {"x": 43.42401, "y": -115.124, "z": -224.9376},
+                "position": {"x": 43.3817, "y": -115.4393, "z": -223.8742},
                 "xmlFile": "assets/dialog/bass.xml"
             },
             {
@@ -636,7 +636,7 @@
             },
             {
                 "path": "DB_PioneerDimension_Body/Sector_PioneerDimension/Interactables_PioneerDimension/Pioneer_Characters/Traveller_HEA_Feldspar/Traveller_HEA_Feldspar_ANIM_Talking",
-                "position": {"x": 43.42401, "y": -115.124, "z": -223.9376},
+                "position": {"x": 43.3817, "y": -115.4393, "z": -223.8742},
                 "alignToNormal": true
             },
             {

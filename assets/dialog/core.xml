@@ -29,7 +29,10 @@
             <Page>Use access hatch at the south pole to return</Page>
             <Page>...</Page>
             <Page>Thanks for playing!</Page>
-            <Page>Nothing will have changed if you go through the singularity at the south pole, the loop will still continue.</Page>
+            <Page>Sorry that ending was a little anticlimactic, I didn't have time to make anything better.</Page>
+            <Page>Hopefully you enjoyed this! It was way too ambitions for a mod made in only (just over) a week.</Page>
+            <Page>But I had a lot of fun making it!</Page>
+            <Page>Nothing will have changed if you go through the singularity at the south pole, the loop will still continue, but you can continue to look around the star system.</Page>
         </Dialogue>
     </DialogueNode>
 </DialogueTree>

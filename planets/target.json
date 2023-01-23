@@ -22,7 +22,7 @@
     },
     "Funnel": {
         "type": "star",
-        "target": "Helios",
+        "target": "Daylight",
         "curve": [
             {
                 "time": 0,

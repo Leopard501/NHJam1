@@ -3,6 +3,7 @@
     "enableTimeLoop": true,
     "loopDuration": 15,
     "startHere": true,
+    "initialReveal": ["north_village_explore"],
     "curiosities": [
         {
             "id": "machine",
