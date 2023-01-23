@@ -1,39 +1,39 @@
 name: Create Release
 
-permissions:
-  contents: write
-
 on:
-    push:
-        branches: [main]
-    workflow_dispatch:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
-    release:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Checkout repo files
-              uses: actions/checkout@v2
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo files
+        uses: actions/checkout@v2
 
-            - name: Create zip with repo files
-              run: git archive --format zip --output ${{ github.event.repository.name }}.zip HEAD
+      - name: Create zip with repo files
+        run: git archive --format zip --output ${{ github.event.repository.name }}.zip HEAD
 
-            - name: Read checked out manifest.json
-              id: read-manifest
-              run: echo "::set-output name=manifest::$(< ./manifest.json sed ':a;N;$!ba;s/\n/ /g')"
+      - name: Read checked out manifest.json
+        id: read-manifest
+        run: echo "manifest=$(< ./manifest.json sed ':a;N;$!ba;s/\n/ /g')" >> $GITHUB_OUTPUT
 
-            - name: Check if version in manifest.json is already released
-              uses: mukunku/tag-exists-action@v1.0.0
-              id: checkTag
-              with:
-                  tag: "v${{fromJson(steps.read-manifest.outputs.manifest).version}}"
-              env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-            - name: Publish repo zip with version from manifest
-              if: ${{ (fromJson(steps.read-manifest.outputs.manifest).version != '0.0.0') && (steps.checkTag.outputs.exists == 'false') }}
-              uses: softprops/action-gh-release@v1
-              with:
-                  files: "${{ github.event.repository.name }}.zip"
-                  body: "${{ github.event.head_commit.message }}"
-                  tag_name: "v${{fromJson(steps.read-manifest.outputs.manifest).version}}"
+      - name: Check For Release
+        id: checkTag
+        run: echo "exists=$(git ls-remote --exit-code --tags origin ${{ env.TAG }} >/dev/null 2>&1 && echo true || echo false)" >> $GITHUB_OUTPUT
+        env:
+          TAG: "v${{fromJson(steps.read-manifest.outputs.manifest).version}}"
+    
+      - name: Create Release
+        uses: "ncipollo/release-action@v1"
+        if: ${{ (fromJson(steps.read-manifest.outputs.manifest).version != '0.0.0') && (steps.checkTag.outputs.exists == 'false') }}
+        with:
+            allowUpdates: true
+            commit: ${{ github.ref_name }}
+            tag: "v${{fromJson(steps.read-manifest.outputs.manifest).version}}"
+            name: Version ${{fromJson(steps.read-manifest.outputs.manifest).version}}
+            omitBodyDuringUpdate: true
+            artifacts: "${{ github.event.repository.name }}.zip"
+            draft: true
+            prerelease: false
