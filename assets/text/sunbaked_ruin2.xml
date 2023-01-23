@@ -1,17 +1,17 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
     <TextBlock>
         <ID>1</ID>
-        <Text>KATA: Ok, the maintenance hatch is finished. Maintenance hatch? Maintenance hatch does not feel like it accurately describes what we just built!</Text>
+        <Text>KATA: Ok, the access hatch is finished. Access hatch? Access hatch does not feel like it accurately describes what we just built!</Text>
     </TextBlock>
     <TextBlock>
         <ID>2</ID>
         <ParentID>1</ParentID>
-        <Text>OLI: Why did we need to go through all that work again? I mean, there's no way they'd be able to make it into the core with how well fortified it is, right?</Text>
+        <Text>OLI: Why did we need to go through all that work again? I mean, there's no way they'd be able to make it into the Core with how well fortified it is, right?</Text>
     </TextBlock>
     <TextBlock>
         <ID>4</ID>
         <ParentID>1</ParentID>
-        <Text>MILA: Maintenance slide, more like!</Text>
+        <Text>MILA: Access slide, more like!</Text>
     </TextBlock>
     <TextBlock>
         <ID>3</ID>
@@ -21,11 +21,11 @@
     <TextBlock>
         <ID>5</ID>
         <ParentID>4</ParentID>
-        <Text>KATA: Excuse me, GRAND maintenance slide into the ALL-POWERFUL CORE!</Text>
+        <Text>KATA: Excuse me, GRAND access slide into the ALL-POWERFUL CORE!</Text>
     </TextBlock>
     <ShipLogConditions>
         <RevealFact>
-            <FactID>sunbaked_ruin_2</FactID>
+            <FactID>hatch_rumor</FactID>
             <Condition>1</Condition>
         </RevealFact>
     </ShipLogConditions>

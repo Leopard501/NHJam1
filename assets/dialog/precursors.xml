@@ -1,0 +1,135 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+    <NameField>Precursors</NameField>
+
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>???: Hello, creature.</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Who are you?</Text>
+                <DialogueTarget>Who</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <RequiredLogCondition>lens_recording_explore</RequiredLogCondition>
+                <Text>Where are the rest of you?</Text>
+                <DialogueTarget>Rest</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <RequiredLogCondition>lens_recording_explore</RequiredLogCondition>
+                <Text>What happened to your home system?</Text>
+                <DialogueTarget>Home System</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <RequiredLogCondition>lens_malfunctioning_explore</RequiredLogCondition>
+                <Text>What is the failsafe?</Text>
+                <DialogueTarget>Failsafe</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <RequiredCondition>Failsafe Complete</RequiredCondition>
+                <Text>How do I deactivate the weapon?</Text>
+                <DialogueTarget>Deactivate</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <RequiredCondition>Deactivate Complete</RequiredCondition>
+                <Text>How do I enter the Core?</Text>
+                <DialogueTarget>Core</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Goodbye</Text>
+                <DialogueTarget>Exit</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Who</Name>
+        <Dialogue>
+            <Page>???: Come back when you already know this.</Page>
+        </Dialogue>
+        <RevealFacts>
+            <FactID>living_explore</FactID>
+        </RevealFacts>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Rest</Name>
+        <Dialogue>
+            <Page>SAMATU: It has been hundreds of thousands of years, the cryopods could not keep us all alive.</Page>
+            <Page>MILA: They were never designed to last nearly that long, it's lucky any of us survived.</Page>
+            <Page>SAMATU: I deeply regret those that we lost...</Page>
+            <Page>KASILI: Nela, Silana, Kata, Oli.</Page>
+            <Page>MILA: My dear Kata...</Page>
+            <Page>SAMATU: I can't help but blame myself for proposing the idea.</Page>
+            <Page>MAKALU: We all made that decision together, this isn't on you Samatu. We knew what we were getting into.</Page>
+        </Dialogue>
+        <RevealFacts>
+            <FactID>living_rest_explore</FactID>
+        </RevealFacts>
+        <DialogueTarget>Start</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Home System</Name>
+        <Dialogue>
+            <Page>SAMATU: We don't know, we never received another transmission from them.</Page>
+            <Page>KASILI: Civil war, economic ruin, natural disaster, It's impossible to know.</Page>
+            <Page>TENAKA: It doesn't matter, it's been hundreds of thousands of years, they're long dead now.</Page>
+        </Dialogue>
+        <RevealFacts>
+            <FactID>living_home_explore</FactID>
+        </RevealFacts>
+        <DialogueTarget>Start</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Failsafe</Name>
+        <Dialogue>
+            <Page>KASILI: You are the failsafe.</Page>
+            <Page>MAKALU: The failsafe was a system that was designed to automatically activate just before the weapon was fired in order to ensure the weapon wasn't used accidentally or by the wrong hands.</Page>
+            <Page>MAKALU: It designates one person as the "administrator", who is the sole person who can deactivate the weapon.</Page>
+            <Page>MAKALU: It also grants the administrator the limited ability to predict the future, about 15 minutes.</Page>
+            <Page>SAMATU: I was the designated administrator, but because I was in cryosleep when the weapon was activated, the system chose randomly.</Page>
+            <Page>TEKANA: It seems it chose you, strange creature.</Page>
+            <Page>KASILI: We never expected that life would develop on the Nodes, but we are lucky it did, or we would have nobody to stop our weapon.</Page>
+        </Dialogue>
+        <SetCondition>Failsafe Complete</SetCondition>
+        <DialogueTarget>Start</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Deactivate</Name>
+        <Dialogue>
+            <Page>TEKANA: Simply enter the Core, and interface with its computer terminal.</Page>
+            <Page>MILA: It will automatically detect that you are the administrator.</Page>
+            <Page>KASILI: Do what we should have done all those years ago.</Page>
+        </Dialogue>
+        <SetCondition>Deactivate Complete</SetCondition>
+        <DialogueTarget>Start</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Core</Name>
+        <Dialogue>
+            <Page>TEKANA: Use the access hatch.</Page>
+            <Page>SAMATU: It is placed in the one location nobody would dare look... directly in the path of the beam.</Page>
+            <Page>SAMATU: Stand in our midst right before the weapon activates.</Page>
+            <Page>MILA: You will have only a few seconds.</Page>
+        </Dialogue>
+        <RevealFacts>
+            <FactID>hatch_core_explore</FactID>
+            <FactID>hatch_enter_explore</FactID>
+        </RevealFacts>
+        <SetCondition>Core Finished</SetCondition>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Exit</Name>
+        <Dialogue>
+            <Page>???: Good luck, creature.</Page>
+        </Dialogue>
+    </DialogueNode>
+</DialogueTree>

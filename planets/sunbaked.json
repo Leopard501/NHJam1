@@ -23,7 +23,7 @@
         "minHeight": 80,
         "maxHeight": 140
     },
-    "Spawn_DISABLED": {
+    "Spawn": {
         "playerSpawnPoint": {"x": 18.63803, "y": 105.2725, "z": -27.05114},
         "shipSpawnPoint": {"x": 18.63803, "y": 105.2725, "z": -27.05114},
         "startWithSuit": true
@@ -123,7 +123,19 @@
                 ]
             }
         ],
+        "dialogue": [
+            {
+                "position": {"x": -1.656747, "y": -90, "z": -1.964563},
+                "xmlFile": "assets/dialog/precursors.xml",
+                "radius": 3
+            }
+        ],
         "details": [
+            {
+                "position": {"x": -1.656747, "y": -89.56913, "z": -1.964563},
+                "alignToNormal": true,
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/LaunchTower/Effects_HEA_Campfire"
+            },
             {
                 "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
                 "position": {
@@ -209,9 +221,9 @@
             {
                 "path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/Character_NOM_Solanum/Nomai_ANIM_SkyWatching_Idle",
                 "position": {
-                    "x": -0.001739502,
-                    "y": -89.42328,
-                    "z": -6.55917358
+                    "x": 0.3619,
+                    "y": -89.3724,
+                    "z": -5.689
                 },
                 "rotation": {
                     "x": 359.613922,
@@ -222,9 +234,9 @@
             {
                 "path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/Character_NOM_Solanum/Nomai_ANIM_SkyWatching_Idle",
                 "position": {
-                    "x": -4.496854,
-                    "y": -89.52553,
-                    "z": -4.863739
+                    "x": -4.7805,
+                    "y": -89.5256,
+                    "z": -4.8637
                 },
                 "rotation": {
                     "x": 358.31955,
@@ -235,9 +247,9 @@
             {
                 "path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/Character_NOM_Solanum/Nomai_ANIM_SkyWatching_Idle",
                 "position": {
-                    "x": -5.874052,
-                    "y": -89.72833,
-                    "z": 0.663505554
+                    "x": -5.5159,
+                    "y": -89.7283,
+                    "z": -0.0645
                 },
                 "rotation": {
                     "x": 348.946442,
@@ -248,9 +260,9 @@
             {
                 "path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/Character_NOM_Solanum/Nomai_ANIM_SkyWatching_Idle",
                 "position": {
-                    "x": -2.25733471,
-                    "y": -89.65776,
-                    "z": 2.089096
+                    "x": -1.485,
+                    "y": -89.6578,
+                    "z": 2.1727
                 },
                 "rotation": {
                     "x": 356.489166,
@@ -261,9 +273,9 @@
             {
                 "path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/Character_NOM_Solanum/Nomai_ANIM_SkyWatching_Idle",
                 "position": {
-                    "x": 2.23997355,
-                    "y": -89.66759,
-                    "z": -0.897079468
+                    "x": 2.2145,
+                    "y": -89.6676,
+                    "z": -0.8971
                 },
                 "rotation": {
                     "x": 0.7108937,

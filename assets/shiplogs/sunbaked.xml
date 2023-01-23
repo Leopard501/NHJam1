@@ -14,13 +14,43 @@
     </Entry>
 
     <Entry>
-        <ID>sunbaked_ruin_2</ID>
-        <Name>Maintenance Hatch</Name>
+        <ID>access_hatch</ID>
+        <Name>Access Hatch</Name>
         <Curiosity>war</Curiosity>
 
+        <RumorFact>
+            <ID>hatch_rumor</ID>
+            <SourceID>sunbaked_ruin</SourceID>
+            <Text>The Precursors built what they called an "access hatch", although they did not believe access hatch accurately described what they built.</Text>
+        </RumorFact>
+
         <ExploreFact>
-            <ID>hatch_explore</ID>
-            <Text>The Precursors built what they called a "maintenance hatch", although they did not believe maintenance hatch accurately described what they built.</Text>
+            <ID>hatch_core_explore</ID>
+            <Text>The surviving Precursors say I must use the access hatch to enter the Core.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>hatch_enter_explore</ID>
+            <Text>The surviving Precursors say the access hatch is directly in the path of the weapon's beam, and to use the access hatch I must stand in their midst a few seconds before the weapon activates.</Text>
+        </ExploreFact>
+    </Entry>
+
+    <Entry>
+        <ID>precursors</ID>
+        <Name>Living Precursors</Name>
+        <Curiosity>war</Curiosity>
+        <IsCuriosity/>
+
+        <ExploreFact>
+            <ID>living_explore</ID>
+            <Text>I found living Precursors on Sunbaked Stone! They are clustered around a fire in the crater, and they tell me to come back when I already know who they are... whatever that means.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>living_rest_explore</ID>
+            <Text>The Precursors say that they are the only surviving precursors in the system, the four others were lost due to the cryopods malfunctioning with age.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>living_home_explore</ID>
+            <Text>The surviving Precursors say they never heard back from their home system, but they're surely all gone by now.</Text>
         </ExploreFact>
     </Entry>
 </AstroObjectEntry>
