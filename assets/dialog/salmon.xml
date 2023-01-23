@@ -73,10 +73,6 @@
                 <DialogueTarget>Icy</DialogueTarget>
             </DialogueOption>
             <DialogueOption>
-                <Text>I'm planning on visiting Icy Ridge's moon.</Text>
-                <DialogueTarget>Moon</DialogueTarget>
-            </DialogueOption>
-            <DialogueOption>
                 <Text>I'd like to investigate Sunbaked Stone.</Text>
                 <DialogueTarget>Sunbaked</DialogueTarget>
             </DialogueOption>
@@ -110,14 +106,6 @@
         <Name>Icy</Name>
         <Dialogue>
             <Page>We all do, what a horrible disaster. If we can understand why it happened maybe Icy Ridges could be a safer place for future settlements.</Page>
-        </Dialogue>
-        <DialogueTarget>Exit</DialogueTarget>
-    </DialogueNode>
-
-    <DialogueNode>
-        <Name>Moon</Name>
-        <Dialogue>
-            <Page>Interesting plan. It hasn't seemed like a viable place for settlement, but with enough research maybe it could be.</Page>
         </Dialogue>
         <DialogueTarget>Exit</DialogueTarget>
     </DialogueNode>
