@@ -10,7 +10,7 @@
     },
     "Orbit": {
         "semiMajorAxis": 4000,
-        "primaryBody": "Helios",
+        "primaryBody": "Daylight",
         "isTidallyLocked": true,
         "trueAnomaly": 13,
         "tint": {

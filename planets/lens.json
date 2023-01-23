@@ -9,7 +9,7 @@
     },
     "Orbit": {
         "semiMajorAxis": 20000,
-        "primaryBody": "Helios",
+        "primaryBody": "Daylight",
         "showOrbitLine": false,
         "isStatic": true
     },

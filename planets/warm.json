@@ -10,7 +10,7 @@
     },
     "Orbit": {
         "semiMajorAxis": 7000,
-        "primaryBody": "Helios",
+        "primaryBody": "Daylight",
         "trueAnomaly": 202,
         "siderealPeriod": 36,
         "tint": {

@@ -107,6 +107,9 @@
             <Page>MILA: It will automatically detect that you are the administrator.</Page>
             <Page>KASILI: Do what we should have done all those years ago.</Page>
         </Dialogue>
+        <RevealFacts>
+            <FactID>core_precursors_deactivate_rumor</FactID>
+        </RevealFacts>
         <SetCondition>Deactivate Complete</SetCondition>
         <DialogueTarget>Start</DialogueTarget>
     </DialogueNode>
@@ -120,8 +123,9 @@
             <Page>MILA: You will have only a few seconds.</Page>
         </Dialogue>
         <RevealFacts>
-            <FactID>hatch_core_explore</FactID>
+            <FactID>hatch_core_rumor</FactID>
             <FactID>hatch_enter_explore</FactID>
+            <FactID>core_precursors_access_rumor</FactID>
         </RevealFacts>
         <SetCondition>Core Finished</SetCondition>
     </DialogueNode>

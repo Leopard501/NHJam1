@@ -29,4 +29,10 @@
             <Condition>1</Condition>
         </RevealFact>
     </ShipLogConditions>
+    <ShipLogConditions>
+        <RevealFact>
+            <FactID>core_access_hatch_rumor</FactID>
+            <Condition>5</Condition>
+        </RevealFact>
+    </ShipLogConditions>
 </NomaiObject>

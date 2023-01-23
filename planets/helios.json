@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-    "name": "Helios",
+    "name": "Daylight",
     "starSystem": "smallbug.NHJam1",
     "Base": {
         "surfaceGravity": 50,
@@ -15,5 +15,13 @@
     "Star": {
         "size": 2000.0,
         "tint": {"r": 255, "g": 150, "b": 50, "a": 255}
+    },
+    "ShipLog": {
+        "xmlFile": "assets/shiplogs/core.xml",
+        "spriteFolder": "assets/photos",
+        "mapMode": {
+            "revealedSprite": "helios.png",
+            "outlineSprite": "helios.png"
+        }
     }
 }

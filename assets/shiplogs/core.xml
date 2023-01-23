@@ -1,0 +1,32 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>core</ID>
+
+    <Entry>
+        <ID>core_entry</ID>
+        <Name>Core</Name>
+        <Curiosity>machine</Curiosity>
+        <IsCuriosity/>
+
+        <RumorFact>
+            <ID>core_precursors_deactivate_rumor</ID>
+            <SourceID>precursors</SourceID>
+            <Text>The surviving Precursors say there is a computer terminal in the Core that will deactivate the weapon.</Text>
+        </RumorFact>
+        <RumorFact>
+            <ID>core_precursors_access_rumor</ID>
+            <SourceID>precursors</SourceID>
+            <Text>The surviving Precursors say the access hatch can be used to enter the Core.</Text>
+        </RumorFact>
+        <RumorFact>
+            <ID>core_lens_recording_rumor</ID>
+            <SourceID>lens_recording</SourceID>
+            <Text>After getting only radio silence from the Precursor home system, the Precursors decided to enter cryosleep in the core.</Text>
+        </RumorFact>
+        <RumorFact>
+            <ID>core_access_hatch_rumor</ID>
+            <SourceID>access_hatch</SourceID>
+            <Text>The access hatch apparently leads to something called the "Core", which needed to be well fortified to protect against "them".</Text>
+        </RumorFact>
+    </Entry>
+</AstroObjectEntry>

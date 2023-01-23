@@ -94,4 +94,10 @@
             <Condition>18</Condition>
         </RevealFact>
     </ShipLogConditions>
+    <ShipLogConditions>
+        <RevealFact>
+            <FactID>core_lens_recording_rumor</FactID>
+            <Condition>18</Condition>
+        </RevealFact>
+    </ShipLogConditions>
 </NomaiObject>

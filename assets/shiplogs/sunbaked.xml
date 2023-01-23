@@ -24,10 +24,11 @@
             <Text>The Precursors built what they called an "access hatch", although they did not believe access hatch accurately described what they built.</Text>
         </RumorFact>
 
-        <ExploreFact>
-            <ID>hatch_core_explore</ID>
+        <RumorFact>
+            <ID>hatch_core_rumor</ID>
+            <SourceID>precursors</SourceID>
             <Text>The surviving Precursors say I must use the access hatch to enter the Core.</Text>
-        </ExploreFact>
+        </RumorFact>
         <ExploreFact>
             <ID>hatch_enter_explore</ID>
             <Text>The surviving Precursors say the access hatch is directly in the path of the weapon's beam, and to use the access hatch I must stand in their midst a few seconds before the weapon activates.</Text>
