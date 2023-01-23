@@ -63,6 +63,15 @@
             }
         ]
     },
+    "Volumes": {
+        "audioVolumes": [
+            {
+                "radius": 250,
+                "audio": "BH_SurfaceAmbience_LP",
+                "volume": 0.5
+            }
+        ]
+    },
     "Props": {
         "signals": [
             {
