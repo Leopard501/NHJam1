@@ -15,7 +15,7 @@
     },
     "ShipLog": {
         "mapMode": {
-            "invisibleWhenHidden": true
+            "remove": true
         }
     },
     "Props": {

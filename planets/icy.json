@@ -33,6 +33,7 @@
         "xmlFile": "assets/shiplogs/icy.xml",
         "spriteFolder": "assets/photos",
         "mapMode": {
+            "offset": 0.4,
             "revealedSprite": "assets/icons/icy.png"
         }
     },

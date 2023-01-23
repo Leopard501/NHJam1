@@ -17,7 +17,7 @@
     },
     "ShipLog": {
         "mapMode": {
-            "invisibleWhenHidden": true
+            "remove": true
         }
     },
     "Funnel": {

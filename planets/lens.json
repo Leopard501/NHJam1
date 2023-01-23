@@ -23,7 +23,8 @@
         "spriteFolder": "assets/photos",
         "mapMode": {
             "revealedSprite": "assets/icons/lens.png",
-            "invisibleWhenHidden": true
+            "invisibleWhenHidden": true,
+            "offset": 0.6
         }
     },
     "Volumes": {

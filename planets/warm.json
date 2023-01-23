@@ -42,7 +42,8 @@
         "xmlFile": "assets/shiplogs/warm.xml",
         "spriteFolder": "assets/photos",
         "mapMode": {
-            "revealedSprite": "assets/icons/warm.png"
+            "revealedSprite": "assets/icons/warm.png",
+            "offset": 0.4
         }
     },
     "Lava": {

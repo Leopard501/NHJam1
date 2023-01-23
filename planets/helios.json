@@ -21,7 +21,8 @@
         "spriteFolder": "assets/photos",
         "mapMode": {
             "revealedSprite": "helios.png",
-            "outlineSprite": "helios.png"
+            "outlineSprite": "helios.png",
+            "scale": 2
         }
     }
 }

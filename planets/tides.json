@@ -32,7 +32,28 @@
         "xmlFile": "assets/shiplogs/tides.xml",
         "spriteFolder": "assets/photos",
         "mapMode": {
-            "revealedSprite": "assets/icons/tides.png"
+            "revealedSprite": "assets/icons/tides.png",
+            "offset": 0.4,
+            "details": [
+                {
+                    "revealedSprite": "assets/icons/blackhole.png",
+                    "position": {
+                        "x": 0, "y": 52.5
+                    },
+                    "scale": {
+                        "x": 1, "y": 1
+                    }
+                },
+                {
+                    "revealedSprite": "assets/icons/whitehole.png",
+                    "position": {
+                        "x": 0, "y": -87.5
+                    },
+                    "scale": {
+                        "x": 1, "y": 1
+                    }
+                }
+            ]
         }
     },
     "Atmosphere": {
