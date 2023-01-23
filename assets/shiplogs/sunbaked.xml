@@ -21,7 +21,7 @@
         <RumorFact>
             <ID>hatch_rumor</ID>
             <SourceID>sunbaked_ruin</SourceID>
-            <Text>The Precursors built what they called an "access hatch", although they did not believe access hatch accurately described what they built.</Text>
+            <Text>The Precursors built what they called an "access hatch", although they did not believe "access hatch" accurately described what they built.</Text>
         </RumorFact>
 
         <RumorFact>
@@ -47,7 +47,7 @@
         </ExploreFact>
         <ExploreFact>
             <ID>living_rest_explore</ID>
-            <Text>The Precursors say that they are the only surviving precursors in the system, the four others were lost due to the cryopods malfunctioning with age.</Text>
+            <Text>These Precursors say that they are the only surviving Precursors in the system, the four others were lost due to the cryopods malfunctioning with age.</Text>
         </ExploreFact>
         <ExploreFact>
             <ID>living_home_explore</ID>
