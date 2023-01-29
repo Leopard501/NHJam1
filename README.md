@@ -5,8 +5,10 @@
 A story mod for Outer Wilds set in a new solar system.
 
 ### Known Issues
-* Ghost matter didn't work in the version I was testing, but it may have been fixed since then. If not, just pretend there is ghost matter around the Strange Precursor Ruin.
-* Some structures don't have collision. Uhhhhh don't worry about it.
+(These are all issues with New Horizons, so theres no way for me to fix them ATM)
+* Ghost matter isn't working at the moment, just pretend there is ghost matter around the Strange Precursor Ruin.
+* Some structures don't have collision.
+* The beam can still kill you even when it isn't visible, this only manifests in a particular late game area, just don't fly through the middle of it. 
 
 ![north_village](https://user-images.githubusercontent.com/43260601/214009566-bf6af92f-a132-4706-86f6-b51f6e413aa9.png)
 ![sunbaked_ruin_2](https://user-images.githubusercontent.com/43260601/214009601-46d4c574-703a-4483-b263-79aed9f2b070.png)
