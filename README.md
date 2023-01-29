@@ -1,4 +1,5 @@
-![subtitle](https://user-images.githubusercontent.com/43260601/214008010-e72af6b8-3c92-423b-a20c-273d3a68647a.png)
+![newtitle](https://user-images.githubusercontent.com/43260601/215304808-8a63381f-65f5-43b0-b98a-a657d16dfa7d.png)
+
 ---
 
 A story mod for Outer Wilds set in a new solar system.
